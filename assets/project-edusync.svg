@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="250" viewBox="0 0 1400 250">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0d0918"/>
+    <stop offset="0.55" stop-color="#100b20"/>
+    <stop offset="1" stop-color="#160b1e"/>
+  </linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#8B5CF6"/>
+    <stop offset="1" stop-color="#F472B6"/>
+  </linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <style>
+    .title{font:700 28px 'DejaVu Sans',Arial,sans-serif;fill:#f7f2ff}
+    .sub{font:700 13px 'DejaVu Sans',Arial,sans-serif;fill:#c98cff;letter-spacing:2px}
+    .desc{font:400 16px 'DejaVu Sans',Arial,sans-serif;fill:#c9c2d5}
+    .pill{font:500 13px 'DejaVu Sans Mono',monospace;fill:#ded6eb}
+    .num{font:700 14px 'DejaVu Sans Mono',monospace;fill:#b9a9c9}
+    .arrow{font:700 26px 'DejaVu Sans',Arial,sans-serif;fill:#f0b2ff}
+  </style>
+</defs>
+<rect x="5" y="5" width="1390" height="240" rx="28" fill="url(#bg)" stroke="#38254e"/>
+<rect x="5" y="5" width="8" height="240" rx="4" fill="url(#line)" filter="url(#glow)"/>
+<circle cx="74" cy="70" r="38" fill="#21102e" stroke="#8B5CF6" stroke-width="2"/>
+<text x="74" y="80" text-anchor="middle" font-size="28" fill="#f2d8ff">◈</text>
+<text x="135" y="56" class="num">02 / FEATURED PROJECT</text>
+<text x="135" y="92" class="title">EduSync</text>
+<text x="135" y="119" class="sub">LEARNING • PLANNER • AI STUDY</text>
+<text x="135" y="151" class="desc">A study workspace combining dashboard, planner, analytics, library, Pomodoro and AI companion.</text>
+<rect x="350" y="190" width="114" height="32" rx="16" fill="#151225" stroke="#4a2d6d"/><text x="407.0" y="211" text-anchor="middle" class="pill">React</text><rect x="474" y="190" width="194" height="32" rx="16" fill="#151225" stroke="#4a2d6d"/><text x="571.0" y="211" text-anchor="middle" class="pill">TypeScript</text><rect x="678" y="190" width="194" height="32" rx="16" fill="#151225" stroke="#4a2d6d"/><text x="775.0" y="211" text-anchor="middle" class="pill">Express.js</text><rect x="882" y="190" width="146" height="32" rx="16" fill="#151225" stroke="#4a2d6d"/><text x="955.0" y="211" text-anchor="middle" class="pill">MongoDB</text><rect x="1038" y="190" width="82" height="32" rx="16" fill="#151225" stroke="#4a2d6d"/><text x="1079.0" y="211" text-anchor="middle" class="pill">JWT</text><rect x="1130" y="190" width="82" height="32" rx="16" fill="#151225" stroke="#4a2d6d"/><text x="1171.0" y="211" text-anchor="middle" class="pill">Zod</text>
+<text x="1340" y="105" text-anchor="middle" class="arrow">↗</text>
+<text x="1340" y="128" text-anchor="middle" class="num">OPEN</text>
+</svg>
