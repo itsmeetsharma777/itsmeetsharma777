@@ -1,0 +1,41 @@
+name: Update 3D Contribution Heatmap
+
+on:
+  schedule:
+    - cron: "20 3 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install generator dependencies
+        run: pip install --disable-pip-version-check requests beautifulsoup4 pillow
+
+      - name: Generate 3D contribution GIF
+        env:
+          GITHUB_USERNAME: itsmeetsharma777
+          OUTPUT: assets/contribution-3d.gif
+        run: python scripts/generate_3d_contributions.py
+
+      - name: Commit generated heatmap
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/contribution-3d.gif
+          git commit -m "Update 3D contribution heatmap" || exit 0
+          git push

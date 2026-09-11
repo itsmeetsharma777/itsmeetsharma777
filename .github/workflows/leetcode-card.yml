@@ -1,0 +1,41 @@
+name: Update LeetCode Card
+
+on:
+  schedule:
+    - cron: "30 3 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install dependency
+        run: pip install --disable-pip-version-check requests
+
+      - name: Generate compact LeetCode card
+        env:
+          LEETCODE_USERNAME: itsmeetsharma
+          OUTPUT: assets/leetcode-card.svg
+        run: python scripts/generate_leetcode_card.py
+
+      - name: Commit generated card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/leetcode-card.svg
+          git commit -m "Update compact LeetCode card" || exit 0
+          git push
