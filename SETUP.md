@@ -1,50 +1,55 @@
 # Meet Sharma — GitHub Profile Setup
 
-## 1. Copy the files into your profile repository
+## What is fixed in V3
 
-Copy the contents of this package into:
+- GitHub Stats and Most Used Languages use matching, equal-size cards.
+- LeetCode uses a compact full-width local SVG card.
+- The old snake is removed.
+- `assets/contribution-3d.gif` is included in the package, so the heatmap is **visible immediately** after you upload the files.
+- The 3D heatmap workflow then replaces that preview with the **real daily contribution calendar** from GitHub.
+
+## 1. Copy the files
+
+Copy the package contents into:
 
 `https://github.com/itsmeetsharma777/itsmeetsharma777`
 
-Make sure these paths exist:
+Keep these paths:
 
 ```text
-.github/workflows/github-stats.yml
 .github/workflows/contribution-3d.yml
+.github/workflows/github-stats.yml
+.github/workflows/leetcode-card.yml
 scripts/generate_3d_contributions.py
+scripts/generate_leetcode_card.py
+scripts/normalize_analytics.py
 assets/contribution-3d.gif
+assets/leetcode-card.svg
 README.md
 ```
 
-## 2. Keep GitHub Actions write permission enabled
+## 2. GitHub Actions permission
 
-In the repository go to:
-
-**Settings → Actions → General → Workflow permissions**
-
-Select **Read and write permissions**, then save.
+Repository → **Settings → Actions → General → Workflow permissions** → select **Read and write permissions** → Save.
 
 ## 3. Run the workflows
 
-Open **Actions** and run:
+Go to **Actions** and run:
 
 - **Update GitHub Analytics**
+- **Update LeetCode Card**
 - **Update 3D Contribution Heatmap**
 
-Both workflows also run automatically on a schedule.
+The 3D workflow uses the GitHub GraphQL API and `GITHUB_TOKEN` to read the contribution calendar. It then writes the real data to `assets/contribution-3d.gif`.
 
-## 4. Important: remove the old snake workflow
+## 4. Remove the old snake
 
-Delete the old workflow named:
+Delete the old `Generate Contribution Snake` workflow if it is still in `.github/workflows/`.
 
-`Generate Contribution Snake`
-
-Also remove any old README reference containing:
+Also remove any old README reference to:
 
 `github-contribution-grid-snake.svg`
 
-The new README uses:
+The README should use only:
 
 `./assets/contribution-3d.gif`
-
-The generated GIF is built from GitHub's public contribution calendar for `itsmeetsharma777`, so it updates with your real contribution activity.
