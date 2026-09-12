@@ -91,10 +91,11 @@ GREEN = "#238b24"
 GROUND, GROUND_STROKE = "#dae784", "#c8dc73"
 LOW_GREEN, HIGH_GREEN = (133, 176, 78), (27, 63, 12)
 
-# Large centered 53 x 7 city. The previous origin placed almost the whole
-# plane on the right; this origin centers its full bounding box in the card.
-HW, HH = 15.5, 7.75
-ORIGIN_X, ORIGIN_Y = 350.0, 410.0
+# Match the approved reference composition: a long diagonal 53 x 7 city
+# lifted into the upper-left/middle, with deliberate open space on the right.
+# The origin is the near upper-left corner of the isometric plane.
+HW, HH = 18.0, 9.0
+ORIGIN_X, ORIGIN_Y = 190.0, 250.0
 MAX_H = 150.0
 
 
@@ -131,7 +132,8 @@ svg = [
     f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="8" fill="none" stroke="{BORDER}"/>',
 ]
 
-# Balanced header statistics.
+# Right-side activity statistics stay fixed while the heatmap occupies the
+# open upper-left/middle area, exactly as in the approved reference.
 svg += [
     f'<text x="835" y="65" font-size="22" fill="{MUTED}">1 year total</text>',
     f'<text x="835" y="125" font-size="62" font-weight="700" fill="{GREEN}">{total:,}</text>',
@@ -153,7 +155,7 @@ svg += [
 
 svg.append('<g clip-path="url(#cardClip)">')
 
-# Draw the large pale floor first.
+# Fixed pale-green isometric ground plane.
 ground = []
 for c in range(53):
     for r in range(7):
@@ -163,9 +165,8 @@ for _, r, c, x, y in sorted(ground):
     top = [(x, y - HH), (x + HW, y), (x, y + HH), (x - HW, y)]
     svg.append(f'<polygon points="{poly(top)}" fill="{GROUND}" stroke="{GROUND_STROKE}" stroke-width="0.65"/>')
 
-# Each building is defined around its own ground point. Scaling only the local
-# Y axis therefore makes the building genuinely rise from its base to full
-# height, then return to the ground, smoothly and continuously.
+# Buildings grow from their own ground point. The whole city remains fixed;
+# only each column's local Y scale changes, producing a smooth rise/fall wave.
 for _, r, c, x, y in sorted(ground):
     n = int(weeks[c][r]["contributionCount"])
     if n <= 0:
