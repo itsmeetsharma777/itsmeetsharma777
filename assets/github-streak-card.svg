@@ -1,47 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520">
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="430" viewBox="0 0 1400 430">
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07091a"/><stop offset="1" stop-color="#050816"/></linearGradient>
   <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#38BDF8"/><stop offset="1" stop-color="#60A5FA"/></linearGradient>
   <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A855F7"/><stop offset="1" stop-color="#C084FC"/></linearGradient>
   <linearGradient id="pink" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F472B6"/><stop offset="1" stop-color="#EC4899"/></linearGradient>
 </defs>
-<rect x="1" y="1" width="1398" height="518" rx="18" fill="url(#bg)" stroke="#18233a" stroke-width="2"/>
+<rect x="1" y="1" width="1398" height="428" rx="18" fill="url(#bg)" stroke="#18233a" stroke-width="2"/>
 <rect x="28" y="26" width="1344" height="2" rx="1" fill="#18233a"/>
 <g font-family="Arial,Helvetica,sans-serif">
-  <text x="36" y="76" fill="#B05CFF" font-size="31" font-weight="700">My GitHub Streak &amp; Contributions</text>
-  <text x="36" y="105" fill="#718096" font-size="15">Consistency fuels progress</text>
-  <text x="1170" y="76" fill="#60A5FA" font-size="18" font-weight="700">Jul 23 - Sep 12</text>
-  <text x="1170" y="102" fill="#64748B" font-size="13">Tracking your journey</text>
-  <line x1="34" y1="132" x2="1366" y2="132" stroke="#18233a" stroke-width="2"/>
-  <line x1="466" y1="156" x2="466" y2="438" stroke="#263754" stroke-width="2"/>
-  <line x1="932" y1="156" x2="932" y2="438" stroke="#263754" stroke-width="2"/>
+  <text x="36" y="72" fill="#B05CFF" font-size="31" font-weight="700">My GitHub Streak &amp; Contributions</text>
+  <text x="36" y="101" fill="#718096" font-size="15">Consistency fuels progress</text>
+  <text x="1360" y="72" text-anchor="end" fill="#60A5FA" font-size="18" font-weight="700">Jul 23 - Sep 12</text>
+  <line x1="34" y1="128" x2="1366" y2="128" stroke="#18233a" stroke-width="2"/>
 
-  <rect x="58" y="164" width="126" height="126" rx="28" fill="#0b1930" stroke="#38BDF8" stroke-width="2"/>
-  <g stroke="#60A5FA" stroke-width="8" stroke-linecap="round"><line x1="96" y1="251" x2="96" y2="227"/><line x1="121" y1="251" x2="121" y2="209"/><line x1="146" y1="251" x2="146" y2="189"/></g>
-  <text x="216" y="190" fill="#60A5FA" font-size="18" font-weight="700">Total Contributions</text>
-  <text x="216" y="251" fill="url(#blue)" font-size="58" font-weight="800">247</text>
-  <text x="216" y="282" fill="#22D3EE" font-size="17" font-weight="600">Jul 23 - Present</text>
-  <rect x="36" y="334" width="404" height="70" rx="16" fill="#09152a" stroke="#193d66" stroke-width="2"/>
-  <text x="61" y="377" fill="#60A5FA" font-size="24">+</text><text x="95" y="376" fill="#94A3B8" font-size="16">Every contribution counts!</text>
+  <line x1="466" y1="150" x2="466" y2="360" stroke="#263754" stroke-width="2"/>
+  <line x1="932" y1="150" x2="932" y2="360" stroke="#263754" stroke-width="2"/>
 
-  <rect x="524" y="164" width="126" height="126" rx="28" fill="#180d25" stroke="#F472B6" stroke-width="2"/>
-  <path d="M587 261 C553 261 549 230 566 215 C569 232 585 234 594 222 C602 211 599 196 594 184 C619 199 630 224 620 243 C614 255 603 261 587 261Z" fill="#F472B6"/>
-  <path d="M587 247 C573 247 569 234 576 225 C580 234 588 234 593 229 C599 223 597 215 595 209 C606 217 610 228 606 237 C602 244 596 247 587 247Z" fill="#07091a"/>
-  <text x="682" y="190" fill="#60A5FA" font-size="18" font-weight="700">Current Streak</text>
-  <text x="682" y="251" fill="url(#purple)" font-size="58" font-weight="800">52</text>
-  <text x="682" y="282" fill="#22D3EE" font-size="17" font-weight="600">Jul 23 - Sep 12</text>
-  <rect x="502" y="334" width="404" height="70" rx="16" fill="#160d25" stroke="#43205e" stroke-width="2"/>
-  <text x="527" y="377" fill="#A855F7" font-size="24">+</text><text x="561" y="376" fill="#94A3B8" font-size="16">Keep the streak alive!</text>
+  <rect x="58" y="156" width="110" height="110" rx="24" fill="#0b1930" stroke="#38BDF8" stroke-width="2"/>
+  <line x1="92" y1="234" x2="92" y2="214" stroke="#60A5FA" stroke-width="8" stroke-linecap="round"/>
+  <line x1="113" y1="234" x2="113" y2="198" stroke="#60A5FA" stroke-width="8" stroke-linecap="round"/>
+  <line x1="134" y1="234" x2="134" y2="180" stroke="#60A5FA" stroke-width="8" stroke-linecap="round"/>
+  <text x="196" y="184" fill="#60A5FA" font-size="18" font-weight="700">Total Contributions</text>
+  <text x="196" y="237" fill="url(#blue)" font-size="52" font-weight="800">247</text>
+  <text x="196" y="263" fill="#22D3EE" font-size="16" font-weight="600">Jul 23 - Present</text>
+  <rect x="48" y="292" width="382" height="54" rx="14" fill="#09152a" stroke="#193d66" stroke-width="2"/>
+  <text x="72" y="326" fill="#60A5FA" font-size="22">+</text>
+  <text x="104" y="326" fill="#94A3B8" font-size="15">Every contribution counts!</text>
 
-  <rect x="990" y="164" width="126" height="126" rx="28" fill="#0b1930" stroke="#22D3EE" stroke-width="2"/>
-  <path d="M1026 204h54v20c0 17-12 28-27 28s-27-11-27-28z" fill="none" stroke="#22D3EE" stroke-width="6" stroke-linejoin="round"/>
-  <path d="M1026 212h-16c0 18 8 27 20 27M1080 212h16c0 18-8 27-20 27M1053 252v17M1035 271h36" fill="none" stroke="#22D3EE" stroke-width="6" stroke-linecap="round"/>
-  <text x="1148" y="190" fill="#60A5FA" font-size="18" font-weight="700">Longest Streak</text>
-  <text x="1148" y="251" fill="url(#blue)" font-size="58" font-weight="800">52</text>
-  <text x="1148" y="282" fill="#22D3EE" font-size="17" font-weight="600">Jul 23 - Sep 12</text>
-  <rect x="968" y="334" width="404" height="70" rx="16" fill="#09152a" stroke="#193d66" stroke-width="2"/>
-  <text x="993" y="377" fill="#60A5FA" font-size="24">*</text><text x="1027" y="376" fill="#94A3B8" font-size="16">Your best consistency so far!</text>
+  <rect x="524" y="156" width="110" height="110" rx="24" fill="#180d25" stroke="#F472B6" stroke-width="2"/>
+  <path d="M579 239 C550 239 546 212 560 199 C563 214 577 216 585 205 C592 196 590 184 586 174 C608 187 617 209 609 225 C604 235 595 239 579 239Z" fill="#F472B6"/>
+  <path d="M579 228 C567 228 564 217 570 210 C573 217 580 217 584 213 C589 208 587 201 586 196 C596 203 599 212 596 219 C592 225 587 228 579 228Z" fill="#07091a"/>
+  <text x="662" y="184" fill="#60A5FA" font-size="18" font-weight="700">Current Streak</text>
+  <text x="662" y="237" fill="url(#purple)" font-size="52" font-weight="800">52</text>
+  <text x="662" y="263" fill="#22D3EE" font-size="16" font-weight="600">Jul 23 - Sep 12</text>
+  <rect x="514" y="292" width="382" height="54" rx="14" fill="#160d25" stroke="#43205e" stroke-width="2"/>
+  <text x="538" y="326" fill="#A855F7" font-size="22">+</text>
+  <text x="570" y="326" fill="#94A3B8" font-size="15">Keep the streak alive!</text>
 
-  <text x="36" y="470" fill="#64748B" font-size="12">REAL GITHUB DATA · CONSISTENCY FUELS PROGRESS · KEEP BUILDING</text>
+  <rect x="990" y="156" width="110" height="110" rx="24" fill="#0b1930" stroke="#22D3EE" stroke-width="2"/>
+  <path d="M1019 192h52v18c0 16-11 27-26 27s-26-11-26-27z" fill="none" stroke="#22D3EE" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M1019 200h-15c0 16 7 25 19 25M1071 200h15c0 16-7 25-19 25M1045 237v16M1029 253h32" fill="none" stroke="#22D3EE" stroke-width="6" stroke-linecap="round"/>
+  <text x="1128" y="184" fill="#60A5FA" font-size="18" font-weight="700">Longest Streak</text>
+  <text x="1128" y="237" fill="url(#blue)" font-size="52" font-weight="800">52</text>
+  <text x="1128" y="263" fill="#22D3EE" font-size="16" font-weight="600">Jul 23 - Sep 12</text>
+  <rect x="980" y="292" width="382" height="54" rx="14" fill="#09152a" stroke="#193d66" stroke-width="2"/>
+  <text x="1004" y="326" fill="#60A5FA" font-size="22">*</text>
+  <text x="1036" y="326" fill="#94A3B8" font-size="15">Your best consistency so far!</text>
+
+  <text x="36" y="392" fill="#64748B" font-size="12">REAL GITHUB DATA · CONSISTENCY FUELS PROGRESS · KEEP BUILDING</text>
 </g>
 </svg>
