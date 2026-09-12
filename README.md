@@ -90,7 +90,7 @@ I'm **Meet Sharma**, a Computer Science engineering student who enjoys turning i
 </p>
 
 <p align="center">
-  <img src="./assets/github-streak-card.svg?v=1" width="100%" alt="GitHub contribution streak and consistency"/>
+  <img src="./assets/github-streak-card.svg?v=2" width="100%" alt="GitHub contribution streak and consistency"/>
 </p>
 
 <img src="./assets/neon-divider.svg?v=3" width="100%" alt="Neon divider"/>
