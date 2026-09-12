@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520">
+<defs>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07091a"/><stop offset="1" stop-color="#050816"/></linearGradient>
+  <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#38BDF8"/><stop offset="1" stop-color="#60A5FA"/></linearGradient>
+  <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A855F7"/><stop offset="1" stop-color="#C084FC"/></linearGradient>
+  <linearGradient id="pink" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F472B6"/><stop offset="1" stop-color="#EC4899"/></linearGradient>
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#67E8F9"/></linearGradient>
+  <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect x="1" y="1" width="1398" height="518" rx="18" fill="url(#panel)" stroke="#18233a" stroke-width="2"/>
+<rect x="28" y="26" width="1344" height="2" rx="1" fill="#18233a"/>
+<g font-family="Arial,Helvetica,sans-serif">
+  <text x="36" y="76" fill="#B05CFF" font-size="31" font-weight="700">My GitHub Streak &amp; Contributions</text>
+  <text x="36" y="105" fill="#718096" font-size="15">Consistency fuels progress</text>
+  <text x="1170" y="76" fill="#60A5FA" font-size="18" font-weight="700">Jul 23 - Sep 12</text>
+  <text x="1170" y="102" fill="#64748B" font-size="13">Tracking your journey</text>
+  <line x1="34" y1="132" x2="1366" y2="132" stroke="#18233a" stroke-width="2"/>
+
+  <line x1="466" y1="156" x2="466" y2="438" stroke="#263754" stroke-width="2"/>
+  <line x1="932" y1="156" x2="932" y2="438" stroke="#263754" stroke-width="2"/>
+
+  <rect x="58" y="164" width="126" height="126" rx="28" fill="#0b1930" stroke="#38BDF8" stroke-width="2"/>
+  <g transform="translate(121 227)" stroke="url(#blue)" stroke-width="8" stroke-linecap="round" filter="url(#glow)"><line x1="-25" y1="24" x2="-25" y2="0"/><line x1="0" y1="24" x2="0" y2="-18"/><line x1="25" y1="24" x2="25" y2="-38"/></g>
+  <text x="216" y="190" fill="#60A5FA" font-size="18" font-weight="700">Total Contributions</text>
+  <text x="216" y="251" fill="url(#blue)" font-size="58" font-weight="800">247</text>
+  <text x="216" y="282" fill="#22D3EE" font-size="17" font-weight="600">↑ &nbsp;Jul 23 - Present</text>
+  <rect x="36" y="334" width="404" height="70" rx="16" fill="#09152a" stroke="#193d66" stroke-width="2"/>
+  <text x="61" y="376" fill="#60A5FA" font-size="24">♛</text><text x="95" y="376" fill="#94A3B8" font-size="16">Every contribution counts!</text>
+
+  <rect x="524" y="164" width="126" height="126" rx="28" fill="#180d25" stroke="#F472B6" stroke-width="2"/>
+  <g transform="translate(587 226)" fill="none" stroke="url(#pink)" stroke-width="7" stroke-linecap="round"><path d="M0 35C-34 35-38 4-21-11C-18 6-2 8 7-4C15-15 12-30 7-42C32-27 43-2 33 17C27 29 16 35 0 35Z" fill="#F472B6" stroke="none"/><path d="M0 21C-14 21-18 8-11-1C-7 8 1 8 6 3C12-3 10-11 8-17C19-9 23 2 19 11C15 18 9 21 0 21Z" fill="#07091a" stroke="none"/></g>
+  <text x="682" y="190" fill="#60A5FA" font-size="18" font-weight="700">Current Streak</text>
+  <text x="682" y="251" fill="url(#purple)" font-size="58" font-weight="800">52</text>
+  <text x="682" y="282" fill="#22D3EE" font-size="17" font-weight="600">↑ &nbsp;Jul 23 - Sep 12</text>
+  <rect x="502" y="334" width="404" height="70" rx="16" fill="#160d25" stroke="#43205e" stroke-width="2"/>
+  <text x="527" y="376" fill="#A855F7" font-size="25">ϟ</text><text x="561" y="376" fill="#94A3B8" font-size="16">Keep the streak alive!</text>
+
+  <rect x="990" y="164" width="126" height="126" rx="28" fill="#0b1930" stroke="#22D3EE" stroke-width="2"/>
+  <g transform="translate(1053 226)" fill="none" stroke="#22D3EE" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><path d="M-27-22h54v20c0 17-12 28-27 28S-27 15-27-2z"/><path d="M-27-14h-16c0 18 8 27 20 27M27-14h16c0 18-8 27-20 27M0 26v17M-18 45h36"/></g>
+  <text x="1148" y="190" fill="#60A5FA" font-size="18" font-weight="700">Longest Streak</text>
+  <text x="1148" y="251" fill="url(#blue)" font-size="58" font-weight="800">52</text>
+  <text x="1148" y="282" fill="#22D3EE" font-size="17" font-weight="600">↑ &nbsp;Jul 23 - Sep 12</text>
+  <rect x="968" y="334" width="404" height="70" rx="16" fill="#09152a" stroke="#193d66" stroke-width="2"/>
+  <text x="993" y="376" fill="#60A5FA" font-size="24">☆</text><text x="1027" y="376" fill="#94A3B8" font-size="16">Your best consistency so far!</text>
+
+  <text x="36" y="470" fill="#64748B" font-size="12">REAL GITHUB DATA · CONSISTENCY FUELS PROGRESS · KEEP BUILDING</text>
+</g>
+</svg>
