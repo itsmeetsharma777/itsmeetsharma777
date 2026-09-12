@@ -1,4 +1,4 @@
-"""Generate the approved dark 3D GitHub contribution dashboard with live data."""
+"""Generate the premium dark isometric GitHub contribution city with live data."""
 import math
 import os
 import sys
@@ -40,7 +40,7 @@ def fetch_days():
         raise RuntimeError(payload["errors"][0].get("message", "GitHub GraphQL error"))
     return [
         d
-        for w in payload["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
+        for w in payload["data"]["user"]["contributionsCollection"]["weeks"]
         for d in w["contributionDays"]
     ]
 
@@ -89,23 +89,21 @@ total = sum(int(d["contributionCount"]) for d in days)
 longest, current, busiest = streaks(days)
 
 W, H = 1400, 1040
-BG, BORDER = "#0d1117", "#30363d"
-TEXT, MUTED = "#f0f6fc", "#9aa4b2"
-GREEN = "#39d353"
-GROUND, GROUND_STROKE = "#26384a", "#172536"
-# The reference uses a rich emerald-to-lime city. Keep several deliberate
-# levels instead of one flat green so adjacent buildings have visual depth.
+BG, BORDER = "#0b1117", "#26313d"
+TEXT, MUTED = "#f0f6fc", "#9aa8b8"
+GREEN = "#39e75f"
+GROUND, GROUND_STROKE = "#294158", "#172737"
 PALETTE = [
-    (12, 72, 39),
-    (16, 111, 50),
-    (20, 153, 61),
-    (34, 201, 73),
-    (56, 239, 91),
-    (102, 255, 112),
+    (8, 76, 39),
+    (10, 118, 49),
+    (16, 165, 60),
+    (26, 207, 72),
+    (48, 239, 88),
+    (103, 255, 112),
 ]
 HW, HH = 18.0, 9.0
-ORIGIN_X, ORIGIN_Y = 190.0, 250.0
-MAX_H = 170.0
+ORIGIN_X, ORIGIN_Y = 165.0, 250.0
+MAX_H = 185.0
 
 
 def rgb(v):
@@ -138,9 +136,7 @@ svg = [
     f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif">',
     "<defs>",
     f'<clipPath id="cardClip"><rect x="2" y="2" width="{W-4}" height="{H-4}" rx="8"/></clipPath>',
-    # A restrained glow makes the brighter tops read as luminous without
-    # washing out the dark dashboard.
-    '<filter id="cubeGlow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>',
+    '<filter id="cubeGlow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>',
     "</defs>",
     f'<rect width="{W}" height="{H}" rx="8" fill="{BG}"/>',
     f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="8" fill="none" stroke="{BORDER}"/>',
@@ -160,40 +156,58 @@ for c in range(53):
         x, y = project(c, r)
         ground.append((c + r, r, c, x, y))
 
-# Draw the tiled ground first. The full 53x7 footprint stays visible even
-# when GitHub activity is concentrated in recent weeks.
 for _, r, c, x, y in sorted(ground):
     top = [(x, y - HH), (x + HW, y), (x, y + HH), (x - HW, y)]
     svg.append(f'<polygon points="{poly(top)}" fill="{GROUND}" stroke="{GROUND_STROKE}" stroke-width="0.7"/>')
 
-# Render every day as a small 3D building. Zero-contribution days get a
-# deliberately tiny dark-green foundation; real contribution counts control
-# the building height and brightness. This preserves the live data while
-# giving the visualization the dense, premium "contribution city" silhouette
-# of the approved reference instead of leaving a huge empty plane.
+# Build a visually rich contribution city. Real contribution counts still
+# determine the dominant height/color, while a tiny artistic baseline and
+# local interpolation keep the entire board visually populated like the
+# approved reference rather than leaving a large empty diagonal.
 for _, r, c, x, y in sorted(ground):
     n = int(weeks[c][r]["contributionCount"])
     t = math.log1p(n) / math.log1p(max_count) if n else 0.0
-    # Non-zero days scale strongly; zero days remain subtle but still provide
-    # the dense city footprint seen in the reference image.
-    h = 4.0 if n == 0 else 10.0 + t * MAX_H
-    palette_index = 0 if n == 0 else min(len(PALETTE) - 1, 1 + int(t * (len(PALETTE) - 1)))
+
+    # Smooth local activity from neighbouring real cells. This is only a
+    # visual interpolation layer; the dashboard numbers remain exact live data.
+    neighbors = []
+    for dc, dr in ((-2, 0), (-1, 0), (1, 0), (2, 0), (0, -1), (0, 1)):
+        cc, rr = c + dc, r + dr
+        if 0 <= cc < len(weeks) and 0 <= rr < 7:
+            neighbors.append(int(weeks[cc][rr]["contributionCount"]))
+    neighbor_t = (math.log1p(sum(neighbors) / len(neighbors)) / math.log1p(max_count)) if neighbors and max_count else 0.0
+    visual_t = max(t, neighbor_t * 0.72)
+
+    # Tiny baseline on every cell + strongly data-driven main height.
+    h = 6.0 + visual_t * MAX_H
+    palette_index = min(len(PALETTE) - 1, int(visual_t * (len(PALETTE) - 1)) + (1 if n else 0))
     base = PALETTE[palette_index]
 
     top = [(0, -HH - h), (HW, -h), (0, HH - h), (-HW, -h)]
     left = [(-HW, 0), (0, HH), (0, HH - h), (-HW, -h)]
     right = [(0, HH), (HW, 0), (HW, -h), (0, HH - h)]
 
+    # Grounded shadow under active/high-density buildings.
+    if visual_t > 0.10:
+        svg.append(f'<ellipse cx="{x:.1f}" cy="{y + 3:.1f}" rx="15" ry="6" fill="#020806" opacity="0.38"/>')
+
     svg.append(f'<g transform="translate({x:.1f},{y:.1f})">')
-    # Darker side faces + luminous top face reproduce the strong 3D separation
-    # visible in the reference artwork.
-    if n >= max_count * 0.35:
+    if visual_t > 0.55:
         svg.append('<g filter="url(#cubeGlow)">')
-    svg.append(f'<polygon points="{poly(left)}" fill="{rgb(shade(base, 0.48))}"/>')
-    svg.append(f'<polygon points="{poly(right)}" fill="{rgb(shade(base, 0.68))}"/>')
+    svg.append(f'<polygon points="{poly(left)}" fill="{rgb(shade(base, 0.38))}"/>')
+    svg.append(f'<polygon points="{poly(right)}" fill="{rgb(shade(base, 0.62))}"/>')
     svg.append(f'<polygon points="{poly(top)}" fill="{rgb(base)}"/>')
-    if n >= max_count * 0.35:
+    if visual_t > 0.55:
         svg.append('</g>')
+
+    # Keep all buildings visible during animation. They gently breathe between
+    # 88% and 100% instead of collapsing to zero in GitHub's static renderer.
+    delay = ((c * 7 + r * 3) % 23) * 0.12
+    svg.append(
+        f'<animateTransform attributeName="transform" type="scale" '
+        f'values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" '
+        f'dur="5.2s" begin="{delay:.2f}s" repeatCount="indefinite"/>'
+    )
     svg.append('</g>')
 
 svg.append('</g>')
@@ -202,14 +216,15 @@ svg.append(f'<line x1="0" y1="{line_y}" x2="{W}" y2="{line_y}" stroke="{BORDER}"
 for x in (466, 932):
     svg.append(f'<line x1="{x}" y1="{line_y}" x2="{x}" y2="{H}" stroke="{BORDER}"/>')
 
+# Reference-style footer: green numeric value, white unit.
 cards = [
-    (233, "Contributions in the last year", f"{total:,} total", f"{fmt_date(days[0]['date'])} — {fmt_date(days[-1]['date'])}"),
-    (699, "Longest streak", f"{longest} days", "Consecutive contribution days"),
-    (1166, "Current streak", f"{current} days", "Ending today"),
+    (233, "Contributions in the last year", f"{total:,}", "total", f"{fmt_date(days[0]['date'])} — {fmt_date(days[-1]['date'])}"),
+    (699, "Longest streak", f"{longest}", "days", "Consecutive contribution days"),
+    (1166, "Current streak", f"{current}", "days", "Ending today"),
 ]
-for cx, title, value, sub in cards:
+for cx, title, value, unit, sub in cards:
     svg.append(f'<text x="{cx}" y="914" text-anchor="middle" font-size="20" font-weight="600" fill="{MUTED}">{title}</text>')
-    svg.append(f'<text x="{cx}" y="969" text-anchor="middle" font-size="44" font-weight="700" fill="{TEXT}">{value}</text>')
+    svg.append(f'<text x="{cx}" y="969" text-anchor="middle" font-size="44" font-weight="800" fill="{GREEN}">{value}<tspan dx="18" dy="0" font-size="24" font-weight="700" fill="{TEXT}">{unit}</tspan></text>')
     svg.append(f'<text x="{cx}" y="1005" text-anchor="middle" font-size="17" fill="{MUTED}">{sub}</text>')
 svg.append('</svg>')
 OUTPUT.write_text("\n".join(svg), encoding="utf-8")
