@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07091a"/>
+      <stop offset="1" stop-color="#050816"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#67E8F9"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="898" height="358" rx="18" fill="url(#panel)" stroke="#18233a" stroke-width="2"/>
+  <rect x="28" y="26" width="844" height="2" rx="1" fill="#18233a"/>
+
+  <text x="34" y="72" fill="#B05CFF" font-family="Arial,Helvetica,sans-serif" font-size="31" font-weight="700">My GitHub Statistics</text>
+  <text x="34" y="101" fill="#718096" font-family="Arial,Helvetica,sans-serif" font-size="15">Repository activity &amp; profile overview</text>
+
+  <g font-family="Arial,Helvetica,sans-serif">
+    <g transform="translate(36 138)">
+      <circle cx="17" cy="0" r="16" fill="#0b1224" stroke="#22D3EE" stroke-width="2"/>
+      <path d="M17-9v10l7 4" fill="none" stroke="#22D3EE" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="48" y="-7" fill="#94A3B8" font-size="17" font-weight="600">Total Commits</text>
+      <text x="48" y="20" fill="#F1F5F9" font-size="27" font-weight="700">668</text>
+    </g>
+    <g transform="translate(36 216)">
+      <circle cx="17" cy="0" r="16" fill="#0b1224" stroke="#22D3EE" stroke-width="2"/>
+      <path d="M10 1l7-7 7 7M17-6v13" fill="none" stroke="#22D3EE" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="48" y="-7" fill="#94A3B8" font-size="17" font-weight="600">Total Pull Requests</text>
+      <text x="48" y="20" fill="#F1F5F9" font-size="27" font-weight="700">0</text>
+    </g>
+    <g transform="translate(36 294)">
+      <circle cx="17" cy="0" r="16" fill="#0b1224" stroke="#22D3EE" stroke-width="2"/>
+      <path d="M17-10v20M9-6l8-4 8 4M9 6l8 4 8-4" fill="none" stroke="#22D3EE" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="48" y="-7" fill="#94A3B8" font-size="17" font-weight="600">Total Issues</text>
+      <text x="48" y="20" fill="#F1F5F9" font-size="27" font-weight="700">1</text>
+    </g>
+
+    <g transform="translate(470 138)">
+      <circle cx="17" cy="0" r="16" fill="#0b1224" stroke="#A855F7" stroke-width="2"/>
+      <path d="M17-9l3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z" fill="none" stroke="#A855F7" stroke-width="2" stroke-linejoin="round"/>
+      <text x="48" y="-7" fill="#94A3B8" font-size="17" font-weight="600">Total Stars</text>
+      <text x="48" y="20" fill="#F1F5F9" font-size="27" font-weight="700">0</text>
+    </g>
+    <g transform="translate(470 216)">
+      <circle cx="17" cy="0" r="16" fill="#0b1224" stroke="#A855F7" stroke-width="2"/>
+      <path d="M9-5h16v14H9zM12-9h10M13 13v5M21 13v5" fill="none" stroke="#A855F7" stroke-width="2.2" stroke-linecap="round"/>
+      <text x="48" y="-7" fill="#94A3B8" font-size="17" font-weight="600">Contributed To</text>
+      <text x="48" y="20" fill="#F1F5F9" font-size="27" font-weight="700">1 repository</text>
+    </g>
+    <g transform="translate(470 294)">
+      <text x="0" y="-10" fill="#94A3B8" font-size="15" font-weight="600">ACTIVITY SCORE</text>
+      <text x="0" y="20" fill="url(#purple)" font-size="28" font-weight="700">A+</text>
+      <rect x="76" y="-30" width="310" height="9" rx="4.5" fill="#17132d"/>
+      <rect x="76" y="-30" width="286" height="9" rx="4.5" fill="url(#purple)" filter="url(#glow)"/>
+      <text x="76" y="20" fill="#64748B" font-size="13">Consistent coding activity</text>
+    </g>
+  </g>
+</svg>
