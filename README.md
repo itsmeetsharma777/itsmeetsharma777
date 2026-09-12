@@ -99,7 +99,7 @@ I'm **Meet Sharma**, a Computer Science engineering student who enjoys turning i
 
 <p align="center">
   <a href="https://leetcode.com/u/itsmeetsharma/">
-    <img src="./assets/leetcode-card.svg?v=5" width="100%" alt="Meet Sharma LeetCode statistics"/>
+    <img src="./assets/leetcode-card.svg?v=6" width="100%" alt="Meet Sharma LeetCode statistics"/>
   </a>
 </p>
 
