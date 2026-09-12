@@ -35,7 +35,7 @@ jobs:
         run: python scripts/generate_3d_contributions.py
 
       - name: Soften building separation lines
-        run: sed -i 's/stroke="#020504"/stroke="#304657"/g' assets/contribution-3d.svg
+        run: sed -i 's/#020504/#52636f/g' assets/contribution-3d.svg
 
       - name: Commit dashboard when changed
         run: |
