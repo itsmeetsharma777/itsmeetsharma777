@@ -22,7 +22,7 @@
     <path d="M29 31 L50 31" stroke="#A7A7A7" stroke-width="8" stroke-linecap="round"/>
   </g>
   <text x="105" y="63" class="title">itsmeetsharma</text>
-  <text x="1160" y="62" text-anchor="end" class="rank">#1,624,381</text>
+  <text x="1160" y="62" text-anchor="end" class="rank">#1,625,354</text>
   <text x="105" y="87" class="small">LeetCode · Problem Solving · DSA</text>
 
   <g transform="translate(48 112)">
