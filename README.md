@@ -85,12 +85,12 @@ I'm **Meet Sharma**, a Computer Science engineering student who enjoys turning i
 ## GitHub Analytics
 
 <p align="center">
-  <img src="./assets/github-stats-card.svg?v=1" width="49%" alt="GitHub statistics"/>
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=itsmeetsharma777&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&bg_color=050816&title_color=A855F7&text_color=E2E8F0" width="49%" alt="Most used programming languages"/>
+  <img src="./assets/github-stats-card.svg?v=2" width="49%" alt="GitHub statistics"/>
+  <img src="./assets/github-languages-card.svg?v=1" width="49%" alt="Most used programming languages"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=itsmeetsharma777&theme=tokyonight&hide_border=true&background=050816&ring=A855F7&fire=F472B6&currStreakLabel=22D3EE" width="78%" alt="GitHub contribution streak"/>
+  <img src="./assets/github-streak-card.svg?v=1" width="100%" alt="GitHub contribution streak and consistency"/>
 </p>
 
 <img src="./assets/neon-divider.svg?v=3" width="100%" alt="Neon divider"/>
