@@ -85,7 +85,7 @@ I'm **Meet Sharma**, a Computer Science engineering student who enjoys turning i
 ## GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=itsmeetsharma777&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&bg_color=050816&title_color=A855F7&text_color=E2E8F0&icon_color=22D3EE" width="49%" alt="GitHub statistics"/>
+  <img src="./assets/github-stats-card.svg?v=1" width="49%" alt="GitHub statistics"/>
   <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=itsmeetsharma777&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&bg_color=050816&title_color=A855F7&text_color=E2E8F0" width="49%" alt="Most used programming languages"/>
 </p>
 
