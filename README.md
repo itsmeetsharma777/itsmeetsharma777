@@ -95,15 +95,15 @@ I'm **Meet Sharma**, a Computer Science engineering student who enjoys turning i
 
 <img src="./assets/neon-divider.svg?v=3" width="100%" alt="Neon divider"/>
 
-## 🟣 Contribution Activity
+## 📈 Contribution Activity
 
 <p align="center">
-  <img src="./assets/contribution-3d.svg?v=4" width="100%" alt="Animated 3D GitHub contribution dashboard"/>
+  <img src="./assets/contribution-3d.svg?v=5" width="100%" alt="Green 3D GitHub contribution dashboard styled after an isometric contribution city"/>
 </p>
 
 <div align="center">
 
-<sub>REAL GITHUB DATA · 3D ISOMETRIC CONTRIBUTION CITY · STAGGERED SVG ANIMATION</sub>
+<sub>REAL GITHUB DATA · ISOMETRIC CONTRIBUTION CITY · STAGGERED BLOCK RISE ANIMATION</sub>
 
 </div>
 
