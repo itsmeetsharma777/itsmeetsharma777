@@ -1,8 +1,10 @@
 """Generate the premium dark isometric GitHub contribution city with live data."""
+import html
 import math
 import os
+import re
 import sys
-from datetime import date, datetime, timedelta, timezone
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 import requests
@@ -25,9 +27,15 @@ query($login: String!, $from: DateTime!, $to: DateTime!) {
 """
 
 
-def fetch_days():
+def validate_days(days):
+    if len(days) < 300:
+        raise RuntimeError(f"GitHub returned an incomplete contribution calendar ({len(days)} days)")
+    return days
+
+
+def fetch_graphql_days():
     if not TOKEN:
-        raise RuntimeError("GITHUB_TOKEN is required")
+        raise RuntimeError("GITHUB_TOKEN is unavailable")
 
     today = date.today()
     start = today - timedelta(days=370)
@@ -36,7 +44,6 @@ def fetch_days():
         "from": f"{start.isoformat()}T00:00:00Z",
         "to": f"{today.isoformat()}T23:59:59Z",
     }
-
     r = requests.post(
         "https://api.github.com/graphql",
         json={"query": QUERY, "variables": variables},
@@ -47,20 +54,49 @@ def fetch_days():
     payload = r.json()
     if payload.get("errors"):
         raise RuntimeError(payload["errors"][0].get("message", "GitHub GraphQL error"))
-
     calendar = payload["data"]["user"]["contributionsCollection"]["contributionCalendar"]
-    days = [d for w in calendar["weeks"] for d in w["contributionDays"]]
-
-    # Never silently publish a six-day/empty calendar if GitHub returns an
-    # incomplete response. That was the source of the previous 0-contribution card.
-    if len(days) < 300:
-        raise RuntimeError(f"GitHub returned an incomplete contribution calendar ({len(days)} days)")
-    return days
+    return validate_days([d for w in calendar["weeks"] for d in w["contributionDays"]])
 
 
-def fallback_days():
-    today = date.today()
-    return [{"date": (today - timedelta(days=370 - i)).isoformat(), "contributionCount": 0} for i in range(371)]
+def fetch_public_graph_days():
+    """Fallback to GitHub's public contribution calendar HTML."""
+    url = f"https://github.com/users/{USERNAME}/contributions"
+    r = requests.get(
+        url,
+        headers={"User-Agent": "Mozilla/5.0 contribution-dashboard"},
+        timeout=30,
+    )
+    r.raise_for_status()
+
+    pattern = re.compile(
+        r'<td\\b[^>]*data-date="(\\d{4}-\\d{2}-\\d{2})"[^>]*>(.*?)</td>',
+        re.DOTALL,
+    )
+    days = []
+    for iso, cell in pattern.findall(r.text):
+        text = html.unescape(re.sub(r"<[^>]+>", " ", cell))
+        match = re.search(r"(\\d[\\d,]*) contributions?", text)
+        count = int(match.group(1).replace(",", "")) if match else 0
+        days.append({"date": iso, "contributionCount": count})
+
+    return validate_days(days)
+
+
+def fetch_days():
+    try:
+        days = fetch_graphql_days()
+        print(f"Fetched {len(days)} days from GitHub GraphQL")
+        return days
+    except Exception as graphql_error:
+        print(f"GraphQL fetch failed: {graphql_error}", file=sys.stderr)
+        try:
+            days = fetch_public_graph_days()
+            print(f"Fetched {len(days)} days from GitHub public contribution graph")
+            return days
+        except Exception as public_error:
+            raise RuntimeError(
+                f"Unable to fetch a real contribution calendar. GraphQL: {graphql_error}; public graph: {public_error}"
+            ) from public_error
 
 
 def streaks(days):
@@ -84,16 +120,10 @@ def streaks(days):
 def fmt_date(iso):
     if not iso:
         return ""
-    # Cross-platform date formatting without %-d, which is unavailable on Windows.
     return datetime.strptime(iso, "%Y-%m-%d").strftime("%B %d").replace(" 0", " ")
 
 
-try:
-    days = fetch_days()
-except Exception as exc:
-    print(f"Live contribution fetch failed: {exc}", file=sys.stderr)
-    days = fallback_days()
-
+days = fetch_days()
 days = days[-371:]
 while len(days) < 371:
     first = date.fromisoformat(days[0]["date"]) if days else date.today() - timedelta(days=370)
@@ -172,13 +202,10 @@ for c in range(53):
         x, y = project(c, r)
         ground.append((c + r, r, c, x, y))
 
-# Ground plane.
 for _, r, c, x, y in sorted(ground):
     top = [(x, y - HH), (x + HW, y), (x, y + HH), (x - HW, y)]
     svg.append(f'<polygon points="{poly(top)}" fill="{GROUND}" stroke="{GROUND_STROKE}" stroke-width="0.7"/>')
 
-# Contribution city. Real counts control height and color; a small local
-# interpolation makes adjacent activity flow naturally across the board.
 for _, r, c, x, y in sorted(ground):
     n = int(weeks[c][r]["contributionCount"])
     t = math.log1p(n) / math.log1p(max_count) if n else 0.0
