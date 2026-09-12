@@ -111,15 +111,11 @@ I'm **Meet Sharma**, a Computer Science engineering student focused on building 
 ## 🟣 Contribution Activity
 
 <p align="center">
-  <img src="https://ghchart.xqsit94.in/dark:a855f7/itsmeetsharma777" width="100%" alt="Meet Sharma GitHub contribution heatmap"/>
+  <img src="https://ssr-contributions-svg.vercel.app/_/itsmeetsharma777?chart=3dbar&format=svg&theme=purple&dark=1&weeks=52" width="100%" alt="Meet Sharma 3D GitHub contribution heatmap"/>
 </p>
 
 <p align="center">
-  <sub>LIVE CONTRIBUTION ACTIVITY • DARK NEON PURPLE THEME</sub>
-</p>
-
-<p align="center">
-  <img src="./assets/contribution-3d.svg" width="100%" alt="Animated isometric 3D GitHub contribution city"/>
+  <sub>REAL CONTRIBUTION HEATMAP • 3D ISOMETRIC VIEW • LIVE DATA</sub>
 </p>
 
 <img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider"/>
