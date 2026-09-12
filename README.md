@@ -1,160 +1,145 @@
 <div align="center">
 
-<img src="./assets/neon-hero.svg" width="100%" alt="Meet Sharma — Computer Science Engineer, Full-Stack Developer and DSA enthusiast"/>
+<img src="./assets/neon-hero.svg?v=3" width="100%" alt="Meet Sharma — Computer Science Engineer and Full-Stack Developer"/>
 
-<br/>
+### Meet Sharma · Computer Science Engineer · Full-Stack Developer
 
-<a href="https://www.linkedin.com/in/meetsharma777/"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" width="40" alt="LinkedIn"/></a>&nbsp;&nbsp;
-<a href="https://www.instagram.com/meetsharma777/"><img src="https://skillicons.dev/icons?i=instagram&theme=dark" width="40" alt="Instagram"/></a>&nbsp;&nbsp;
-<a href="mailto:itsmeetsharma@gmail.com"><img src="https://skillicons.dev/icons?i=gmail&theme=dark" width="40" alt="Email"/></a>&nbsp;&nbsp;
-<a href="https://leetcode.com/u/itsmeetsharma/"><img src="https://cdn.simpleicons.org/leetcode/A855F7" width="40" alt="LeetCode"/></a>
+<a href="https://www.linkedin.com/in/meetsharma777/"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" width="38" alt="LinkedIn"/></a>
+&nbsp;&nbsp;
+<a href="https://leetcode.com/u/itsmeetsharma/"><img src="https://cdn.simpleicons.org/leetcode/A855F7" width="38" alt="LeetCode"/></a>
+&nbsp;&nbsp;
+<a href="mailto:itsmeetsharma@gmail.com"><img src="https://skillicons.dev/icons?i=gmail&theme=dark" width="38" alt="Email"/></a>
+&nbsp;&nbsp;
+<a href="https://github.com/itsmeetsharma777"><img src="https://skillicons.dev/icons?i=github&theme=dark" width="38" alt="GitHub"/></a>
 
 <br/><br/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=850&color=22D3EE&center=true&vCenter=true&width=720&lines=Computer+Science+Engineering+Student;Full-Stack+Developer+%E2%80%A2+Java+%7C+MERN;DSA+%26+Problem+Solving+Enthusiast;Building+%E2%80%A2+Learning+%E2%80%A2+Shipping" alt="Animated introduction"/></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=21&duration=2600&pause=900&color=22D3EE&center=true&vCenter=true&width=760&lines=Building+full-stack+products;Sharpening+DSA+%26+problem+solving;Java+%7C+MERN+%7C+TypeScript;Build+%E2%86%92+Learn+%E2%86%92+Ship+%E2%86%92+Repeat" alt="Animated developer tagline"/></a>
 
 </div>
 
-<img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider"/>
+<img src="./assets/neon-divider.svg?v=3" width="100%" alt="Neon divider"/>
 
 ## 👋 About Me
 
+I'm **Meet Sharma**, a Computer Science engineering student who enjoys turning ideas into practical software and continuously improving the fundamentals behind it.
+
+- 💻 Building with **Java, JavaScript, TypeScript and MERN**
+- 🧠 Focused on **DSA, problem solving and core CS fundamentals**
+- 🛠️ Interested in **clean architecture, testing and useful developer products**
+- 🚀 Currently following a simple loop: **learn deeply → build → ship → improve**
+
+<br/>
+
+<div align="center">
+
+`Java` `C++` `Python` `JavaScript` `TypeScript` `React` `Node.js` `Express` `MongoDB` `MySQL`
+
+</div>
+
+<img src="./assets/neon-divider.svg?v=3" width="100%" alt="Neon divider"/>
+
+## 🚀 Featured Projects
+
 <table width="100%">
 <tr>
-<td width="58%" valign="top">
-
-I'm **Meet Sharma**, a Computer Science engineering student focused on building strong fundamentals and turning ideas into useful software.
-
-- 💻 Building full-stack applications with **Java, JavaScript, TypeScript & MERN**
-- 🧠 Strengthening **DSA, problem solving and core CS concepts**
-- 🚀 Interested in clean architecture, practical products and continuous learning
-- ⚡ My approach: **understand deeply → build simply → improve continuously**
-
+<td width="33%" align="center" valign="top">
+<a href="https://github.com/itsmeetsharma777/Portfolio"><img src="./assets/project-portfolio.svg?v=2" width="100%" alt="Portfolio project"/></a>
+<br/><br/>
+<b>Personal Portfolio</b><br/>
+<sub>Personal brand · projects · developer showcase</sub>
 </td>
-<td width="42%" align="center" valign="middle">
-
-```text
-┌────────────────────────────┐
-│       CURRENT FOCUS        │
-├────────────────────────────┤
-│  ◈ Data Structures         │
-│  ◈ Algorithms              │
-│  ◈ Full-Stack Development  │
-│  ◈ Software Engineering    │
-│  ◈ Building Projects       │
-└────────────────────────────┘
-```
-
+<td width="33%" align="center" valign="top">
+<a href="https://github.com/itsmeetsharma777/EduSync"><img src="./assets/project-edusync.svg?v=2" width="100%" alt="EduSync project"/></a>
+<br/><br/>
+<b>EduSync</b><br/>
+<sub>Education platform · full-stack development</sub>
+</td>
+<td width="33%" align="center" valign="top">
+<a href="https://github.com/itsmeetsharma777/BillNest"><img src="./assets/project-billnest.svg?v=2" width="100%" alt="BillNest project"/></a>
+<br/><br/>
+<b>BillNest</b><br/>
+<sub>Billing workflow · product engineering</sub>
 </td>
 </tr>
 </table>
 
-<img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider"/>
+<div align="center">
 
-## 🚀 Featured Projects
+<a href="https://github.com/itsmeetsharma777?tab=repositories">View all repositories →</a>
 
-<p align="center">
-  <a href="https://github.com/itsmeetsharma777/Portfolio"><img src="./assets/project-portfolio.svg" width="100%" alt="Personal Portfolio project"/></a>
-</p>
+</div>
 
-<p align="center">
-  <a href="https://github.com/itsmeetsharma777/EduSync"><img src="./assets/project-edusync.svg" width="100%" alt="EduSync project"/></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/itsmeetsharma777/BillNest"><img src="./assets/project-billnest.svg" width="100%" alt="BillNest project"/></a>
-</p>
-
-<img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider"/>
+<img src="./assets/neon-divider.svg?v=3" width="100%" alt="Neon divider"/>
 
 ## ⚡ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,cpp,python,javascript,typescript&theme=dark" alt="Programming languages"/>
-  <br/>
-  <img src="https://skillicons.dev/icons?i=html,css,react,tailwind&theme=dark" alt="Frontend technologies"/>
-  <br/>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql&theme=dark" alt="Backend and database technologies"/>
-  <br/>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,vercel,netlify,canva&theme=dark" alt="Developer tools and platforms"/>
+  <img src="https://skillicons.dev/icons?i=java,cpp,python,javascript,typescript,html,css,react,tailwind,nodejs,express,mongodb,mysql&theme=dark" alt="Meet Sharma technology stack"/>
+  <br/><br/>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,vercel,netlify&theme=dark" alt="Meet Sharma developer tools"/>
 </p>
 
-<div align="center">
-
-`Java` `C++` `Python` `JavaScript` `TypeScript` `React` `Tailwind CSS` `Node.js` `Express.js` `MongoDB` `MySQL`
-
-</div>
-
-<img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider"/>
+<img src="./assets/neon-divider.svg?v=3" width="100%" alt="Neon divider"/>
 
 ## 📊 GitHub Analytics
 
-<table width="100%">
-<tr>
-<td width="50%" align="center">
-<img src="./profile/stats.svg" width="100%" alt="GitHub statistics"/>
-</td>
-<td width="50%" align="center">
-<img src="./profile/top-langs.svg" width="100%" alt="Most used programming languages"/>
-</td>
-</tr>
-</table>
-
-<br/>
-
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=itsmeetsharma777&theme=tokyonight&hide_border=true&background=050816&ring=A855F7&fire=F472B6&currStreakLabel=22D3EE" width="80%" alt="GitHub contribution streak"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=itsmeetsharma777&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&bg_color=050816&title_color=A855F7&text_color=E2E8F0&icon_color=22D3EE" width="49%" alt="GitHub statistics"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itsmeetsharma777&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&bg_color=050816&title_color=A855F7&text_color=E2E8F0" width="49%" alt="Most used programming languages"/>
 </p>
 
-<img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider"/>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=itsmeetsharma777&theme=tokyonight&hide_border=true&background=050816&ring=A855F7&fire=F472B6&currStreakLabel=22D3EE" width="78%" alt="GitHub contribution streak"/>
+</p>
+
+<img src="./assets/neon-divider.svg?v=3" width="100%" alt="Neon divider"/>
 
 ## 🟣 Contribution Activity
 
 <p align="center">
-  <img src="https://ssr-contributions-svg.vercel.app/_/itsmeetsharma777?chart=3dbar&format=svg&theme=purple&dark=1&weeks=52" width="100%" alt="Meet Sharma 3D GitHub contribution heatmap"/>
+  <img src="./assets/contribution-3d.svg?v=4" width="100%" alt="Animated 3D GitHub contribution dashboard"/>
 </p>
 
-<p align="center">
-  <sub>REAL CONTRIBUTION HEATMAP • 3D ISOMETRIC VIEW • LIVE DATA</sub>
-</p>
+<div align="center">
 
-<img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider"/>
+<sub>REAL GITHUB DATA · 3D ISOMETRIC CONTRIBUTION CITY · STAGGERED SVG ANIMATION</sub>
+
+</div>
+
+<img src="./assets/neon-divider.svg?v=3" width="100%" alt="Neon divider"/>
 
 ## 🧩 LeetCode
 
 <p align="center">
   <a href="https://leetcode.com/u/itsmeetsharma/">
-    <img src="./assets/leetcode-card.svg" width="100%" alt="Meet Sharma LeetCode statistics"/>
+    <img src="./assets/leetcode-card.svg?v=3" width="100%" alt="Meet Sharma LeetCode statistics"/>
   </a>
 </p>
 
 <div align="center">
 
-<a href="https://leetcode.com/u/itsmeetsharma/">🧠 View my LeetCode profile →</a>
+<a href="https://leetcode.com/u/itsmeetsharma/">View LeetCode profile →</a>
 
 </div>
 
-<img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider"/>
+<img src="./assets/neon-divider.svg?v=3" width="100%" alt="Neon divider"/>
 
 ## 🌐 Connect
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/meetsharma777/"><img src="https://img.shields.io/badge/LinkedIn-Meet%20Sharma-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:itsmeetsharma@gmail.com"><img src="https://img.shields.io/badge/Email-itsmeetsharma%40gmail.com-22D3EE?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://leetcode.com/u/itsmeetsharma/"><img src="https://img.shields.io/badge/LeetCode-Profile-A855F7?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/></a>
-</p>
-
-<br/>
-
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=itsmeetsharma777&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS" alt="Profile views"/>
-&nbsp;
-<img src="https://img.shields.io/github/followers/itsmeetsharma777?style=for-the-badge&color=a855f7&label=FOLLOWERS" alt="Followers"/>
+<a href="https://www.linkedin.com/in/meetsharma777/"><img src="https://img.shields.io/badge/LinkedIn-Meet%20Sharma-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:itsmeetsharma@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-22D3EE?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://leetcode.com/u/itsmeetsharma/"><img src="https://img.shields.io/badge/LeetCode-Profile-A855F7?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/></a>
 
 <br/><br/>
 
-<sub>✦ Build · Learn · Solve · Ship ✦</sub>
+<img src="https://komarev.com/ghpvc/?username=itsmeetsharma777&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS" alt="Profile views"/>
+
+<br/><br/>
+
+<sub>✦ BUILD · LEARN · SOLVE · SHIP ✦</sub>
 
 </div>
 
