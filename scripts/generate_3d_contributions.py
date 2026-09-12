@@ -38,11 +38,7 @@ def fetch_graphql_days():
         raise RuntimeError("GITHUB_TOKEN is unavailable")
     today = date.today()
     start = today - timedelta(days=370)
-    variables = {
-        "login": USERNAME,
-        "from": f"{start.isoformat()}T00:00:00Z",
-        "to": f"{today.isoformat()}T23:59:59Z",
-    }
+    variables = {"login": USERNAME, "from": f"{start.isoformat()}T00:00:00Z", "to": f"{today.isoformat()}T23:59:59Z"}
     r = requests.post(
         "https://api.github.com/graphql",
         json={"query": QUERY, "variables": variables},
@@ -62,10 +58,7 @@ def fetch_public_graph_days():
     url = f"https://github.com/users/{USERNAME}/contributions"
     r = requests.get(url, headers={"User-Agent": "Mozilla/5.0 contribution-dashboard"}, timeout=30)
     r.raise_for_status()
-    pattern = re.compile(
-        r'<td\b[^>]*data-date="(\d{4}-\d{2}-\d{2})"[^>]*>(.*?)</td>',
-        re.DOTALL,
-    )
+    pattern = re.compile(r'<td\b[^>]*data-date="(\d{4}-\d{2}-\d{2})"[^>]*>(.*?)</td>', re.DOTALL)
     days = []
     for iso, cell in pattern.findall(r.text):
         text = html.unescape(re.sub(r"<[^>]+>", " ", cell))
@@ -87,9 +80,7 @@ def fetch_days():
             print(f"Fetched {len(days)} days from GitHub public contribution graph")
             return days
         except Exception as public_error:
-            raise RuntimeError(
-                f"Unable to fetch a real contribution calendar. GraphQL: {graphql_error}; public graph: {public_error}"
-            ) from public_error
+            raise RuntimeError(f"Unable to fetch a real contribution calendar. GraphQL: {graphql_error}; public graph: {public_error}") from public_error
 
 
 def streaks(days):
@@ -111,9 +102,7 @@ def streaks(days):
 
 
 def fmt_date(iso):
-    if not iso:
-        return ""
-    return datetime.strptime(iso, "%Y-%m-%d").strftime("%B %d").replace(" 0", " ")
+    return datetime.strptime(iso, "%Y-%m-%d").strftime("%B %d").replace(" 0", " ") if iso else ""
 
 
 days = fetch_days()[-371:]
@@ -130,19 +119,18 @@ W, H = 1400, 1040
 BG, BORDER = "#0b1117", "#26313d"
 TEXT, MUTED = "#f0f6fc", "#9aa8b8"
 GREEN = "#39e75f"
-GROUND, GROUND_STROKE = "#354a60", "#1a2a3a"
+# Neutral slate-grey base, matching the reference blocks.
+BASE_TOP_A, BASE_TOP_B = "#52677a", "#607588"
+BASE_EDGE = "#263746"
+BASE_EDGE_DARK = "#1b2936"
 PALETTE = [
-    (6, 70, 35),
-    (8, 105, 43),
-    (10, 145, 50),
-    (17, 188, 61),
-    (36, 225, 76),
-    (67, 246, 91),
-    (118, 255, 124),
+    (6, 70, 35), (8, 105, 43), (10, 145, 50), (17, 188, 61),
+    (36, 225, 76), (67, 246, 91), (118, 255, 124),
 ]
 HW, HH = 16.5, 8.25
 ORIGIN_X, ORIGIN_Y = 150.0, 245.0
 MAX_H = 172.0
+BASE_DEPTH = 5.0
 
 
 def rgb(v):
@@ -182,16 +170,17 @@ svg = [
     f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="8" fill="none" stroke="{BORDER}"/>',
 ]
 
-right_x = 835
-left_x = 60
+right_x, left_x = 835, 60
 svg += metric_markup(right_x, 65, "1 year total", f"{total:,}", "contributions", f"{fmt_date(days[0]['date'])} — {fmt_date(days[-1]['date'])}", 72)
 svg += metric_markup(right_x, 230, "Busiest day", busiest, "contributions", "Peak activity", 72)
 svg += metric_markup(left_x, 520, "Longest streak", longest, "days", "Consecutive contribution days", 64)
 svg += metric_markup(left_x, 684, "Current streak", current, "days", "Ending today", 64)
 
 svg.append('<g clip-path="url(#cardClip)">')
-# The floor is deliberately compact and fully tiled so the city reads as one
-# continuous isometric board instead of a long empty strip.
+
+# 53 x 7 individual raised slate tiles.  Each tile is a real little block:
+# grey top, dark left/right edge, and a crisp grid seam. This is intentionally
+# independent of contribution height so the entire board stays visibly tiled.
 ground = []
 for c in range(53):
     for r in range(7):
@@ -200,44 +189,43 @@ for c in range(53):
 
 for _, r, c, x, y in sorted(ground):
     top = [(x, y - HH), (x + HW, y), (x, y + HH), (x - HW, y)]
-    svg.append(f'<polygon points="{poly(top)}" fill="{GROUND}" stroke="{GROUND_STROKE}" stroke-width="0.75"/>')
+    lower = [(x - HW, y + BASE_DEPTH), (x, y + HH + BASE_DEPTH), (x + HW, y + BASE_DEPTH)]
+    # shallow visible front edge, like the reference's chunky grey floor blocks
+    svg.append(f'<polygon points="{poly([top[3], top[2], lower[1], lower[0]])}" fill="{BASE_EDGE_DARK}" stroke="{BASE_EDGE_DARK}" stroke-width="0.5"/>')
+    svg.append(f'<polygon points="{poly([top[2], top[1], (x + HW, y + BASE_DEPTH), lower[1]])}" fill="{BASE_EDGE}" stroke="{BASE_EDGE_DARK}" stroke-width="0.5"/>')
+    fill = BASE_TOP_A if (c + r) % 2 == 0 else BASE_TOP_B
+    svg.append(f'<polygon points="{poly(top)}" fill="{fill}" stroke="#172431" stroke-width="1.05"/>')
+    # fine inner bevel gives each grey tile the same crisp manufactured-block feel
+    inner = [(x, y - HH + 1.5), (x + HW - 2.0, y), (x, y + HH - 1.5), (x - HW + 2.0, y)]
+    svg.append(f'<polygon points="{poly(inner)}" fill="none" stroke="#748799" stroke-opacity="0.28" stroke-width="0.65"/>')
 
 counts = [[int(weeks[c][r]["contributionCount"]) for r in range(7)] for c in range(53)]
-# A small local field keeps the 3D city visually continuous while preserving
-# the real contribution values as the dominant signal for height and color.
+
+# Real contribution values dominate height. Nearby values provide a subtle
+# visual field so the city reads continuously, without changing the metrics.
 for _, r, c, x, y in sorted(ground):
     n = counts[c][r]
     t = math.log1p(n) / math.log1p(max_count) if n else 0.0
-
-    weighted_sum = 0.0
-    weight_total = 0.0
+    weighted_sum = weight_total = 0.0
     for dc in range(-3, 4):
         for dr in range(-2, 3):
             cc, rr = c + dc, r + dr
-            if 0 <= cc < 53 and 0 <= rr < 7:
+            if 0 <= cc < 53 and 0 <= rr < 7 and (dc or dr):
                 dist = abs(dc) + abs(dr)
-                if dist == 0:
-                    continue
                 weight = 1.0 / (1.0 + dist * 1.15)
                 weighted_sum += math.log1p(counts[cc][rr]) / math.log1p(max_count) * weight
                 weight_total += weight
     field = weighted_sum / weight_total if weight_total else 0.0
-
-    # Every tile gets a short cube, while real activity controls the taller
-    # towers. This matches the dense reference-city look without inventing stats.
     visual_t = max(0.055, t, field * 0.92)
     h = 7.0 + visual_t * MAX_H
-
     palette_index = min(len(PALETTE) - 1, int(visual_t * (len(PALETTE) - 1)))
     base = PALETTE[palette_index]
 
     top = [(0, -HH - h), (HW, -h), (0, HH - h), (-HW, -h)]
     left = [(-HW, 0), (0, HH), (0, HH - h), (-HW, -h)]
     right = [(0, HH), (HW, 0), (HW, -h), (0, HH - h)]
-
     if visual_t > 0.14:
         svg.append(f'<ellipse cx="{x:.1f}" cy="{y + 2:.1f}" rx="13" ry="5" fill="#020806" opacity="0.34" filter="url(#softShadow)"/>')
-
     svg.append(f'<g transform="translate({x:.1f},{y:.1f})">')
     if visual_t > 0.56:
         svg.append('<g filter="url(#cubeGlow)">')
