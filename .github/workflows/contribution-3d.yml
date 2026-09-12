@@ -2,7 +2,9 @@ name: Update 3D Contribution Dashboard
 
 on:
   schedule:
-    - cron: "20 3 * * *"
+    # Refresh frequently so new GitHub contributions appear without waiting a full day.
+    # Scheduled workflows use UTC; 17 minutes past the hour avoids the busiest top-of-hour load.
+    - cron: "17 * * * *"
   workflow_dispatch:
   push:
     paths:
@@ -37,12 +39,17 @@ jobs:
       - name: Soften building separation lines
         run: sed -i 's/#020504/#52636f/g' assets/contribution-3d.svg
 
-      - name: Commit dashboard when changed
+      - name: Bust GitHub README image cache
+        run: |
+          CACHE_VERSION=$(date -u +%Y%m%d%H%M)
+          sed -i -E "s#contribution-3d\.svg\?v=[0-9]+#contribution-3d.svg?v=${CACHE_VERSION}#" README.md
+
+      - name: Commit dashboard and cache refresh when changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/contribution-3d.svg
+          git add assets/contribution-3d.svg README.md
           git diff --cached --quiet && exit 0
-          git commit -m "Soften contribution building separation lines"
+          git commit -m "Refresh contribution dashboard data"
           git pull --rebase origin main
           git push origin HEAD:main
