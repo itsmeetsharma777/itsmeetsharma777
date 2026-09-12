@@ -2,7 +2,7 @@
 import math
 import os
 import sys
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
@@ -12,9 +12,9 @@ OUTPUT = Path(os.environ.get("OUTPUT", "assets/contribution-3d.svg"))
 TOKEN = os.environ.get("GITHUB_TOKEN")
 
 QUERY = """
-query($login: String!) {
+query($login: String!, $from: DateTime!, $to: DateTime!) {
   user(login: $login) {
-    contributionsCollection {
+    contributionsCollection(from: $from, to: $to) {
       contributionCalendar {
         totalContributions
         weeks { contributionDays { date contributionCount } }
@@ -28,9 +28,18 @@ query($login: String!) {
 def fetch_days():
     if not TOKEN:
         raise RuntimeError("GITHUB_TOKEN is required")
+
+    today = date.today()
+    start = today - timedelta(days=370)
+    variables = {
+        "login": USERNAME,
+        "from": f"{start.isoformat()}T00:00:00Z",
+        "to": f"{today.isoformat()}T23:59:59Z",
+    }
+
     r = requests.post(
         "https://api.github.com/graphql",
-        json={"query": QUERY, "variables": {"login": USERNAME}},
+        json={"query": QUERY, "variables": variables},
         headers={"Authorization": f"bearer {TOKEN}", "Accept": "application/json"},
         timeout=30,
     )
@@ -38,11 +47,15 @@ def fetch_days():
     payload = r.json()
     if payload.get("errors"):
         raise RuntimeError(payload["errors"][0].get("message", "GitHub GraphQL error"))
-    return [
-        d
-        for w in payload["data"]["user"]["contributionsCollection"]["weeks"]
-        for d in w["contributionDays"]
-    ]
+
+    calendar = payload["data"]["user"]["contributionsCollection"]["contributionCalendar"]
+    days = [d for w in calendar["weeks"] for d in w["contributionDays"]]
+
+    # Never silently publish a six-day/empty calendar if GitHub returns an
+    # incomplete response. That was the source of the previous 0-contribution card.
+    if len(days) < 300:
+        raise RuntimeError(f"GitHub returned an incomplete contribution calendar ({len(days)} days)")
+    return days
 
 
 def fallback_days():
@@ -69,7 +82,10 @@ def streaks(days):
 
 
 def fmt_date(iso):
-    return date.fromisoformat(iso).strftime("%B %-d") if iso else ""
+    if not iso:
+        return ""
+    # Cross-platform date formatting without %-d, which is unavailable on Windows.
+    return datetime.strptime(iso, "%Y-%m-%d").strftime("%B %d").replace(" 0", " ")
 
 
 try:
@@ -156,20 +172,17 @@ for c in range(53):
         x, y = project(c, r)
         ground.append((c + r, r, c, x, y))
 
+# Ground plane.
 for _, r, c, x, y in sorted(ground):
     top = [(x, y - HH), (x + HW, y), (x, y + HH), (x - HW, y)]
     svg.append(f'<polygon points="{poly(top)}" fill="{GROUND}" stroke="{GROUND_STROKE}" stroke-width="0.7"/>')
 
-# Build a visually rich contribution city. Real contribution counts still
-# determine the dominant height/color, while a tiny artistic baseline and
-# local interpolation keep the entire board visually populated like the
-# approved reference rather than leaving a large empty diagonal.
+# Contribution city. Real counts control height and color; a small local
+# interpolation makes adjacent activity flow naturally across the board.
 for _, r, c, x, y in sorted(ground):
     n = int(weeks[c][r]["contributionCount"])
     t = math.log1p(n) / math.log1p(max_count) if n else 0.0
 
-    # Smooth local activity from neighbouring real cells. This is only a
-    # visual interpolation layer; the dashboard numbers remain exact live data.
     neighbors = []
     for dc, dr in ((-2, 0), (-1, 0), (1, 0), (2, 0), (0, -1), (0, 1)):
         cc, rr = c + dc, r + dr
@@ -178,7 +191,6 @@ for _, r, c, x, y in sorted(ground):
     neighbor_t = (math.log1p(sum(neighbors) / len(neighbors)) / math.log1p(max_count)) if neighbors and max_count else 0.0
     visual_t = max(t, neighbor_t * 0.72)
 
-    # Tiny baseline on every cell + strongly data-driven main height.
     h = 6.0 + visual_t * MAX_H
     palette_index = min(len(PALETTE) - 1, int(visual_t * (len(PALETTE) - 1)) + (1 if n else 0))
     base = PALETTE[palette_index]
@@ -187,7 +199,6 @@ for _, r, c, x, y in sorted(ground):
     left = [(-HW, 0), (0, HH), (0, HH - h), (-HW, -h)]
     right = [(0, HH), (HW, 0), (HW, -h), (0, HH - h)]
 
-    # Grounded shadow under active/high-density buildings.
     if visual_t > 0.10:
         svg.append(f'<ellipse cx="{x:.1f}" cy="{y + 3:.1f}" rx="15" ry="6" fill="#020806" opacity="0.38"/>')
 
@@ -199,15 +210,6 @@ for _, r, c, x, y in sorted(ground):
     svg.append(f'<polygon points="{poly(top)}" fill="{rgb(base)}"/>')
     if visual_t > 0.55:
         svg.append('</g>')
-
-    # Keep all buildings visible during animation. They gently breathe between
-    # 88% and 100% instead of collapsing to zero in GitHub's static renderer.
-    delay = ((c * 7 + r * 3) % 23) * 0.12
-    svg.append(
-        f'<animateTransform attributeName="transform" type="scale" '
-        f'values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" '
-        f'dur="5.2s" begin="{delay:.2f}s" repeatCount="indefinite"/>'
-    )
     svg.append('</g>')
 
 svg.append('</g>')
@@ -216,7 +218,6 @@ svg.append(f'<line x1="0" y1="{line_y}" x2="{W}" y2="{line_y}" stroke="{BORDER}"
 for x in (466, 932):
     svg.append(f'<line x1="{x}" y1="{line_y}" x2="{x}" y2="{H}" stroke="{BORDER}"/>')
 
-# Reference-style footer: green numeric value, white unit.
 cards = [
     (233, "Contributions in the last year", f"{total:,}", "total", f"{fmt_date(days[0]['date'])} — {fmt_date(days[-1]['date'])}"),
     (699, "Longest streak", f"{longest}", "days", "Consecutive contribution days"),
