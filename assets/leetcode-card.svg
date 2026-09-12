@@ -28,25 +28,25 @@
   <g transform="translate(48 112)">
     
     <text x="0" y="0" class="label">Easy</text>
-    <text x="330" y="0" text-anchor="end" class="value">80 / 963</text>
+    <text x="330" y="0" text-anchor="end" class="value">81 / 964</text>
     <rect x="0" y="12" width="330" height="7" rx="3.5" class="track"/>
-    <rect x="0" y="12" width="27.4" height="7" rx="3.5" fill="#45B84A"/>
+    <rect x="0" y="12" width="27.7" height="7" rx="3.5" fill="#45B84A"/>
     
     
     <text x="390" y="0" class="label">Medium</text>
-    <text x="720" y="0" text-anchor="end" class="value">21 / 2111</text>
+    <text x="720" y="0" text-anchor="end" class="value">23 / 2113</text>
     <rect x="390" y="12" width="330" height="7" rx="3.5" class="track"/>
     <rect x="390" y="12" width="4.0" height="7" rx="3.5" fill="#F5B94C"/>
     
     
     <text x="780" y="0" class="label">Hard</text>
-    <text x="1110" y="0" text-anchor="end" class="value">2 / 973</text>
+    <text x="1110" y="0" text-anchor="end" class="value">2 / 974</text>
     <rect x="780" y="12" width="330" height="7" rx="3.5" class="track"/>
     <rect x="780" y="12" width="4.0" height="7" rx="3.5" fill="#EF6A67"/>
     
   </g>
 
-  <text x="48" y="202" class="small">103 problems solved</text>
-  <text x="1152" y="202" text-anchor="end" class="small">C++ 101 · JavaScript 1 · Pandas 1</text>
+  <text x="48" y="202" class="small">106 problems solved</text>
+  <text x="1152" y="202" text-anchor="end" class="small">C++ 104 · JavaScript 1 · Pandas 1</text>
   <rect x="48" y="96" width="1104" height="2" rx="1" fill="url(#lcAccent)" opacity="0.55"/>
 </svg>
