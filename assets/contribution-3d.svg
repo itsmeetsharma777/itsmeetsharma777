@@ -6,16 +6,16 @@
 <rect width="1400" height="1040" rx="8" fill="#0b1117"/>
 <rect x="1" y="1" width="1398" height="1038" rx="8" fill="none" stroke="#26313d"/>
 <text x="835" y="65" font-size="25" font-weight="600" fill="#9aa8b8">1 year total</text>
-<text x="835" y="132" font-size="72" font-weight="800" fill="#39e75f">0<tspan dx="18" dy="0" font-size="25" font-weight="700" fill="#f0f6fc">contributions</tspan></text>
+<text x="835" y="132" font-size="72" font-weight="800" fill="#39e75f">306<tspan dx="18" dy="0" font-size="25" font-weight="700" fill="#f0f6fc">contributions</tspan></text>
 <text x="835" y="170" font-size="18" fill="#9aa8b8">September 7 — September 12</text>
 <text x="835" y="230" font-size="25" font-weight="600" fill="#9aa8b8">Busiest day</text>
-<text x="835" y="297" font-size="72" font-weight="800" fill="#39e75f">0<tspan dx="18" dy="0" font-size="25" font-weight="700" fill="#f0f6fc">contributions</tspan></text>
+<text x="835" y="297" font-size="72" font-weight="800" fill="#39e75f">78<tspan dx="18" dy="0" font-size="25" font-weight="700" fill="#f0f6fc">contributions</tspan></text>
 <text x="835" y="335" font-size="18" fill="#9aa8b8">Peak activity</text>
 <text x="60" y="520" font-size="25" font-weight="600" fill="#9aa8b8">Longest streak</text>
-<text x="60" y="587" font-size="64" font-weight="800" fill="#39e75f">0<tspan dx="18" dy="0" font-size="25" font-weight="700" fill="#f0f6fc">days</tspan></text>
+<text x="60" y="587" font-size="64" font-weight="800" fill="#39e75f">52<tspan dx="18" dy="0" font-size="25" font-weight="700" fill="#f0f6fc">days</tspan></text>
 <text x="60" y="625" font-size="18" fill="#9aa8b8">Consecutive contribution days</text>
 <text x="60" y="684" font-size="25" font-weight="600" fill="#9aa8b8">Current streak</text>
-<text x="60" y="751" font-size="64" font-weight="800" fill="#39e75f">0<tspan dx="18" dy="0" font-size="25" font-weight="700" fill="#f0f6fc">days</tspan></text>
+<text x="60" y="751" font-size="64" font-weight="800" fill="#39e75f">52<tspan dx="18" dy="0" font-size="25" font-weight="700" fill="#f0f6fc">days</tspan></text>
 <text x="60" y="789" font-size="18" fill="#9aa8b8">Ending today</text>
 <g clip-path="url(#cardClip)">
 <polygon points="165.0,241.0 183.0,250.0 165.0,259.0 147.0,250.0" fill="#294158" stroke="#172737" stroke-width="0.7"/>
@@ -393,2239 +393,1937 @@
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.00s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(183.0,259.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.84s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(147.0,259.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.36s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(201.0,268.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.68s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(165.0,268.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.20s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(129.0,268.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.72s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(219.0,277.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.52s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(183.0,277.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.04s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(147.0,277.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.56s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(111.0,277.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.08s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(237.0,286.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.60s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(201.0,286.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.12s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(165.0,286.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.40s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(129.0,286.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.92s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(93.0,286.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.44s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(255.0,295.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.44s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(219.0,295.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.96s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(183.0,295.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.48s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(147.0,295.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.00s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(111.0,295.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.28s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(75.0,295.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.80s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(273.0,304.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.28s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(237.0,304.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.80s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(201.0,304.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.32s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(165.0,304.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.84s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(129.0,304.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.36s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(93.0,304.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.64s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(57.0,304.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.16s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(291.0,313.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.36s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(255.0,313.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.64s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(219.0,313.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.16s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(183.0,313.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.68s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(147.0,313.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.20s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(111.0,313.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.72s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(75.0,313.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.24s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(309.0,322.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.20s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(273.0,322.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.72s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(237.0,322.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.24s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(201.0,322.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.52s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(165.0,322.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.04s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(129.0,322.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.56s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(93.0,322.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.08s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(327.0,331.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.04s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(291.0,331.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.56s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(255.0,331.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.08s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(219.0,331.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.60s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(183.0,331.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.12s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(147.0,331.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.40s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(111.0,331.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.92s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(345.0,340.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.12s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(309.0,340.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.40s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(273.0,340.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.92s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(237.0,340.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.44s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(201.0,340.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.96s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(165.0,340.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.48s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(129.0,340.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.00s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(363.0,349.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.96s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(327.0,349.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.48s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(291.0,349.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.00s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(255.0,349.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.28s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(219.0,349.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.80s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(183.0,349.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.32s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(147.0,349.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.84s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(381.0,358.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.80s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(345.0,358.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.32s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(309.0,358.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.84s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(273.0,358.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.36s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(237.0,358.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.64s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(201.0,358.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.16s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(165.0,358.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.68s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(399.0,367.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.64s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(363.0,367.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.16s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(327.0,367.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.68s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(291.0,367.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.20s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(255.0,367.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.72s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(219.0,367.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.24s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(183.0,367.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.52s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(417.0,376.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.72s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(381.0,376.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.24s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(345.0,376.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.52s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(309.0,376.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.04s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(273.0,376.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.56s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(237.0,376.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.08s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(201.0,376.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.60s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(435.0,385.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.56s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(399.0,385.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.08s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(363.0,385.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.60s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(327.0,385.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.12s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(291.0,385.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.40s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(255.0,385.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.92s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(219.0,385.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.44s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(453.0,394.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.40s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(417.0,394.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.92s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(381.0,394.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.44s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(345.0,394.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.96s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(309.0,394.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.48s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(273.0,394.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.00s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(237.0,394.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.28s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(471.0,403.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.48s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(435.0,403.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.00s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(399.0,403.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.28s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(363.0,403.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.80s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(327.0,403.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.32s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(291.0,403.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.84s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(255.0,403.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.36s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(489.0,412.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.32s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(453.0,412.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.84s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(417.0,412.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.36s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(381.0,412.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.64s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(345.0,412.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.16s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(309.0,412.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.68s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(273.0,412.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.20s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(507.0,421.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.16s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(471.0,421.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.68s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(435.0,421.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.20s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(399.0,421.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.72s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(363.0,421.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.24s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(327.0,421.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.52s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(291.0,421.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.04s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(525.0,430.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.24s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(489.0,430.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.52s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(453.0,430.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.04s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(417.0,430.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.56s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(381.0,430.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.08s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(345.0,430.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.60s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(309.0,430.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.12s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(543.0,439.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.08s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(507.0,439.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.60s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(471.0,439.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.12s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(435.0,439.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.40s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(399.0,439.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.92s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(363.0,439.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.44s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(327.0,439.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.96s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(561.0,448.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.92s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(525.0,448.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.44s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(489.0,448.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.96s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(453.0,448.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.48s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(417.0,448.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.00s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(381.0,448.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.28s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(345.0,448.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.80s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(579.0,457.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.00s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(543.0,457.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.28s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(507.0,457.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.80s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(471.0,457.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.32s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(435.0,457.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.84s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(399.0,457.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.36s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(363.0,457.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.64s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(597.0,466.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.84s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(561.0,466.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.36s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(525.0,466.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.64s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(489.0,466.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.16s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(453.0,466.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.68s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(417.0,466.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.20s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(381.0,466.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.72s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(615.0,475.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.68s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(579.0,475.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.20s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(543.0,475.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.72s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(507.0,475.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.24s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(471.0,475.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.52s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(435.0,475.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.04s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(399.0,475.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.56s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(633.0,484.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.52s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(597.0,484.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.04s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(561.0,484.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.56s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(525.0,484.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.08s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(489.0,484.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.60s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(453.0,484.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.12s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(417.0,484.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.40s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(651.0,493.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.60s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(615.0,493.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.12s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(579.0,493.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.40s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(543.0,493.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.92s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(507.0,493.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.44s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(471.0,493.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.96s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(435.0,493.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.48s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(669.0,502.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.44s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(633.0,502.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.96s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(597.0,502.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.48s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(561.0,502.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.00s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(525.0,502.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.28s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(489.0,502.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.80s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(453.0,502.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.32s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(687.0,511.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.28s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(651.0,511.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.80s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(615.0,511.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.32s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(579.0,511.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.84s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(543.0,511.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.36s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(507.0,511.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.64s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(471.0,511.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.16s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(705.0,520.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.36s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(669.0,520.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.64s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(633.0,520.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.16s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(597.0,520.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.68s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(561.0,520.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.20s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(525.0,520.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.72s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(489.0,520.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.24s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(723.0,529.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.20s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(687.0,529.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.72s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(651.0,529.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.24s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(615.0,529.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.52s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(579.0,529.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.04s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(543.0,529.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.56s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(507.0,529.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.08s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(741.0,538.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.04s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(705.0,538.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.56s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(669.0,538.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.08s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(633.0,538.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.60s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(597.0,538.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.12s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(561.0,538.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.40s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(525.0,538.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.92s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(759.0,547.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.12s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(723.0,547.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.40s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(687.0,547.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.92s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(651.0,547.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.44s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(615.0,547.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.96s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(579.0,547.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.48s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(543.0,547.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.00s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(777.0,556.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.96s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(741.0,556.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.48s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(705.0,556.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.00s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(669.0,556.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.28s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(633.0,556.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.80s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(597.0,556.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.32s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(561.0,556.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.84s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(795.0,565.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.80s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(759.0,565.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.32s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(723.0,565.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.84s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(687.0,565.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.36s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(651.0,565.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.64s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(615.0,565.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.16s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(579.0,565.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.68s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(813.0,574.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.64s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(777.0,574.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.16s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(741.0,574.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.68s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(705.0,574.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.20s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(669.0,574.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.72s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(633.0,574.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.24s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(597.0,574.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.52s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(831.0,583.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.72s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(795.0,583.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.24s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(759.0,583.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.52s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(723.0,583.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.04s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(687.0,583.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.56s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(651.0,583.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.08s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(615.0,583.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.60s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(849.0,592.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.56s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(813.0,592.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.08s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(777.0,592.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.60s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(741.0,592.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.12s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(705.0,592.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.40s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(669.0,592.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.92s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(633.0,592.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.44s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(867.0,601.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.40s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(831.0,601.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.92s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(795.0,601.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.44s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(759.0,601.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.96s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(723.0,601.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.48s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(687.0,601.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.00s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(651.0,601.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.28s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(885.0,610.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.48s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(849.0,610.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.00s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(813.0,610.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.28s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(777.0,610.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.80s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(741.0,610.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.32s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(705.0,610.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.84s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(669.0,610.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.36s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(903.0,619.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.32s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(867.0,619.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.84s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(831.0,619.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.36s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(795.0,619.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.64s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(759.0,619.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.16s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(723.0,619.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.68s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(687.0,619.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.20s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(921.0,628.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.16s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(885.0,628.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.68s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(849.0,628.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.20s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(813.0,628.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.72s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(777.0,628.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.24s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(741.0,628.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.52s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(705.0,628.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.04s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(939.0,637.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.24s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(903.0,637.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.52s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(867.0,637.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.04s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(831.0,637.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.56s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(795.0,637.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.08s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(759.0,637.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.60s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(723.0,637.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.12s" repeatCount="indefinite"/>
 </g>
+<ellipse cx="957.0" cy="649.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(957.0,646.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.08s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-26.1 -18.0,-35.1" fill="rgb(3,28,14)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-35.1 0.0,-26.1" fill="rgb(4,47,24)"/>
+<polygon points="0.0,-44.1 18.0,-35.1 0.0,-26.1 -18.0,-35.1" fill="rgb(8,76,39)"/>
 </g>
 <g transform="translate(921.0,646.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.60s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(885.0,646.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.12s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(849.0,646.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.40s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(813.0,646.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.92s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(777.0,646.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.44s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(741.0,646.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.96s" repeatCount="indefinite"/>
 </g>
+<ellipse cx="975.0" cy="658.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(975.0,655.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.92s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-30.5 -18.0,-39.5" fill="rgb(3,28,14)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-39.5 0.0,-30.5" fill="rgb(4,47,24)"/>
+<polygon points="0.0,-48.5 18.0,-39.5 0.0,-30.5 -18.0,-39.5" fill="rgb(8,76,39)"/>
 </g>
 <g transform="translate(939.0,655.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.44s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-12.6 -18.0,-21.6" fill="rgb(3,28,14)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-21.6 0.0,-12.6" fill="rgb(4,47,24)"/>
+<polygon points="0.0,-30.6 18.0,-21.6 0.0,-12.6 -18.0,-21.6" fill="rgb(8,76,39)"/>
 </g>
 <g transform="translate(903.0,655.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.96s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(867.0,655.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.48s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(831.0,655.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.00s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(795.0,655.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.28s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(759.0,655.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.80s" repeatCount="indefinite"/>
 </g>
+<ellipse cx="993.0" cy="667.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(993.0,664.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.00s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-90.0 -18.0,-99.0" fill="rgb(9,78,27)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-99.0 0.0,-90.0" fill="rgb(16,128,44)"/>
+<polygon points="0.0,-108.0 18.0,-99.0 0.0,-90.0 -18.0,-99.0" fill="rgb(26,207,72)"/>
 </g>
+<ellipse cx="957.0" cy="667.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(957.0,664.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.28s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-18.1 -18.0,-27.1" fill="rgb(3,28,14)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-27.1 0.0,-18.1" fill="rgb(4,47,24)"/>
+<polygon points="0.0,-36.1 18.0,-27.1 0.0,-18.1 -18.0,-27.1" fill="rgb(8,76,39)"/>
 </g>
 <g transform="translate(921.0,664.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.80s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-12.6 -18.0,-21.6" fill="rgb(3,28,14)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-21.6 0.0,-12.6" fill="rgb(4,47,24)"/>
+<polygon points="0.0,-30.6 18.0,-21.6 0.0,-12.6 -18.0,-21.6" fill="rgb(8,76,39)"/>
 </g>
 <g transform="translate(885.0,664.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.32s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(849.0,664.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.84s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(813.0,664.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.36s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(777.0,664.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.64s" repeatCount="indefinite"/>
 </g>
+<ellipse cx="1011.0" cy="676.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(1011.0,673.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.84s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-43.5 -18.0,-52.5" fill="rgb(6,62,22)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-52.5 0.0,-43.5" fill="rgb(9,102,37)"/>
+<polygon points="0.0,-61.5 18.0,-52.5 0.0,-43.5 -18.0,-52.5" fill="rgb(16,165,60)"/>
 </g>
+<ellipse cx="975.0" cy="676.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(975.0,673.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.36s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-65.1 -18.0,-74.1" fill="rgb(6,62,22)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-74.1 0.0,-65.1" fill="rgb(9,102,37)"/>
+<polygon points="0.0,-83.1 18.0,-74.1 0.0,-65.1 -18.0,-74.1" fill="rgb(16,165,60)"/>
 </g>
+<ellipse cx="939.0" cy="676.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(939.0,673.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.64s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-18.1 -18.0,-27.1" fill="rgb(3,28,14)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-27.1 0.0,-18.1" fill="rgb(4,47,24)"/>
+<polygon points="0.0,-36.1 18.0,-27.1 0.0,-18.1 -18.0,-27.1" fill="rgb(8,76,39)"/>
 </g>
 <g transform="translate(903.0,673.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.16s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-15.5 -18.0,-24.5" fill="rgb(3,28,14)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-24.5 0.0,-15.5" fill="rgb(4,47,24)"/>
+<polygon points="0.0,-33.5 18.0,-24.5 0.0,-15.5 -18.0,-24.5" fill="rgb(8,76,39)"/>
 </g>
 <g transform="translate(867.0,673.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.68s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-1.7 -18.0,-10.7" fill="rgb(3,28,14)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-10.7 0.0,-1.7" fill="rgb(4,47,24)"/>
+<polygon points="0.0,-19.7 18.0,-10.7 0.0,-1.7 -18.0,-10.7" fill="rgb(8,76,39)"/>
 </g>
 <g transform="translate(831.0,673.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.20s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(795.0,673.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.72s" repeatCount="indefinite"/>
 </g>
+<ellipse cx="1029.0" cy="685.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(1029.0,682.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.68s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-58.8 -18.0,-67.8" fill="rgb(6,62,22)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-67.8 0.0,-58.8" fill="rgb(9,102,37)"/>
+<polygon points="0.0,-76.8 18.0,-67.8 0.0,-58.8 -18.0,-67.8" fill="rgb(16,165,60)"/>
 </g>
+<ellipse cx="993.0" cy="685.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(993.0,682.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.20s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-51.6 -18.0,-60.6" fill="rgb(6,62,22)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-60.6 0.0,-51.6" fill="rgb(9,102,37)"/>
+<polygon points="0.0,-69.6 18.0,-60.6 0.0,-51.6 -18.0,-60.6" fill="rgb(16,165,60)"/>
 </g>
+<ellipse cx="957.0" cy="685.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(957.0,682.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.72s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-65.1 -18.0,-74.1" fill="rgb(6,62,22)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-74.1 0.0,-65.1" fill="rgb(9,102,37)"/>
+<polygon points="0.0,-83.1 18.0,-74.1 0.0,-65.1 -18.0,-74.1" fill="rgb(16,165,60)"/>
 </g>
+<ellipse cx="921.0" cy="685.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(921.0,682.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.24s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-26.9 -18.0,-35.9" fill="rgb(3,28,14)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-35.9 0.0,-26.9" fill="rgb(4,47,24)"/>
+<polygon points="0.0,-44.9 18.0,-35.9 0.0,-26.9 -18.0,-35.9" fill="rgb(8,76,39)"/>
 </g>
+<ellipse cx="885.0" cy="685.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(885.0,682.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.52s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-20.6 -18.0,-29.6" fill="rgb(3,28,14)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-29.6 0.0,-20.6" fill="rgb(4,47,24)"/>
+<polygon points="0.0,-38.6 18.0,-29.6 0.0,-20.6 -18.0,-29.6" fill="rgb(8,76,39)"/>
 </g>
 <g transform="translate(849.0,682.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.04s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-1.7 -18.0,-10.7" fill="rgb(3,28,14)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-10.7 0.0,-1.7" fill="rgb(4,47,24)"/>
+<polygon points="0.0,-19.7 18.0,-10.7 0.0,-1.7 -18.0,-10.7" fill="rgb(8,76,39)"/>
 </g>
 <g transform="translate(813.0,682.0)">
 <polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
 <polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
 <polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.56s" repeatCount="indefinite"/>
 </g>
+<ellipse cx="1047.0" cy="694.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(1047.0,691.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.52s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-65.1 -18.0,-74.1" fill="rgb(6,62,22)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-74.1 0.0,-65.1" fill="rgb(9,102,37)"/>
+<polygon points="0.0,-83.1 18.0,-74.1 0.0,-65.1 -18.0,-74.1" fill="rgb(16,165,60)"/>
 </g>
+<ellipse cx="1011.0" cy="694.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(1011.0,691.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.04s" repeatCount="indefinite"/>
+<g filter="url(#cubeGlow)">
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-117.0 -18.0,-126.0" fill="rgb(18,90,33)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-126.0 0.0,-117.0" fill="rgb(29,148,54)"/>
+<polygon points="0.0,-135.0 18.0,-126.0 0.0,-117.0 -18.0,-126.0" fill="rgb(48,239,88)"/>
 </g>
+</g>
+<ellipse cx="975.0" cy="694.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(975.0,691.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.56s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-43.5 -18.0,-52.5" fill="rgb(6,62,22)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-52.5 0.0,-43.5" fill="rgb(9,102,37)"/>
+<polygon points="0.0,-61.5 18.0,-52.5 0.0,-43.5 -18.0,-52.5" fill="rgb(16,165,60)"/>
 </g>
+<ellipse cx="939.0" cy="694.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(939.0,691.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.08s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-72.9 -18.0,-81.9" fill="rgb(9,78,27)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-81.9 0.0,-72.9" fill="rgb(16,128,44)"/>
+<polygon points="0.0,-90.9 18.0,-81.9 0.0,-72.9 -18.0,-81.9" fill="rgb(26,207,72)"/>
 </g>
+<ellipse cx="903.0" cy="694.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(903.0,691.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.60s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-26.3 -18.0,-35.3" fill="rgb(3,44,18)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-35.3 0.0,-26.3" fill="rgb(6,73,30)"/>
+<polygon points="0.0,-44.3 18.0,-35.3 0.0,-26.3 -18.0,-35.3" fill="rgb(10,118,49)"/>
 </g>
 <g transform="translate(867.0,691.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.12s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-9.4 -18.0,-18.4" fill="rgb(3,28,14)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-18.4 0.0,-9.4" fill="rgb(4,47,24)"/>
+<polygon points="0.0,-27.4 18.0,-18.4 0.0,-9.4 -18.0,-18.4" fill="rgb(8,76,39)"/>
 </g>
 <g transform="translate(831.0,691.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.40s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-14.9 -18.0,-23.9" fill="rgb(3,28,14)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-23.9 0.0,-14.9" fill="rgb(4,47,24)"/>
+<polygon points="0.0,-32.9 18.0,-23.9 0.0,-14.9 -18.0,-23.9" fill="rgb(8,76,39)"/>
 </g>
+<ellipse cx="1065.0" cy="703.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(1065.0,700.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.60s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-55.7 -18.0,-64.7" fill="rgb(6,62,22)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-64.7 0.0,-55.7" fill="rgb(9,102,37)"/>
+<polygon points="0.0,-73.7 18.0,-64.7 0.0,-55.7 -18.0,-64.7" fill="rgb(16,165,60)"/>
 </g>
+<ellipse cx="1029.0" cy="703.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(1029.0,700.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.12s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-79.4 -18.0,-88.4" fill="rgb(9,78,27)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-88.4 0.0,-79.4" fill="rgb(16,128,44)"/>
+<polygon points="0.0,-97.4 18.0,-88.4 0.0,-79.4 -18.0,-88.4" fill="rgb(26,207,72)"/>
 </g>
+<ellipse cx="993.0" cy="703.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(993.0,700.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.40s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-90.0 -18.0,-99.0" fill="rgb(9,78,27)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-99.0 0.0,-90.0" fill="rgb(16,128,44)"/>
+<polygon points="0.0,-108.0 18.0,-99.0 0.0,-90.0 -18.0,-99.0" fill="rgb(26,207,72)"/>
 </g>
+<ellipse cx="957.0" cy="703.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(957.0,700.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.92s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-65.1 -18.0,-74.1" fill="rgb(6,62,22)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-74.1 0.0,-65.1" fill="rgb(9,102,37)"/>
+<polygon points="0.0,-83.1 18.0,-74.1 0.0,-65.1 -18.0,-74.1" fill="rgb(16,165,60)"/>
 </g>
+<ellipse cx="921.0" cy="703.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(921.0,700.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.44s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-79.4 -18.0,-88.4" fill="rgb(9,78,27)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-88.4 0.0,-79.4" fill="rgb(16,128,44)"/>
+<polygon points="0.0,-97.4 18.0,-88.4 0.0,-79.4 -18.0,-88.4" fill="rgb(26,207,72)"/>
 </g>
+<ellipse cx="885.0" cy="703.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(885.0,700.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.96s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-38.0 -18.0,-47.0" fill="rgb(6,62,22)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-47.0 0.0,-38.0" fill="rgb(9,102,37)"/>
+<polygon points="0.0,-56.0 18.0,-47.0 0.0,-38.0 -18.0,-47.0" fill="rgb(16,165,60)"/>
 </g>
+<ellipse cx="849.0" cy="703.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(849.0,700.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.48s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-21.0 -18.0,-30.0" fill="rgb(3,28,14)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-30.0 0.0,-21.0" fill="rgb(4,47,24)"/>
+<polygon points="0.0,-39.0 18.0,-30.0 0.0,-21.0 -18.0,-30.0" fill="rgb(8,76,39)"/>
 </g>
+<ellipse cx="1083.0" cy="712.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(1083.0,709.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.44s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-79.4 -18.0,-88.4" fill="rgb(9,78,27)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-88.4 0.0,-79.4" fill="rgb(16,128,44)"/>
+<polygon points="0.0,-97.4 18.0,-88.4 0.0,-79.4 -18.0,-88.4" fill="rgb(26,207,72)"/>
 </g>
+<ellipse cx="1047.0" cy="712.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(1047.0,709.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.96s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-65.6 -18.0,-74.6" fill="rgb(6,62,22)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-74.6 0.0,-65.6" fill="rgb(9,102,37)"/>
+<polygon points="0.0,-83.6 18.0,-74.6 0.0,-65.6 -18.0,-74.6" fill="rgb(16,165,60)"/>
 </g>
+<ellipse cx="1011.0" cy="712.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(1011.0,709.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.48s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-55.6 -18.0,-64.6" fill="rgb(6,62,22)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-64.6 0.0,-55.6" fill="rgb(9,102,37)"/>
+<polygon points="0.0,-73.6 18.0,-64.6 0.0,-55.6 -18.0,-64.6" fill="rgb(16,165,60)"/>
 </g>
+<ellipse cx="975.0" cy="712.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(975.0,709.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.00s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-51.6 -18.0,-60.6" fill="rgb(6,62,22)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-60.6 0.0,-51.6" fill="rgb(9,102,37)"/>
+<polygon points="0.0,-69.6 18.0,-60.6 0.0,-51.6 -18.0,-60.6" fill="rgb(16,165,60)"/>
 </g>
+<ellipse cx="939.0" cy="712.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(939.0,709.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.28s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-48.0 -18.0,-57.0" fill="rgb(6,62,22)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-57.0 0.0,-48.0" fill="rgb(9,102,37)"/>
+<polygon points="0.0,-66.0 18.0,-57.0 0.0,-48.0 -18.0,-57.0" fill="rgb(16,165,60)"/>
 </g>
+<ellipse cx="903.0" cy="712.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(903.0,709.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.80s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-43.5 -18.0,-52.5" fill="rgb(6,62,22)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-52.5 0.0,-43.5" fill="rgb(9,102,37)"/>
+<polygon points="0.0,-61.5 18.0,-52.5 0.0,-43.5 -18.0,-52.5" fill="rgb(16,165,60)"/>
 </g>
+<ellipse cx="867.0" cy="712.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(867.0,709.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.32s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-65.1 -18.0,-74.1" fill="rgb(6,62,22)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-74.1 0.0,-65.1" fill="rgb(9,102,37)"/>
+<polygon points="0.0,-83.1 18.0,-74.1 0.0,-65.1 -18.0,-74.1" fill="rgb(16,165,60)"/>
 </g>
+<ellipse cx="1101.0" cy="721.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(1101.0,718.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.28s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-65.1 -18.0,-74.1" fill="rgb(6,62,22)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-74.1 0.0,-65.1" fill="rgb(9,102,37)"/>
+<polygon points="0.0,-83.1 18.0,-74.1 0.0,-65.1 -18.0,-74.1" fill="rgb(16,165,60)"/>
 </g>
+<ellipse cx="1065.0" cy="721.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(1065.0,718.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.80s" repeatCount="indefinite"/>
+<g filter="url(#cubeGlow)">
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-108.7 -18.0,-117.7" fill="rgb(18,90,33)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-117.7 0.0,-108.7" fill="rgb(29,148,54)"/>
+<polygon points="0.0,-126.7 18.0,-117.7 0.0,-108.7 -18.0,-117.7" fill="rgb(48,239,88)"/>
 </g>
+</g>
+<ellipse cx="1029.0" cy="721.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(1029.0,718.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.32s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-49.9 -18.0,-58.9" fill="rgb(6,62,22)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-58.9 0.0,-49.9" fill="rgb(9,102,37)"/>
+<polygon points="0.0,-67.9 18.0,-58.9 0.0,-49.9 -18.0,-58.9" fill="rgb(16,165,60)"/>
 </g>
+<ellipse cx="993.0" cy="721.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(993.0,718.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.84s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-94.5 -18.0,-103.5" fill="rgb(9,78,27)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-103.5 0.0,-94.5" fill="rgb(16,128,44)"/>
+<polygon points="0.0,-112.5 18.0,-103.5 0.0,-94.5 -18.0,-103.5" fill="rgb(26,207,72)"/>
 </g>
+<ellipse cx="957.0" cy="721.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(957.0,718.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.36s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-43.5 -18.0,-52.5" fill="rgb(6,62,22)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-52.5 0.0,-43.5" fill="rgb(9,102,37)"/>
+<polygon points="0.0,-61.5 18.0,-52.5 0.0,-43.5 -18.0,-52.5" fill="rgb(16,165,60)"/>
 </g>
+<ellipse cx="921.0" cy="721.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(921.0,718.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.64s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-98.5 -18.0,-107.5" fill="rgb(9,78,27)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-107.5 0.0,-98.5" fill="rgb(16,128,44)"/>
+<polygon points="0.0,-116.5 18.0,-107.5 0.0,-98.5 -18.0,-107.5" fill="rgb(26,207,72)"/>
 </g>
+<ellipse cx="885.0" cy="721.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(885.0,718.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.16s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-43.5 -18.0,-52.5" fill="rgb(6,62,22)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-52.5 0.0,-43.5" fill="rgb(9,102,37)"/>
+<polygon points="0.0,-61.5 18.0,-52.5 0.0,-43.5 -18.0,-52.5" fill="rgb(16,165,60)"/>
 </g>
+<ellipse cx="1083.0" cy="730.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(1083.0,727.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.64s" repeatCount="indefinite"/>
+<g filter="url(#cubeGlow)">
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-105.6 -18.0,-114.6" fill="rgb(9,78,27)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-114.6 0.0,-105.6" fill="rgb(16,128,44)"/>
+<polygon points="0.0,-123.6 18.0,-114.6 0.0,-105.6 -18.0,-114.6" fill="rgb(26,207,72)"/>
 </g>
+</g>
+<ellipse cx="1047.0" cy="730.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(1047.0,727.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.16s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-94.5 -18.0,-103.5" fill="rgb(9,78,27)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-103.5 0.0,-94.5" fill="rgb(16,128,44)"/>
+<polygon points="0.0,-112.5 18.0,-103.5 0.0,-94.5 -18.0,-103.5" fill="rgb(26,207,72)"/>
 </g>
+<ellipse cx="1011.0" cy="730.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(1011.0,727.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.68s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-43.5 -18.0,-52.5" fill="rgb(6,62,22)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-52.5 0.0,-43.5" fill="rgb(9,102,37)"/>
+<polygon points="0.0,-61.5 18.0,-52.5 0.0,-43.5 -18.0,-52.5" fill="rgb(16,165,60)"/>
 </g>
+<ellipse cx="975.0" cy="730.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(975.0,727.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.20s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-55.7 -18.0,-64.7" fill="rgb(6,62,22)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-64.7 0.0,-55.7" fill="rgb(9,102,37)"/>
+<polygon points="0.0,-73.7 18.0,-64.7 0.0,-55.7 -18.0,-64.7" fill="rgb(16,165,60)"/>
 </g>
+<ellipse cx="939.0" cy="730.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(939.0,727.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.72s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-44.0 -18.0,-53.0" fill="rgb(6,62,22)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-53.0 0.0,-44.0" fill="rgb(9,102,37)"/>
+<polygon points="0.0,-62.0 18.0,-53.0 0.0,-44.0 -18.0,-53.0" fill="rgb(16,165,60)"/>
 </g>
+<ellipse cx="903.0" cy="730.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(903.0,727.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.24s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-72.9 -18.0,-81.9" fill="rgb(9,78,27)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-81.9 0.0,-72.9" fill="rgb(16,128,44)"/>
+<polygon points="0.0,-90.9 18.0,-81.9 0.0,-72.9 -18.0,-81.9" fill="rgb(26,207,72)"/>
 </g>
+<ellipse cx="1065.0" cy="739.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(1065.0,736.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.24s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-72.9 -18.0,-81.9" fill="rgb(9,78,27)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-81.9 0.0,-72.9" fill="rgb(16,128,44)"/>
+<polygon points="0.0,-90.9 18.0,-81.9 0.0,-72.9 -18.0,-81.9" fill="rgb(26,207,72)"/>
 </g>
+<ellipse cx="1029.0" cy="739.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(1029.0,736.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.52s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-52.6 -18.0,-61.6" fill="rgb(6,62,22)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-61.6 0.0,-52.6" fill="rgb(9,102,37)"/>
+<polygon points="0.0,-70.6 18.0,-61.6 0.0,-52.6 -18.0,-61.6" fill="rgb(16,165,60)"/>
 </g>
+<ellipse cx="993.0" cy="739.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(993.0,736.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.04s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-41.7 -18.0,-50.7" fill="rgb(6,62,22)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-50.7 0.0,-41.7" fill="rgb(9,102,37)"/>
+<polygon points="0.0,-59.7 18.0,-50.7 0.0,-41.7 -18.0,-50.7" fill="rgb(16,165,60)"/>
 </g>
+<ellipse cx="957.0" cy="739.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(957.0,736.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.56s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-52.5 -18.0,-61.5" fill="rgb(6,62,22)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-61.5 0.0,-52.5" fill="rgb(9,102,37)"/>
+<polygon points="0.0,-70.5 18.0,-61.5 0.0,-52.5 -18.0,-61.5" fill="rgb(16,165,60)"/>
 </g>
+<ellipse cx="921.0" cy="739.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(921.0,736.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.08s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-65.1 -18.0,-74.1" fill="rgb(6,62,22)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-74.1 0.0,-65.1" fill="rgb(9,102,37)"/>
+<polygon points="0.0,-83.1 18.0,-74.1 0.0,-65.1 -18.0,-74.1" fill="rgb(16,165,60)"/>
 </g>
+<ellipse cx="1047.0" cy="748.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(1047.0,745.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.60s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-72.9 -18.0,-81.9" fill="rgb(9,78,27)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-81.9 0.0,-72.9" fill="rgb(16,128,44)"/>
+<polygon points="0.0,-90.9 18.0,-81.9 0.0,-72.9 -18.0,-81.9" fill="rgb(26,207,72)"/>
 </g>
+<ellipse cx="1011.0" cy="748.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(1011.0,745.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.12s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-39.3 -18.0,-48.3" fill="rgb(6,62,22)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-48.3 0.0,-39.3" fill="rgb(9,102,37)"/>
+<polygon points="0.0,-57.3 18.0,-48.3 0.0,-39.3 -18.0,-48.3" fill="rgb(16,165,60)"/>
 </g>
+<ellipse cx="975.0" cy="748.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(975.0,745.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="2.40s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-55.7 -18.0,-64.7" fill="rgb(6,62,22)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-64.7 0.0,-55.7" fill="rgb(9,102,37)"/>
+<polygon points="0.0,-73.7 18.0,-64.7 0.0,-55.7 -18.0,-64.7" fill="rgb(16,165,60)"/>
 </g>
+<ellipse cx="939.0" cy="748.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(939.0,745.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.92s" repeatCount="indefinite"/>
+<g filter="url(#cubeGlow)">
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-105.6 -18.0,-114.6" fill="rgb(9,78,27)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-114.6 0.0,-105.6" fill="rgb(16,128,44)"/>
+<polygon points="0.0,-123.6 18.0,-114.6 0.0,-105.6 -18.0,-114.6" fill="rgb(26,207,72)"/>
 </g>
+</g>
+<ellipse cx="1029.0" cy="757.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(1029.0,754.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.96s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-94.5 -18.0,-103.5" fill="rgb(9,78,27)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-103.5 0.0,-94.5" fill="rgb(16,128,44)"/>
+<polygon points="0.0,-112.5 18.0,-103.5 0.0,-94.5 -18.0,-103.5" fill="rgb(26,207,72)"/>
 </g>
+<ellipse cx="993.0" cy="757.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(993.0,754.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.48s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-42.2 -18.0,-51.2" fill="rgb(6,62,22)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-51.2 0.0,-42.2" fill="rgb(9,102,37)"/>
+<polygon points="0.0,-60.2 18.0,-51.2 0.0,-42.2 -18.0,-51.2" fill="rgb(16,165,60)"/>
 </g>
+<ellipse cx="957.0" cy="757.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(957.0,754.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.00s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-91.5 -18.0,-100.5" fill="rgb(9,78,27)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-100.5 0.0,-91.5" fill="rgb(16,128,44)"/>
+<polygon points="0.0,-109.5 18.0,-100.5 0.0,-91.5 -18.0,-100.5" fill="rgb(26,207,72)"/>
 </g>
+<ellipse cx="1011.0" cy="766.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(1011.0,763.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.32s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-93.6 -18.0,-102.6" fill="rgb(9,78,27)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-102.6 0.0,-93.6" fill="rgb(16,128,44)"/>
+<polygon points="0.0,-111.6 18.0,-102.6 0.0,-93.6 -18.0,-102.6" fill="rgb(26,207,72)"/>
 </g>
+<ellipse cx="975.0" cy="766.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(975.0,763.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="0.84s" repeatCount="indefinite"/>
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-94.5 -18.0,-103.5" fill="rgb(9,78,27)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-103.5 0.0,-94.5" fill="rgb(16,128,44)"/>
+<polygon points="0.0,-112.5 18.0,-103.5 0.0,-94.5 -18.0,-103.5" fill="rgb(26,207,72)"/>
 </g>
+<ellipse cx="993.0" cy="775.0" rx="15" ry="6" fill="#020806" opacity="0.38"/>
 <g transform="translate(993.0,772.0)">
-<polygon points="-18.0,0.0 0.0,9.0 0.0,3.0 -18.0,-6.0" fill="rgb(3,28,14)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-6.0 0.0,3.0" fill="rgb(4,47,24)"/>
-<polygon points="0.0,-15.0 18.0,-6.0 0.0,3.0 -18.0,-6.0" fill="rgb(8,76,39)"/>
-<animateTransform attributeName="transform" type="scale" values="1 0.88;1 1;1 0.88" keyTimes="0;0.5;1" dur="5.2s" begin="1.68s" repeatCount="indefinite"/>
+<g filter="url(#cubeGlow)">
+<polygon points="-18.0,0.0 0.0,9.0 0.0,-182.0 -18.0,-191.0" fill="rgb(39,96,42)"/>
+<polygon points="0.0,9.0 18.0,0.0 18.0,-191.0 0.0,-182.0" fill="rgb(63,158,69)"/>
+<polygon points="0.0,-200.0 18.0,-191.0 0.0,-182.0 -18.0,-191.0" fill="rgb(103,255,112)"/>
+</g>
 </g>
 </g>
 <line x1="0" y1="865" x2="1400" y2="865" stroke="#26313d"/>
 <line x1="466" y1="865" x2="466" y2="1040" stroke="#26313d"/>
 <line x1="932" y1="865" x2="932" y2="1040" stroke="#26313d"/>
 <text x="233" y="914" text-anchor="middle" font-size="20" font-weight="600" fill="#9aa8b8">Contributions in the last year</text>
-<text x="233" y="969" text-anchor="middle" font-size="44" font-weight="800" fill="#39e75f">0<tspan dx="18" dy="0" font-size="24" font-weight="700" fill="#f0f6fc">total</tspan></text>
+<text x="233" y="969" text-anchor="middle" font-size="44" font-weight="800" fill="#39e75f">306<tspan dx="18" dy="0" font-size="24" font-weight="700" fill="#f0f6fc">total</tspan></text>
 <text x="233" y="1005" text-anchor="middle" font-size="17" fill="#9aa8b8">September 7 — September 12</text>
 <text x="699" y="914" text-anchor="middle" font-size="20" font-weight="600" fill="#9aa8b8">Longest streak</text>
-<text x="699" y="969" text-anchor="middle" font-size="44" font-weight="800" fill="#39e75f">0<tspan dx="18" dy="0" font-size="24" font-weight="700" fill="#f0f6fc">days</tspan></text>
+<text x="699" y="969" text-anchor="middle" font-size="44" font-weight="800" fill="#39e75f">52<tspan dx="18" dy="0" font-size="24" font-weight="700" fill="#f0f6fc">days</tspan></text>
 <text x="699" y="1005" text-anchor="middle" font-size="17" fill="#9aa8b8">Consecutive contribution days</text>
 <text x="1166" y="914" text-anchor="middle" font-size="20" font-weight="600" fill="#9aa8b8">Current streak</text>
-<text x="1166" y="969" text-anchor="middle" font-size="44" font-weight="800" fill="#39e75f">0<tspan dx="18" dy="0" font-size="24" font-weight="700" fill="#f0f6fc">days</tspan></text>
+<text x="1166" y="969" text-anchor="middle" font-size="44" font-weight="800" fill="#39e75f">52<tspan dx="18" dy="0" font-size="24" font-weight="700" fill="#f0f6fc">days</tspan></text>
 <text x="1166" y="1005" text-anchor="middle" font-size="17" fill="#9aa8b8">Ending today</text>
 </svg>
