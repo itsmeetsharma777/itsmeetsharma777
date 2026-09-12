@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: "20 3 * * *"
   workflow_dispatch:
+  push:
+    paths:
+      - "scripts/generate_3d_contributions.py"
+      - ".github/workflows/contribution-3d.yml"
 
 permissions:
   contents: write
@@ -28,9 +32,7 @@ jobs:
           GITHUB_USERNAME: itsmeetsharma777
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OUTPUT: assets/contribution-3d.svg
-        run: |
-          python scripts/generate_3d_contributions.py
-          python scripts/add_contribution_stats.py
+        run: python scripts/generate_3d_contributions.py
 
       - name: Commit dashboard when changed
         run: |
