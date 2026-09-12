@@ -64,11 +64,7 @@ I'm **Meet Sharma**, a Computer Science engineering student who enjoys turning i
 </tr>
 </table>
 
-<div align="center">
-
-<a href="https://github.com/itsmeetsharma777?tab=repositories">View all repositories →</a>
-
-</div>
+<div align="center"><a href="https://github.com/itsmeetsharma777?tab=repositories">View all repositories →</a></div>
 
 <img src="./assets/neon-divider.svg?v=3" width="100%" alt="Neon divider"/>
 
@@ -85,27 +81,13 @@ I'm **Meet Sharma**, a Computer Science engineering student who enjoys turning i
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=itsmeetsharma777&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&bg_color=050816&title_color=A855F7&text_color=E2E8F0&icon_color=22D3EE" width="49%" alt="GitHub statistics"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itsmeetsharma777&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&bg_color=050816&title_color=A855F7&text_color=E2E8F0" width="49%" alt="Most used programming languages"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=itsmeetsharma777&theme=github_dark" width="49%" alt="GitHub statistics"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=itsmeetsharma777&theme=github_dark" width="49%" alt="Most used programming languages"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=itsmeetsharma777&theme=tokyonight&hide_border=true&background=050816&ring=A855F7&fire=F472B6&currStreakLabel=22D3EE" width="78%" alt="GitHub contribution streak"/>
+  <img src="https://streak-stats.demolab.com/?user=itsmeetsharma777&theme=tokyonight&hide_border=true&background=0D1117&ring=A855F7&fire=F472B6&currStreakLabel=22D3EE" width="78%" alt="GitHub contribution streak"/>
 </p>
-
-<img src="./assets/neon-divider.svg?v=3" width="100%" alt="Neon divider"/>
-
-## 📈 Contribution Activity
-
-<p align="center">
-  <img src="./assets/contribution-3d.svg?v=9" width="100%" alt="Dark green 3D GitHub contribution dashboard with visible isometric blocks"/>
-</p>
-
-<div align="center">
-
-<sub>REAL GITHUB DATA · ISOMETRIC CONTRIBUTION CITY · STAGGERED BLOCK RISE ANIMATION</sub>
-
-</div>
 
 <img src="./assets/neon-divider.svg?v=3" width="100%" alt="Neon divider"/>
 
@@ -113,36 +95,35 @@ I'm **Meet Sharma**, a Computer Science engineering student who enjoys turning i
 
 <p align="center">
   <a href="https://leetcode.com/u/itsmeetsharma/">
-    <img src="./assets/leetcode-card.svg?v=3" width="100%" alt="Meet Sharma LeetCode statistics"/>
+    <img src="./assets/leetcode-card.svg?v=4" width="100%" alt="Meet Sharma LeetCode statistics"/>
   </a>
 </p>
 
-<div align="center">
+<div align="center"><a href="https://leetcode.com/u/itsmeetsharma/">View LeetCode profile →</a></div>
 
-<a href="https://leetcode.com/u/itsmeetsharma/">View LeetCode profile →</a>
+<img src="./assets/neon-divider.svg?v=3" width="100%" alt="Neon divider"/>
 
-</div>
+## 📈 Contribution Activity
+
+<p align="center">
+  <img src="./assets/contribution-3d.svg?v=10" width="100%" alt="Dark green 3D GitHub contribution dashboard with animated isometric blocks"/>
+</p>
+
+<div align="center"><sub>REAL GITHUB DATA · ISOMETRIC CONTRIBUTION CITY · SMOOTH RISING BLOCK ANIMATION</sub></div>
 
 <img src="./assets/neon-divider.svg?v=3" width="100%" alt="Neon divider"/>
 
 ## 🌐 Connect
 
 <div align="center">
-
 <a href="https://www.linkedin.com/in/meetsharma777/"><img src="https://img.shields.io/badge/LinkedIn-Meet%20Sharma-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="mailto:itsmeetsharma@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-22D3EE?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 <a href="https://leetcode.com/u/itsmeetsharma/"><img src="https://img.shields.io/badge/LeetCode-Profile-A855F7?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/></a>
-
 <br/><br/>
-
 <img src="https://komarev.com/ghpvc/?username=itsmeetsharma777&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS" alt="Profile views"/>
-
 <br/><br/>
-
 <sub>✦ BUILD · LEARN · SOLVE · SHIP ✦</sub>
-
 </div>
 
 <br/>
-
 <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:22D3EE,50:A855F7,100:F472B6&section=footer" width="100%" alt="Neon footer"/>
