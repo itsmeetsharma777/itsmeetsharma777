@@ -77,11 +77,14 @@ for _,r,c,x,y in sorted(cells):
     field=ws/wt if wt else 0; vt=max(t,field*.78)
     if vt<.105: continue
     h=8+vt*MAXH; base=PALETTE[min(len(PALETTE)-1,int(vt*(len(PALETTE)-1)))]
-    # Smaller footprint than the base tile creates a deliberate grey breathing gap around every building.
     ch,cv=CUBE_HW,CUBE_HH
     top=[(0,-cv-h),(ch,-h),(0,cv-h),(-ch,-h)]; left=[(-ch,0),(0,cv),(0,cv-h),(-ch,-h)]; right=[(0,cv),(ch,0),(ch,-h),(0,cv-h)]
     if vt>.14: svg.append(f'<ellipse cx="{x:.1f}" cy="{y+3:.1f}" rx="10" ry="4" fill="#020806" opacity=".38" filter="url(#shadow)"/>')
-    svg.append(f'<g transform="translate({x:.1f},{y:.1f})">'+('<g filter="url(#glow)">' if vt>.52 else '')+f'<polygon points="{poly(left)}" fill="{rgb(shade(base,.36))}"/><polygon points="{poly(right)}" fill="{rgb(shade(base,.61))}"/><polygon points="{poly(top)}" fill="{rgb(base)}" stroke="{rgb(shade(base,1.12))}" stroke-width=".45"/>'+('</g>' if vt>.52 else '')+'</g>')
+    svg.append(f'<g transform="translate({x:.1f},{y:.1f})">'+('<g filter="url(#glow)">' if vt>.52 else '')+
+               f'<polygon points="{poly(left)}" fill="{rgb(shade(base,.36))}" stroke="#020504" stroke-width="1.7" stroke-linejoin="round"/>'+ 
+               f'<polygon points="{poly(right)}" fill="{rgb(shade(base,.61))}" stroke="#020504" stroke-width="1.7" stroke-linejoin="round"/>'+ 
+               f'<polygon points="{poly(top)}" fill="{rgb(base)}" stroke="#020504" stroke-width="1.25" stroke-linejoin="round"/>'+ 
+               ('</g>' if vt>.52 else '')+'</g>')
 svg.append('</g>'); svg.append(f'<line x1="0" y1="865" x2="{W}" y2="865" stroke="{BORDER}"/>')
 for x in (466,932): svg.append(f'<line x1="{x}" y1="865" x2="{x}" y2="{H}" stroke="{BORDER}"/>')
 for cx,title,v,u,sub in [(233,"Contributions in the last year",f"{total:,}","total",f"{fmt(ds[0]['date'])} — {fmt(ds[-1]['date'])}"),(699,"Longest streak",str(longest),"days","Consecutive contribution days"),(1166,"Current streak",str(current),"days","Ending today")]:
