@@ -24,6 +24,7 @@ query($login: String!) {
 }
 """
 
+
 def fetch_days():
     if not TOKEN:
         raise RuntimeError("GITHUB_TOKEN is required")
@@ -43,9 +44,11 @@ def fetch_days():
         for d in w["contributionDays"]
     ]
 
+
 def fallback_days():
     today = date.today()
     return [{"date": (today - timedelta(days=370 - i)).isoformat(), "contributionCount": 0} for i in range(371)]
+
 
 def streaks(days):
     counts = [int(d["contributionCount"]) for d in days]
@@ -64,8 +67,10 @@ def streaks(days):
             break
     return longest, current, max(counts, default=0)
 
+
 def fmt_date(iso):
     return date.fromisoformat(iso).strftime("%B %-d") if iso else ""
+
 
 try:
     days = fetch_days()
@@ -97,24 +102,46 @@ MAX_H = 160.0
 def rgb(v):
     return f"rgb({int(v[0])},{int(v[1])},{int(v[2])})"
 
+
 def mix(a, b, t):
     return tuple(a[i] + (b[i] - a[i]) * t for i in range(3))
+
 
 def color_for(t):
     return mix(LOW_GREEN, HIGH_GREEN, t)
 
+
 def shade(c, factor):
     return tuple(max(0, min(255, x * factor)) for x in c)
+
 
 def project(c, r):
     return ORIGIN_X + (c - r) * HW, ORIGIN_Y + (c + r) * HH
 
+
 def poly(points):
     return " ".join(f"{x:.1f},{y:.1f}" for x, y in points)
 
-def unit_x(x, value, digit_width=40, gap=18):
-    """Place a unit immediately beside a large numeric value."""
-    return x + max(2, len(str(value))) * digit_width + gap
+
+def metric_block(x, heading_y, value, unit, subtext, value_size=72):
+    """Render every metric as the same three-row layout: heading, value+unit, subtext."""
+    value_row_y = heading_y + 67
+    subtext_y = value_row_y + 33
+    return [
+        f'<text x="{x}" y="{heading_y}" font-size="25" font-weight="600" fill="{MUTED}">{unit if False else ""}</text>'
+    ]
+
+
+def metric_markup(x, heading_y, heading, value, unit, subtext, value_size=72):
+    """One consistent metric component: heading -> value/unit row -> supporting text."""
+    value_y = heading_y + 67
+    subtext_y = value_y + 34
+    return [
+        f'<text x="{x}" y="{heading_y}" font-size="25" font-weight="600" fill="{MUTED}">{heading}</text>',
+        f'<text x="{x}" y="{value_y}" font-size="{value_size}" font-weight="800" fill="{GREEN}">{value}<tspan dx="18" dy="0" font-size="25" font-weight="700" fill="{TEXT}">{unit}</tspan></text>',
+        f'<text x="{x}" y="{subtext_y}" font-size="18" fill="{MUTED}">{subtext}</text>',
+    ]
+
 
 svg = [
     f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif">',
@@ -125,32 +152,25 @@ svg = [
     f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="8" fill="none" stroke="{BORDER}"/>',
 ]
 
-total_x = 835
-busy_x = 835
-total_unit_x = unit_x(total_x, total)
-busy_unit_x = unit_x(busy_x, busiest)
+# Treat the four metric areas as identical UI components. Every component
+# uses the same x alignment and the same vertical rhythm. The value and unit
+# live in one SVG <text> row, so the unit can never collide with the number;
+# the supporting line gets its own row below the entire value row.
+right_x = 835
 left_x = 60
-left_unit_x = unit_x(left_x, longest, digit_width=32, gap=18)
-current_unit_x = unit_x(left_x, current, digit_width=32, gap=18)
-
-svg += [
-    f'<text x="{total_x}" y="65" font-size="25" font-weight="600" fill="{MUTED}">1 year total</text>',
-    f'<text x="{total_x}" y="132" font-size="72" font-weight="800" fill="{GREEN}">{total:,}</text>',
-    f'<text x="{total_unit_x}" y="118" font-size="25" font-weight="700" fill="{TEXT}">contributions</text>',
-    f'<text x="{total_x}" y="149" font-size="18" fill="{MUTED}">{fmt_date(days[0]["date"])} — {fmt_date(days[-1]["date"])}</text>',
-    f'<text x="{busy_x}" y="218" font-size="25" font-weight="600" fill="{MUTED}">Busiest day</text>',
-    f'<text x="{busy_x}" y="285" font-size="72" font-weight="800" fill="{GREEN}">{busiest}</text>',
-    f'<text x="{busy_unit_x}" y="278" font-size="25" font-weight="700" fill="{TEXT}">contributions</text>',
-    f'<text x="{busy_x}" y="311" font-size="18" fill="{MUTED}">Peak activity</text>',
-    f'<text x="{left_x}" y="520" font-size="25" font-weight="600" fill="{MUTED}">Longest streak</text>',
-    f'<text x="{left_x}" y="585" font-size="64" font-weight="800" fill="{GREEN}">{longest}</text>',
-    f'<text x="{left_unit_x}" y="584" font-size="25" font-weight="700" fill="{TEXT}">days</text>',
-    f'<text x="{left_x}" y="616" font-size="18" fill="{MUTED}">Consecutive contribution days</text>',
-    f'<text x="{left_x}" y="684" font-size="25" font-weight="600" fill="{MUTED}">Current streak</text>',
-    f'<text x="{left_x}" y="749" font-size="64" font-weight="800" fill="{GREEN}">{current}</text>',
-    f'<text x="{current_unit_x}" y="748" font-size="25" font-weight="700" fill="{TEXT}">days</text>',
-    f'<text x="{left_x}" y="780" font-size="18" fill="{MUTED}">Ending today</text>',
-]
+svg += metric_markup(
+    right_x, 65, "1 year total", f"{total:,}", "contributions",
+    f"{fmt_date(days[0]['date'])} — {fmt_date(days[-1]['date'])}", 72
+)
+svg += metric_markup(
+    right_x, 230, "Busiest day", busiest, "contributions", "Peak activity", 72
+)
+svg += metric_markup(
+    left_x, 520, "Longest streak", longest, "days", "Consecutive contribution days", 64
+)
+svg += metric_markup(
+    left_x, 684, "Current streak", current, "days", "Ending today", 64
+)
 
 svg.append('<g clip-path="url(#cardClip)">')
 ground = []
@@ -166,8 +186,8 @@ for _, r, c, x, y in sorted(ground):
     )
 
 # Every non-zero contribution becomes its own animated isometric cube.
-# Height is derived from the live contribution count; animation only changes
-# the cube height, while the ground plane and dashboard remain fixed.
+# Height is derived from the live contribution count; animation changes only
+# the cube's vertical scale while the dashboard and ground plane stay fixed.
 for _, r, c, x, y in sorted(ground):
     n = int(weeks[c][r]["contributionCount"])
     if n <= 0:
@@ -201,7 +221,7 @@ for x in (466, 932):
     svg.append(f'<line x1="{x}" y1="{line_y}" x2="{x}" y2="{H}" stroke="{BORDER}"/>')
 
 cards = [
-    (233, "Contributions in the last year", f"{total:,} total", f"{fmt_date(days[0]["date"])} — {fmt_date(days[-1]["date"])}"),
+    (233, "Contributions in the last year", f"{total:,} total", f"{fmt_date(days[0]['date'])} — {fmt_date(days[-1]['date'])}"),
     (699, "Longest streak", f"{longest} days", "Consecutive contribution days"),
     (1166, "Current streak", f"{current} days", "Ending today"),
 ]
