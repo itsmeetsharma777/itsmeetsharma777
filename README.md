@@ -85,12 +85,12 @@ I'm **Meet Sharma**, a Computer Science engineering student who enjoys turning i
 ## GitHub Analytics
 
 <p align="center">
-  <img src="./assets/github-stats-card.svg?v=2" width="49%" alt="GitHub statistics"/>
-  <img src="./assets/github-languages-card.svg?v=1" width="49%" alt="Most used programming languages"/>
+  <img src="./assets/github-stats-card.svg?v=3" width="49%" alt="GitHub statistics"/>
+  <img src="./assets/github-languages-card.svg?v=2" width="49%" alt="Most used programming languages"/>
 </p>
 
 <p align="center">
-  <img src="./assets/github-streak-card.svg?v=2" width="100%" alt="GitHub contribution streak and consistency"/>
+  <img src="./assets/github-streak-card.svg?v=3" width="100%" alt="GitHub contribution streak and consistency"/>
 </p>
 
 <img src="./assets/neon-divider.svg?v=3" width="100%" alt="Neon divider"/>
