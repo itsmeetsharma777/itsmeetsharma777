@@ -5,20 +5,20 @@
 <rect width="1400" height="1040" rx="8" fill="#0d1117"/>
 <rect x="1" y="1" width="1398" height="1038" rx="8" fill="none" stroke="#30363d"/>
 <text x="835" y="65" font-size="25" font-weight="600" fill="#8b949e">1 year total</text>
-<text x="835" y="132" font-size="72" font-weight="800" fill="#2ea043">282</text>
-<text x="1050" y="125" font-size="25" font-weight="600" fill="#f0f6fc">contributions</text>
-<text x="1050" y="157" font-size="18" fill="#8b949e">September 7 — September 12</text>
+<text x="835" y="132" font-size="72" font-weight="800" fill="#2ea043">283</text>
+<text x="1000" y="118" font-size="25" font-weight="600" fill="#f0f6fc">contributions</text>
+<text x="1000" y="149" font-size="18" fill="#8b949e">September 7 — September 12</text>
 <text x="835" y="218" font-size="25" font-weight="600" fill="#8b949e">Busiest day</text>
-<text x="835" y="285" font-size="72" font-weight="800" fill="#2ea043">54</text>
-<text x="1050" y="278" font-size="25" font-weight="600" fill="#f0f6fc">contributions</text>
-<text x="1050" y="311" font-size="18" fill="#8b949e">Peak activity</text>
+<text x="835" y="285" font-size="72" font-weight="800" fill="#2ea043">55</text>
+<text x="1000" y="278" font-size="25" font-weight="600" fill="#f0f6fc">contributions</text>
+<text x="1000" y="311" font-size="18" fill="#8b949e">Peak activity</text>
 <text x="60" y="520" font-size="25" font-weight="600" fill="#8b949e">Longest streak</text>
 <text x="60" y="585" font-size="64" font-weight="800" fill="#2ea043">52</text>
-<text x="198" y="584" font-size="25" font-weight="600" fill="#f0f6fc">days</text>
+<text x="175" y="584" font-size="25" font-weight="600" fill="#f0f6fc">days</text>
 <text x="60" y="616" font-size="18" fill="#8b949e">Consecutive contribution days</text>
 <text x="60" y="684" font-size="25" font-weight="600" fill="#8b949e">Current streak</text>
 <text x="60" y="749" font-size="64" font-weight="800" fill="#2ea043">52</text>
-<text x="198" y="748" font-size="25" font-weight="600" fill="#f0f6fc">days</text>
+<text x="175" y="748" font-size="25" font-weight="600" fill="#f0f6fc">days</text>
 <text x="60" y="780" font-size="18" fill="#8b949e">Ending today</text>
 <g clip-path="url(#cardClip)">
 <polygon points="190.0,241.0 208.0,250.0 190.0,259.0 172.0,250.0" fill="#18232d" stroke="#101820" stroke-width="0.65"/>
@@ -393,323 +393,219 @@
 <polygon points="1000.0,754.0 1018.0,763.0 1000.0,772.0 982.0,763.0" fill="#18232d" stroke="#101820" stroke-width="0.65"/>
 <polygon points="1018.0,763.0 1036.0,772.0 1018.0,781.0 1000.0,772.0" fill="#18232d" stroke="#101820" stroke-width="0.65"/>
 <g transform="translate(1018.0,664.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.25s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-85.2 -18.0,-94.2" fill="rgb(22,83,37)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-94.2 0.0,-85.2" fill="rgb(30,112,50)"/>
-<polygon points="0.0,-103.2 18.0,-94.2 0.0,-85.2 -18.0,-94.2" fill="rgb(43,160,72)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.25s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-84.9 -18.0,-93.9" fill="rgb(22,83,37)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-93.9 0.0,-84.9" fill="rgb(30,112,50)"/><polygon points="0.0,-102.9 18.0,-93.9 0.0,-84.9 -18.0,-93.9" fill="rgb(42,160,71)"/></g>
+</g>
 <g transform="translate(1036.0,673.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.27s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-44.1 -18.0,-53.1" fill="rgb(13,64,29)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-53.1 0.0,-44.1" fill="rgb(17,86,40)"/>
-<polygon points="0.0,-62.1 18.0,-53.1 0.0,-44.1 -18.0,-53.1" fill="rgb(25,124,57)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.27s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-43.9 -18.0,-52.9" fill="rgb(13,64,29)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-52.9 0.0,-43.9" fill="rgb(17,86,40)"/><polygon points="0.0,-61.9 18.0,-52.9 0.0,-43.9 -18.0,-52.9" fill="rgb(25,124,57)"/></g>
+</g>
 <g transform="translate(1000.0,673.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.27s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-63.2 -18.0,-72.2" fill="rgb(17,73,33)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-72.2 0.0,-63.2" fill="rgb(23,98,45)"/>
-<polygon points="0.0,-81.2 18.0,-72.2 0.0,-63.2 -18.0,-72.2" fill="rgb(33,141,64)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.27s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-63.0 -18.0,-72.0" fill="rgb(17,73,33)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-72.0 0.0,-63.0" fill="rgb(23,98,44)"/><polygon points="0.0,-81.0 18.0,-72.0 0.0,-63.0 -18.0,-72.0" fill="rgb(33,140,64)"/></g>
+</g>
 <g transform="translate(1054.0,682.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.30s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-44.1 -18.0,-53.1" fill="rgb(13,64,29)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-53.1 0.0,-44.1" fill="rgb(17,86,40)"/>
-<polygon points="0.0,-62.1 18.0,-53.1 0.0,-44.1 -18.0,-53.1" fill="rgb(25,124,57)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.30s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-43.9 -18.0,-52.9" fill="rgb(13,64,29)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-52.9 0.0,-43.9" fill="rgb(17,86,40)"/><polygon points="0.0,-61.9 18.0,-52.9 0.0,-43.9 -18.0,-52.9" fill="rgb(25,124,57)"/></g>
+</g>
 <g transform="translate(1018.0,682.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.30s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-44.1 -18.0,-53.1" fill="rgb(13,64,29)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-53.1 0.0,-44.1" fill="rgb(17,86,40)"/>
-<polygon points="0.0,-62.1 18.0,-53.1 0.0,-44.1 -18.0,-53.1" fill="rgb(25,124,57)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.30s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-43.9 -18.0,-52.9" fill="rgb(13,64,29)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-52.9 0.0,-43.9" fill="rgb(17,86,40)"/><polygon points="0.0,-61.9 18.0,-52.9 0.0,-43.9 -18.0,-52.9" fill="rgb(25,124,57)"/></g>
+</g>
 <g transform="translate(982.0,682.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.30s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-63.2 -18.0,-72.2" fill="rgb(17,73,33)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-72.2 0.0,-63.2" fill="rgb(23,98,45)"/>
-<polygon points="0.0,-81.2 18.0,-72.2 0.0,-63.2 -18.0,-72.2" fill="rgb(33,141,64)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.30s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-63.0 -18.0,-72.0" fill="rgb(17,73,33)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-72.0 0.0,-63.0" fill="rgb(23,98,44)"/><polygon points="0.0,-81.0 18.0,-72.0 0.0,-63.0 -18.0,-72.0" fill="rgb(33,140,64)"/></g>
+</g>
 <g transform="translate(1072.0,691.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.33s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-63.2 -18.0,-72.2" fill="rgb(17,73,33)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-72.2 0.0,-63.2" fill="rgb(23,98,45)"/>
-<polygon points="0.0,-81.2 18.0,-72.2 0.0,-63.2 -18.0,-72.2" fill="rgb(33,141,64)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.33s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-63.0 -18.0,-72.0" fill="rgb(17,73,33)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-72.0 0.0,-63.0" fill="rgb(23,98,44)"/><polygon points="0.0,-81.0 18.0,-72.0 0.0,-63.0 -18.0,-72.0" fill="rgb(33,140,64)"/></g>
+</g>
 <g transform="translate(1036.0,691.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.33s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-109.1 -18.0,-118.1" fill="rgb(27,94,41)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-118.1 0.0,-109.1" fill="rgb(37,126,56)"/>
-<polygon points="0.0,-127.1 18.0,-118.1 0.0,-109.1 -18.0,-118.1" fill="rgb(53,181,80)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.33s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-108.6 -18.0,-117.6" fill="rgb(27,94,41)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-117.6 0.0,-108.6" fill="rgb(37,126,56)"/><polygon points="0.0,-126.6 18.0,-117.6 0.0,-108.6 -18.0,-117.6" fill="rgb(53,180,80)"/></g>
+</g>
 <g transform="translate(1000.0,691.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.33s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-44.1 -18.0,-53.1" fill="rgb(13,64,29)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-53.1 0.0,-44.1" fill="rgb(17,86,40)"/>
-<polygon points="0.0,-62.1 18.0,-53.1 0.0,-44.1 -18.0,-53.1" fill="rgb(25,124,57)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.33s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-43.9 -18.0,-52.9" fill="rgb(13,64,29)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-52.9 0.0,-43.9" fill="rgb(17,86,40)"/><polygon points="0.0,-61.9 18.0,-52.9 0.0,-43.9 -18.0,-52.9" fill="rgb(25,124,57)"/></g>
+</g>
 <g transform="translate(964.0,691.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.33s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-70.1 -18.0,-79.1" fill="rgb(19,76,34)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-79.1 0.0,-70.1" fill="rgb(25,102,46)"/>
-<polygon points="0.0,-88.1 18.0,-79.1 0.0,-70.1 -18.0,-79.1" fill="rgb(36,147,66)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.33s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-69.8 -18.0,-78.8" fill="rgb(18,76,34)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-78.8 0.0,-69.8" fill="rgb(25,102,46)"/><polygon points="0.0,-87.8 18.0,-78.8 0.0,-69.8 -18.0,-78.8" fill="rgb(36,146,66)"/></g>
+</g>
 <g transform="translate(928.0,691.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.33s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-28.9 -18.0,-37.9" fill="rgb(9,57,27)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-37.9 0.0,-28.9" fill="rgb(13,77,36)"/>
-<polygon points="0.0,-46.9 18.0,-37.9 0.0,-28.9 -18.0,-37.9" fill="rgb(19,110,52)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.33s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-28.8 -18.0,-37.8" fill="rgb(9,57,27)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-37.8 0.0,-28.8" fill="rgb(13,77,36)"/><polygon points="0.0,-46.8 18.0,-37.8 0.0,-28.8 -18.0,-37.8" fill="rgb(19,110,52)"/></g>
+</g>
 <g transform="translate(1090.0,700.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.36s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-54.9 -18.0,-63.9" fill="rgb(15,69,31)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-63.9 0.0,-54.9" fill="rgb(21,93,42)"/>
-<polygon points="0.0,-72.9 18.0,-63.9 0.0,-54.9 -18.0,-63.9" fill="rgb(30,133,61)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.36s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-54.7 -18.0,-63.7" fill="rgb(15,69,31)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-63.7 0.0,-54.7" fill="rgb(21,93,42)"/><polygon points="0.0,-72.7 18.0,-63.7 0.0,-54.7 -18.0,-63.7" fill="rgb(30,133,61)"/></g>
+</g>
 <g transform="translate(1054.0,700.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.36s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-75.8 -18.0,-84.8" fill="rgb(20,79,35)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-84.8 0.0,-75.8" fill="rgb(27,106,48)"/>
-<polygon points="0.0,-93.8 18.0,-84.8 0.0,-75.8 -18.0,-84.8" fill="rgb(39,152,68)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.36s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-75.5 -18.0,-84.5" fill="rgb(20,78,35)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-84.5 0.0,-75.5" fill="rgb(27,106,48)"/><polygon points="0.0,-93.5 18.0,-84.5 0.0,-75.5 -18.0,-84.5" fill="rgb(38,151,68)"/></g>
+</g>
 <g transform="translate(1018.0,700.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.36s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-85.2 -18.0,-94.2" fill="rgb(22,83,37)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-94.2 0.0,-85.2" fill="rgb(30,112,50)"/>
-<polygon points="0.0,-103.2 18.0,-94.2 0.0,-85.2 -18.0,-94.2" fill="rgb(43,160,72)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.36s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-84.9 -18.0,-93.9" fill="rgb(22,83,37)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-93.9 0.0,-84.9" fill="rgb(30,112,50)"/><polygon points="0.0,-102.9 18.0,-93.9 0.0,-84.9 -18.0,-93.9" fill="rgb(42,160,71)"/></g>
+</g>
 <g transform="translate(982.0,700.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.36s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-63.2 -18.0,-72.2" fill="rgb(17,73,33)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-72.2 0.0,-63.2" fill="rgb(23,98,45)"/>
-<polygon points="0.0,-81.2 18.0,-72.2 0.0,-63.2 -18.0,-72.2" fill="rgb(33,141,64)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.36s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-63.0 -18.0,-72.0" fill="rgb(17,73,33)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-72.0 0.0,-63.0" fill="rgb(23,98,44)"/><polygon points="0.0,-81.0 18.0,-72.0 0.0,-63.0 -18.0,-72.0" fill="rgb(33,140,64)"/></g>
+</g>
 <g transform="translate(946.0,700.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.36s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-75.8 -18.0,-84.8" fill="rgb(20,79,35)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-84.8 0.0,-75.8" fill="rgb(27,106,48)"/>
-<polygon points="0.0,-93.8 18.0,-84.8 0.0,-75.8 -18.0,-84.8" fill="rgb(39,152,68)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.36s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-75.5 -18.0,-84.5" fill="rgb(20,78,35)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-84.5 0.0,-75.5" fill="rgb(27,106,48)"/><polygon points="0.0,-93.5 18.0,-84.5 0.0,-75.5 -18.0,-84.5" fill="rgb(38,151,68)"/></g>
+</g>
 <g transform="translate(910.0,700.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.36s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-28.9 -18.0,-37.9" fill="rgb(9,57,27)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-37.9 0.0,-28.9" fill="rgb(13,77,36)"/>
-<polygon points="0.0,-46.9 18.0,-37.9 0.0,-28.9 -18.0,-37.9" fill="rgb(19,110,52)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.36s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-28.8 -18.0,-37.8" fill="rgb(9,57,27)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-37.8 0.0,-28.8" fill="rgb(13,77,36)"/><polygon points="0.0,-46.8 18.0,-37.8 0.0,-28.8 -18.0,-37.8" fill="rgb(19,110,52)"/></g>
+</g>
 <g transform="translate(1108.0,709.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.38s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-75.8 -18.0,-84.8" fill="rgb(20,79,35)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-84.8 0.0,-75.8" fill="rgb(27,106,48)"/>
-<polygon points="0.0,-93.8 18.0,-84.8 0.0,-75.8 -18.0,-84.8" fill="rgb(39,152,68)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.38s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-75.5 -18.0,-84.5" fill="rgb(20,78,35)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-84.5 0.0,-75.5" fill="rgb(27,106,48)"/><polygon points="0.0,-93.5 18.0,-84.5 0.0,-75.5 -18.0,-84.5" fill="rgb(38,151,68)"/></g>
+</g>
 <g transform="translate(1072.0,709.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.38s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-44.1 -18.0,-53.1" fill="rgb(13,64,29)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-53.1 0.0,-44.1" fill="rgb(17,86,40)"/>
-<polygon points="0.0,-62.1 18.0,-53.1 0.0,-44.1 -18.0,-53.1" fill="rgb(25,124,57)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.38s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-43.9 -18.0,-52.9" fill="rgb(13,64,29)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-52.9 0.0,-43.9" fill="rgb(17,86,40)"/><polygon points="0.0,-61.9 18.0,-52.9 0.0,-43.9 -18.0,-52.9" fill="rgb(25,124,57)"/></g>
+</g>
 <g transform="translate(1036.0,709.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.38s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-44.1 -18.0,-53.1" fill="rgb(13,64,29)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-53.1 0.0,-44.1" fill="rgb(17,86,40)"/>
-<polygon points="0.0,-62.1 18.0,-53.1 0.0,-44.1 -18.0,-53.1" fill="rgb(25,124,57)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.38s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-43.9 -18.0,-52.9" fill="rgb(13,64,29)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-52.9 0.0,-43.9" fill="rgb(17,86,40)"/><polygon points="0.0,-61.9 18.0,-52.9 0.0,-43.9 -18.0,-52.9" fill="rgb(25,124,57)"/></g>
+</g>
 <g transform="translate(1000.0,709.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.38s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-44.1 -18.0,-53.1" fill="rgb(13,64,29)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-53.1 0.0,-44.1" fill="rgb(17,86,40)"/>
-<polygon points="0.0,-62.1 18.0,-53.1 0.0,-44.1 -18.0,-53.1" fill="rgb(25,124,57)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.38s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-43.9 -18.0,-52.9" fill="rgb(13,64,29)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-52.9 0.0,-43.9" fill="rgb(17,86,40)"/><polygon points="0.0,-61.9 18.0,-52.9 0.0,-43.9 -18.0,-52.9" fill="rgb(25,124,57)"/></g>
+</g>
 <g transform="translate(964.0,709.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.38s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-44.1 -18.0,-53.1" fill="rgb(13,64,29)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-53.1 0.0,-44.1" fill="rgb(17,86,40)"/>
-<polygon points="0.0,-62.1 18.0,-53.1 0.0,-44.1 -18.0,-53.1" fill="rgb(25,124,57)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.38s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-43.9 -18.0,-52.9" fill="rgb(13,64,29)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-52.9 0.0,-43.9" fill="rgb(17,86,40)"/><polygon points="0.0,-61.9 18.0,-52.9 0.0,-43.9 -18.0,-52.9" fill="rgb(25,124,57)"/></g>
+</g>
 <g transform="translate(928.0,709.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.38s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-44.1 -18.0,-53.1" fill="rgb(13,64,29)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-53.1 0.0,-44.1" fill="rgb(17,86,40)"/>
-<polygon points="0.0,-62.1 18.0,-53.1 0.0,-44.1 -18.0,-53.1" fill="rgb(25,124,57)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.38s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-43.9 -18.0,-52.9" fill="rgb(13,64,29)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-52.9 0.0,-43.9" fill="rgb(17,86,40)"/><polygon points="0.0,-61.9 18.0,-52.9 0.0,-43.9 -18.0,-52.9" fill="rgb(25,124,57)"/></g>
+</g>
 <g transform="translate(892.0,709.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.38s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-63.2 -18.0,-72.2" fill="rgb(17,73,33)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-72.2 0.0,-63.2" fill="rgb(23,98,45)"/>
-<polygon points="0.0,-81.2 18.0,-72.2 0.0,-63.2 -18.0,-72.2" fill="rgb(33,141,64)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.38s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-63.0 -18.0,-72.0" fill="rgb(17,73,33)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-72.0 0.0,-63.0" fill="rgb(23,98,44)"/><polygon points="0.0,-81.0 18.0,-72.0 0.0,-63.0 -18.0,-72.0" fill="rgb(33,140,64)"/></g>
+</g>
 <g transform="translate(1126.0,718.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.41s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-63.2 -18.0,-72.2" fill="rgb(17,73,33)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-72.2 0.0,-63.2" fill="rgb(23,98,45)"/>
-<polygon points="0.0,-81.2 18.0,-72.2 0.0,-63.2 -18.0,-72.2" fill="rgb(33,141,64)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.41s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-63.0 -18.0,-72.0" fill="rgb(17,73,33)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-72.0 0.0,-63.0" fill="rgb(23,98,44)"/><polygon points="0.0,-81.0 18.0,-72.0 0.0,-63.0 -18.0,-72.0" fill="rgb(33,140,64)"/></g>
+</g>
 <g transform="translate(1090.0,718.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.41s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-101.8 -18.0,-110.8" fill="rgb(26,90,40)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-110.8 0.0,-101.8" fill="rgb(35,122,54)"/>
-<polygon points="0.0,-119.8 18.0,-110.8 0.0,-101.8 -18.0,-110.8" fill="rgb(50,174,77)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.41s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-101.3 -18.0,-110.3" fill="rgb(25,90,40)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-110.3 0.0,-101.3" fill="rgb(34,122,54)"/><polygon points="0.0,-119.3 18.0,-110.3 0.0,-101.3 -18.0,-110.3" fill="rgb(49,174,77)"/></g>
+</g>
 <g transform="translate(1054.0,718.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.41s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-28.9 -18.0,-37.9" fill="rgb(9,57,27)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-37.9 0.0,-28.9" fill="rgb(13,77,36)"/>
-<polygon points="0.0,-46.9 18.0,-37.9 0.0,-28.9 -18.0,-37.9" fill="rgb(19,110,52)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.41s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-28.8 -18.0,-37.8" fill="rgb(9,57,27)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-37.8 0.0,-28.8" fill="rgb(13,77,36)"/><polygon points="0.0,-46.8 18.0,-37.8 0.0,-28.8 -18.0,-37.8" fill="rgb(19,110,52)"/></g>
+</g>
 <g transform="translate(1018.0,718.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.41s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-89.2 -18.0,-98.2" fill="rgb(23,85,38)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-98.2 0.0,-89.2" fill="rgb(31,114,51)"/>
-<polygon points="0.0,-107.2 18.0,-98.2 0.0,-89.2 -18.0,-98.2" fill="rgb(44,163,73)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.41s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-88.8 -18.0,-97.8" fill="rgb(23,85,38)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-97.8 0.0,-88.8" fill="rgb(31,114,51)"/><polygon points="0.0,-106.8 18.0,-97.8 0.0,-88.8 -18.0,-97.8" fill="rgb(44,163,73)"/></g>
+</g>
 <g transform="translate(982.0,718.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.41s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-44.1 -18.0,-53.1" fill="rgb(13,64,29)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-53.1 0.0,-44.1" fill="rgb(17,86,40)"/>
-<polygon points="0.0,-62.1 18.0,-53.1 0.0,-44.1 -18.0,-53.1" fill="rgb(25,124,57)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.41s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-43.9 -18.0,-52.9" fill="rgb(13,64,29)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-52.9 0.0,-43.9" fill="rgb(17,86,40)"/><polygon points="0.0,-61.9 18.0,-52.9 0.0,-43.9 -18.0,-52.9" fill="rgb(25,124,57)"/></g>
+</g>
 <g transform="translate(946.0,718.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.41s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-92.8 -18.0,-101.8" fill="rgb(24,86,38)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-101.8 0.0,-92.8" fill="rgb(32,116,52)"/>
-<polygon points="0.0,-110.8 18.0,-101.8 0.0,-92.8 -18.0,-101.8" fill="rgb(46,166,74)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.41s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-92.4 -18.0,-101.4" fill="rgb(23,86,38)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-101.4 0.0,-92.4" fill="rgb(32,116,52)"/><polygon points="0.0,-110.4 18.0,-101.4 0.0,-92.4 -18.0,-101.4" fill="rgb(46,166,74)"/></g>
+</g>
 <g transform="translate(910.0,718.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.41s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-44.1 -18.0,-53.1" fill="rgb(13,64,29)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-53.1 0.0,-44.1" fill="rgb(17,86,40)"/>
-<polygon points="0.0,-62.1 18.0,-53.1 0.0,-44.1 -18.0,-53.1" fill="rgb(25,124,57)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.41s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-43.9 -18.0,-52.9" fill="rgb(13,64,29)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-52.9 0.0,-43.9" fill="rgb(17,86,40)"/><polygon points="0.0,-61.9 18.0,-52.9 0.0,-43.9 -18.0,-52.9" fill="rgb(25,124,57)"/></g>
+</g>
 <g transform="translate(1108.0,727.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.44s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-99.0 -18.0,-108.0" fill="rgb(25,89,40)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-108.0 0.0,-99.0" fill="rgb(34,120,53)"/>
-<polygon points="0.0,-117.0 18.0,-108.0 0.0,-99.0 -18.0,-108.0" fill="rgb(48,172,76)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.44s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-98.6 -18.0,-107.6" fill="rgb(25,89,39)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-107.6 0.0,-98.6" fill="rgb(34,120,53)"/><polygon points="0.0,-116.6 18.0,-107.6 0.0,-98.6 -18.0,-107.6" fill="rgb(48,172,76)"/></g>
+</g>
 <g transform="translate(1072.0,727.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.44s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-89.2 -18.0,-98.2" fill="rgb(23,85,38)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-98.2 0.0,-89.2" fill="rgb(31,114,51)"/>
-<polygon points="0.0,-107.2 18.0,-98.2 0.0,-89.2 -18.0,-98.2" fill="rgb(44,163,73)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.44s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-88.8 -18.0,-97.8" fill="rgb(23,85,38)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-97.8 0.0,-88.8" fill="rgb(31,114,51)"/><polygon points="0.0,-106.8 18.0,-97.8 0.0,-88.8 -18.0,-97.8" fill="rgb(44,163,73)"/></g>
+</g>
 <g transform="translate(1036.0,727.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.44s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-44.1 -18.0,-53.1" fill="rgb(13,64,29)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-53.1 0.0,-44.1" fill="rgb(17,86,40)"/>
-<polygon points="0.0,-62.1 18.0,-53.1 0.0,-44.1 -18.0,-53.1" fill="rgb(25,124,57)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.44s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-43.9 -18.0,-52.9" fill="rgb(13,64,29)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-52.9 0.0,-43.9" fill="rgb(17,86,40)"/><polygon points="0.0,-61.9 18.0,-52.9 0.0,-43.9 -18.0,-52.9" fill="rgb(25,124,57)"/></g>
+</g>
 <g transform="translate(1000.0,727.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.44s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-54.9 -18.0,-63.9" fill="rgb(15,69,31)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-63.9 0.0,-54.9" fill="rgb(21,93,42)"/>
-<polygon points="0.0,-72.9 18.0,-63.9 0.0,-54.9 -18.0,-63.9" fill="rgb(30,133,61)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.44s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-54.7 -18.0,-63.7" fill="rgb(15,69,31)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-63.7 0.0,-54.7" fill="rgb(21,93,42)"/><polygon points="0.0,-72.7 18.0,-63.7 0.0,-54.7 -18.0,-63.7" fill="rgb(30,133,61)"/></g>
+</g>
 <g transform="translate(964.0,727.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.44s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-44.1 -18.0,-53.1" fill="rgb(13,64,29)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-53.1 0.0,-44.1" fill="rgb(17,86,40)"/>
-<polygon points="0.0,-62.1 18.0,-53.1 0.0,-44.1 -18.0,-53.1" fill="rgb(25,124,57)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.44s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-43.9 -18.0,-52.9" fill="rgb(13,64,29)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-52.9 0.0,-43.9" fill="rgb(17,86,40)"/><polygon points="0.0,-61.9 18.0,-52.9 0.0,-43.9 -18.0,-52.9" fill="rgb(25,124,57)"/></g>
+</g>
 <g transform="translate(928.0,727.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.44s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-70.1 -18.0,-79.1" fill="rgb(19,76,34)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-79.1 0.0,-70.1" fill="rgb(25,102,46)"/>
-<polygon points="0.0,-88.1 18.0,-79.1 0.0,-70.1 -18.0,-79.1" fill="rgb(36,147,66)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.44s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-69.8 -18.0,-78.8" fill="rgb(18,76,34)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-78.8 0.0,-69.8" fill="rgb(25,102,46)"/><polygon points="0.0,-87.8 18.0,-78.8 0.0,-69.8 -18.0,-78.8" fill="rgb(36,146,66)"/></g>
+</g>
 <g transform="translate(1090.0,736.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.46s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-70.1 -18.0,-79.1" fill="rgb(19,76,34)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-79.1 0.0,-70.1" fill="rgb(25,102,46)"/>
-<polygon points="0.0,-88.1 18.0,-79.1 0.0,-70.1 -18.0,-79.1" fill="rgb(36,147,66)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.46s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-69.8 -18.0,-78.8" fill="rgb(18,76,34)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-78.8 0.0,-69.8" fill="rgb(25,102,46)"/><polygon points="0.0,-87.8 18.0,-78.8 0.0,-69.8 -18.0,-78.8" fill="rgb(36,146,66)"/></g>
+</g>
 <g transform="translate(1054.0,736.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.46s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-28.9 -18.0,-37.9" fill="rgb(9,57,27)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-37.9 0.0,-28.9" fill="rgb(13,77,36)"/>
-<polygon points="0.0,-46.9 18.0,-37.9 0.0,-28.9 -18.0,-37.9" fill="rgb(19,110,52)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.46s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-28.8 -18.0,-37.8" fill="rgb(9,57,27)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-37.8 0.0,-28.8" fill="rgb(13,77,36)"/><polygon points="0.0,-46.8 18.0,-37.8 0.0,-28.8 -18.0,-37.8" fill="rgb(19,110,52)"/></g>
+</g>
 <g transform="translate(1018.0,736.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.46s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-28.9 -18.0,-37.9" fill="rgb(9,57,27)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-37.9 0.0,-28.9" fill="rgb(13,77,36)"/>
-<polygon points="0.0,-46.9 18.0,-37.9 0.0,-28.9 -18.0,-37.9" fill="rgb(19,110,52)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.46s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-28.8 -18.0,-37.8" fill="rgb(9,57,27)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-37.8 0.0,-28.8" fill="rgb(13,77,36)"/><polygon points="0.0,-46.8 18.0,-37.8 0.0,-28.8 -18.0,-37.8" fill="rgb(19,110,52)"/></g>
+</g>
 <g transform="translate(982.0,736.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.46s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-28.9 -18.0,-37.9" fill="rgb(9,57,27)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-37.9 0.0,-28.9" fill="rgb(13,77,36)"/>
-<polygon points="0.0,-46.9 18.0,-37.9 0.0,-28.9 -18.0,-37.9" fill="rgb(19,110,52)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.46s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-28.8 -18.0,-37.8" fill="rgb(9,57,27)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-37.8 0.0,-28.8" fill="rgb(13,77,36)"/><polygon points="0.0,-46.8 18.0,-37.8 0.0,-28.8 -18.0,-37.8" fill="rgb(19,110,52)"/></g>
+</g>
 <g transform="translate(946.0,736.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.46s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-63.2 -18.0,-72.2" fill="rgb(17,73,33)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-72.2 0.0,-63.2" fill="rgb(23,98,45)"/>
-<polygon points="0.0,-81.2 18.0,-72.2 0.0,-63.2 -18.0,-72.2" fill="rgb(33,141,64)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.46s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-63.0 -18.0,-72.0" fill="rgb(17,73,33)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-72.0 0.0,-63.0" fill="rgb(23,98,44)"/><polygon points="0.0,-81.0 18.0,-72.0 0.0,-63.0 -18.0,-72.0" fill="rgb(33,140,64)"/></g>
+</g>
 <g transform="translate(1072.0,745.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.49s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-70.1 -18.0,-79.1" fill="rgb(19,76,34)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-79.1 0.0,-70.1" fill="rgb(25,102,46)"/>
-<polygon points="0.0,-88.1 18.0,-79.1 0.0,-70.1 -18.0,-79.1" fill="rgb(36,147,66)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.49s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-69.8 -18.0,-78.8" fill="rgb(18,76,34)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-78.8 0.0,-69.8" fill="rgb(25,102,46)"/><polygon points="0.0,-87.8 18.0,-78.8 0.0,-69.8 -18.0,-78.8" fill="rgb(36,146,66)"/></g>
+</g>
 <g transform="translate(1036.0,745.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.49s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-28.9 -18.0,-37.9" fill="rgb(9,57,27)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-37.9 0.0,-28.9" fill="rgb(13,77,36)"/>
-<polygon points="0.0,-46.9 18.0,-37.9 0.0,-28.9 -18.0,-37.9" fill="rgb(19,110,52)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.49s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-28.8 -18.0,-37.8" fill="rgb(9,57,27)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-37.8 0.0,-28.8" fill="rgb(13,77,36)"/><polygon points="0.0,-46.8 18.0,-37.8 0.0,-28.8 -18.0,-37.8" fill="rgb(19,110,52)"/></g>
+</g>
 <g transform="translate(1000.0,745.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.49s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-54.9 -18.0,-63.9" fill="rgb(15,69,31)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-63.9 0.0,-54.9" fill="rgb(21,93,42)"/>
-<polygon points="0.0,-72.9 18.0,-63.9 0.0,-54.9 -18.0,-63.9" fill="rgb(30,133,61)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.49s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-54.7 -18.0,-63.7" fill="rgb(15,69,31)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-63.7 0.0,-54.7" fill="rgb(21,93,42)"/><polygon points="0.0,-72.7 18.0,-63.7 0.0,-54.7 -18.0,-63.7" fill="rgb(30,133,61)"/></g>
+</g>
 <g transform="translate(964.0,745.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.49s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-99.0 -18.0,-108.0" fill="rgb(25,89,40)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-108.0 0.0,-99.0" fill="rgb(34,120,53)"/>
-<polygon points="0.0,-117.0 18.0,-108.0 0.0,-99.0 -18.0,-108.0" fill="rgb(48,172,76)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.49s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-98.6 -18.0,-107.6" fill="rgb(25,89,39)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-107.6 0.0,-98.6" fill="rgb(34,120,53)"/><polygon points="0.0,-116.6 18.0,-107.6 0.0,-98.6 -18.0,-107.6" fill="rgb(48,172,76)"/></g>
+</g>
 <g transform="translate(1054.0,754.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.52s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-89.2 -18.0,-98.2" fill="rgb(23,85,38)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-98.2 0.0,-89.2" fill="rgb(31,114,51)"/>
-<polygon points="0.0,-107.2 18.0,-98.2 0.0,-89.2 -18.0,-98.2" fill="rgb(44,163,73)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.52s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-88.8 -18.0,-97.8" fill="rgb(23,85,38)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-97.8 0.0,-88.8" fill="rgb(31,114,51)"/><polygon points="0.0,-106.8 18.0,-97.8 0.0,-88.8 -18.0,-97.8" fill="rgb(44,163,73)"/></g>
+</g>
 <g transform="translate(1018.0,754.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.52s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-28.9 -18.0,-37.9" fill="rgb(9,57,27)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-37.9 0.0,-28.9" fill="rgb(13,77,36)"/>
-<polygon points="0.0,-46.9 18.0,-37.9 0.0,-28.9 -18.0,-37.9" fill="rgb(19,110,52)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.52s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-28.8 -18.0,-37.8" fill="rgb(9,57,27)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-37.8 0.0,-28.8" fill="rgb(13,77,36)"/><polygon points="0.0,-46.8 18.0,-37.8 0.0,-28.8 -18.0,-37.8" fill="rgb(19,110,52)"/></g>
+</g>
 <g transform="translate(982.0,754.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.52s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-28.9 -18.0,-37.9" fill="rgb(9,57,27)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-37.9 0.0,-28.9" fill="rgb(13,77,36)"/>
-<polygon points="0.0,-46.9 18.0,-37.9 0.0,-28.9 -18.0,-37.9" fill="rgb(19,110,52)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.52s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-28.8 -18.0,-37.8" fill="rgb(9,57,27)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-37.8 0.0,-28.8" fill="rgb(13,77,36)"/><polygon points="0.0,-46.8 18.0,-37.8 0.0,-28.8 -18.0,-37.8" fill="rgb(19,110,52)"/></g>
+</g>
 <g transform="translate(1036.0,763.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.55s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-54.9 -18.0,-63.9" fill="rgb(15,69,31)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-63.9 0.0,-54.9" fill="rgb(21,93,42)"/>
-<polygon points="0.0,-72.9 18.0,-63.9 0.0,-54.9 -18.0,-63.9" fill="rgb(30,133,61)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.55s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-54.7 -18.0,-63.7" fill="rgb(15,69,31)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-63.7 0.0,-54.7" fill="rgb(21,93,42)"/><polygon points="0.0,-72.7 18.0,-63.7 0.0,-54.7 -18.0,-63.7" fill="rgb(30,133,61)"/></g>
+</g>
 <g transform="translate(1000.0,763.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.55s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-89.2 -18.0,-98.2" fill="rgb(23,85,38)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-98.2 0.0,-89.2" fill="rgb(31,114,51)"/>
-<polygon points="0.0,-107.2 18.0,-98.2 0.0,-89.2 -18.0,-98.2" fill="rgb(44,163,73)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.55s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-88.8 -18.0,-97.8" fill="rgb(23,85,38)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-97.8 0.0,-88.8" fill="rgb(31,114,51)"/><polygon points="0.0,-106.8 18.0,-97.8 0.0,-88.8 -18.0,-97.8" fill="rgb(44,163,73)"/></g>
+</g>
 <g transform="translate(1018.0,772.0)">
-<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="1.57s" repeatCount="indefinite"/>
-<polygon points="-18.0,0.0 0.0,9.0 0.0,-153.0 -18.0,-162.0" fill="rgb(37,114,49)"/>
-<polygon points="0.0,9.0 18.0,0.0 18.0,-162.0 0.0,-153.0" fill="rgb(50,154,67)"/>
-<polygon points="0.0,-171.0 18.0,-162.0 0.0,-153.0 -18.0,-162.0" fill="rgb(72,220,96)"/>
-</g></g>
+<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" fbegin="1.57s" repeatCount="indefinite"/></g>
+<g transform="scale(1 1)"><polygon points="-18.0,0.0 0.0,9.0 0.0,-153.0 -18.0,-162.0" fill="rgb(37,114,49)"/><polygon points="0.0,9.0 18.0,0.0 18.0,-162.0 0.0,-153.0" fill="rgb(50,154,67)"/><polygon points="0.0,-171.0 18.0,-162.0 0.0,-153.0 -18.0,-162.0" fill="rgb(72,220,96)"/></g>
+</g>
 </g>
 <line x1="0" y1="865" x2="1400" y2="865" stroke="#30363d"/>
 <line x1="466" y1="865" x2="466" y2="1040" stroke="#30363d"/>
 <line x1="932" y1="865" x2="932" y2="1040" stroke="#30363d"/>
 <text x="233" y="914" text-anchor="middle" font-size="20" font-weight="600" fill="#8b949e">Contributions in the last year</text>
-<text x="233" y="969" text-anchor="middle" font-size="44" font-weight="700" fill="#f0f6fc">282 total</text>
+<text x="233" y="969" text-anchor="middle" font-size="44" font-weight="700" fill="#f0f6fc">283 total</text>
 <text x="233" y="1005" text-anchor="middle" font-size="17" fill="#8b949e">September 7 — September 12</text>
 <text x="699" y="914" text-anchor="middle" font-size="20" font-weight="600" fill="#8b949e">Longest streak</text>
 <text x="699" y="969" text-anchor="middle" font-size="44" font-weight="700" fill="#f0f6fc">52 days</text>
