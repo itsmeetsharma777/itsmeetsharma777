@@ -1,6 +1,10 @@
 name: Generate Neon Contribution Snake
 
 on:
+  push:
+    paths:
+      - "README.md"
+      - ".github/workflows/neon-snake.yml"
   schedule:
     - cron: "30 18 * * *"
   workflow_dispatch:
