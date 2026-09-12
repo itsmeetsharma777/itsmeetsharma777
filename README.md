@@ -111,7 +111,11 @@ I'm **Meet Sharma**, a Computer Science engineering student focused on building 
 ## 🟣 Contribution Activity
 
 <p align="center">
-  <img src="./assets/github-contribution-grid-snake.svg" width="100%" alt="Animated GitHub contribution heatmap snake"/>
+  <img src="https://ghchart.xqsit94.in/dark:a855f7/itsmeetsharma777" width="100%" alt="Meet Sharma GitHub contribution heatmap"/>
+</p>
+
+<p align="center">
+  <sub>LIVE CONTRIBUTION ACTIVITY • DARK NEON PURPLE THEME</sub>
 </p>
 
 <p align="center">
