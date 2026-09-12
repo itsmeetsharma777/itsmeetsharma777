@@ -123,19 +123,15 @@ def poly(points):
     return " ".join(f"{x:.1f},{y:.1f}" for x, y in points)
 
 
-def metric_block(x, heading_y, value, unit, subtext, value_size=72):
-    """Render every metric as the same three-row layout: heading, value+unit, subtext."""
-    value_row_y = heading_y + 67
-    subtext_y = value_row_y + 33
-    return [
-        f'<text x="{x}" y="{heading_y}" font-size="25" font-weight="600" fill="{MUTED}">{unit if False else ""}</text>'
-    ]
-
-
 def metric_markup(x, heading_y, heading, value, unit, subtext, value_size=72):
-    """One consistent metric component: heading -> value/unit row -> supporting text."""
+    """Render one metric as a strict three-row component.
+
+    Row 1: heading.
+    Row 2: number + unit in one text flow, guaranteeing true adjacency.
+    Row 3: supporting text aligned to the exact same left edge as the number.
+    """
     value_y = heading_y + 67
-    subtext_y = value_y + 34
+    subtext_y = value_y + 38
     return [
         f'<text x="{x}" y="{heading_y}" font-size="25" font-weight="600" fill="{MUTED}">{heading}</text>',
         f'<text x="{x}" y="{value_y}" font-size="{value_size}" font-weight="800" fill="{GREEN}">{value}<tspan dx="18" dy="0" font-size="25" font-weight="700" fill="{TEXT}">{unit}</tspan></text>',
@@ -152,10 +148,9 @@ svg = [
     f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="8" fill="none" stroke="{BORDER}"/>',
 ]
 
-# Treat the four metric areas as identical UI components. Every component
-# uses the same x alignment and the same vertical rhythm. The value and unit
-# live in one SVG <text> row, so the unit can never collide with the number;
-# the supporting line gets its own row below the entire value row.
+# Four metric areas, deliberately treated as identical UI components.
+# Each component has one shared left edge, fixed vertical rhythm, and a
+# dedicated supporting-text row so dates/descriptions can never touch values.
 right_x = 835
 left_x = 60
 svg += metric_markup(
@@ -186,7 +181,7 @@ for _, r, c, x, y in sorted(ground):
     )
 
 # Every non-zero contribution becomes its own animated isometric cube.
-# Height is derived from the live contribution count; animation changes only
+# Height is derived from live contribution counts; animation changes only
 # the cube's vertical scale while the dashboard and ground plane stay fixed.
 for _, r, c, x, y in sorted(ground):
     n = int(weeks[c][r]["contributionCount"])
