@@ -114,7 +114,7 @@ I'm **Meet Sharma**, a Computer Science engineering student who enjoys turning i
 ## 📈 Contribution Activity
 
 <p align="center">
-  <img src="./assets/contribution-3d.svg?v=14" width="100%" alt="Dark green 3D GitHub contribution dashboard matching the approved reference"/>
+  <img src="./assets/contribution-3d.svg?v=15" width="100%" alt="Dark green 3D GitHub contribution dashboard matching the approved reference with dynamic rising cubes"/>
 </p>
 
 <div align="center">
