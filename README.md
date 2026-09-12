@@ -82,11 +82,11 @@ I'm **Meet Sharma**, a Computer Science engineering student who enjoys turning i
 
 <img src="./assets/neon-divider.svg?v=3" width="100%" alt="Neon divider"/>
 
-## 📊 GitHub Analytics
+## GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=itsmeetsharma777&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&bg_color=050816&title_color=A855F7&text_color=E2E8F0&icon_color=22D3EE" width="49%" alt="GitHub statistics"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itsmeetsharma777&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&bg_color=050816&title_color=A855F7&text_color=E2E8F0" width="49%" alt="Most used programming languages"/>
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=itsmeetsharma777&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&bg_color=050816&title_color=A855F7&text_color=E2E8F0&icon_color=22D3EE" width="49%" alt="GitHub statistics"/>
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=itsmeetsharma777&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&bg_color=050816&title_color=A855F7&text_color=E2E8F0" width="49%" alt="Most used programming languages"/>
 </p>
 
 <p align="center">
