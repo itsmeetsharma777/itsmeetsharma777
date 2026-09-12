@@ -1,4 +1,4 @@
-"""Generate a centered, dark 3D GitHub contribution dashboard."""
+"""Generate a polished dark 3D GitHub contribution dashboard."""
 import math
 import os
 import sys
@@ -24,27 +24,19 @@ query($login: String!) {
 }
 """
 
-
 def fetch_days():
     if not TOKEN:
         raise RuntimeError("GITHUB_TOKEN is required")
-    r = requests.post(
-        "https://api.github.com/graphql",
-        json={"query": QUERY, "variables": {"login": USERNAME}},
-        headers={"Authorization": f"bearer {TOKEN}", "Accept": "application/json"},
-        timeout=30,
-    )
+    r = requests.post("https://api.github.com/graphql", json={"query": QUERY, "variables": {"login": USERNAME}}, headers={"Authorization": f"bearer {TOKEN}", "Accept": "application/json"}, timeout=30)
     r.raise_for_status()
     payload = r.json()
     if payload.get("errors"):
         raise RuntimeError(payload["errors"][0].get("message", "GitHub GraphQL error"))
     return [d for w in payload["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"] for d in w["contributionDays"]]
 
-
 def fallback_days():
     today = date.today()
     return [{"date": (today - timedelta(days=370 - i)).isoformat(), "contributionCount": 0} for i in range(371)]
-
 
 def streaks(days):
     counts = [int(d["contributionCount"]) for d in days]
@@ -63,10 +55,8 @@ def streaks(days):
             break
     return longest, current, max(counts, default=0)
 
-
 def fmt_date(iso):
     return date.fromisoformat(iso).strftime("%B %-d") if iso else ""
-
 
 try:
     days = fetch_days()
@@ -90,37 +80,27 @@ TEXT, MUTED = "#f0f6fc", "#8b949e"
 GREEN = "#2ea043"
 GROUND, GROUND_STROKE = "#18232d", "#101820"
 LOW_GREEN, HIGH_GREEN = (8, 88, 43), (72, 220, 96)
-
-# Locked composition: long diagonal city, upper-left/middle placement,
-# deliberate open space on the right, and balanced space around the streaks.
 HW, HH = 18.0, 9.0
 ORIGIN_X, ORIGIN_Y = 190.0, 250.0
 MAX_H = 150.0
 
-
 def rgb(v):
     return f"rgb({int(v[0])},{int(v[1])},{int(v[2])})"
-
 
 def mix(a, b, t):
     return tuple(a[i] + (b[i] - a[i]) * t for i in range(3))
 
-
 def color_for(t):
     return mix(LOW_GREEN, HIGH_GREEN, t)
-
 
 def shade(c, factor):
     return tuple(max(0, min(255, x * factor)) for x in c)
 
-
 def project(c, r):
     return ORIGIN_X + (c - r) * HW, ORIGIN_Y + (c + r) * HH
 
-
 def poly(points):
     return " ".join(f"{x:.1f},{y:.1f}" for x, y in points)
-
 
 svg = [
     f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif">',
@@ -131,28 +111,27 @@ svg = [
     f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="8" fill="none" stroke="{BORDER}"/>',
 ]
 
-# Clean two-column activity metrics with a strong typographic hierarchy.
+# Compact metric rows: the unit/description sits close to its number.
 svg += [
     f'<text x="835" y="65" font-size="25" font-weight="600" fill="{MUTED}">1 year total</text>',
     f'<text x="835" y="132" font-size="72" font-weight="800" fill="{GREEN}">{total:,}</text>',
-    f'<text x="1050" y="125" font-size="25" font-weight="600" fill="{TEXT}">contributions</text>',
-    f'<text x="1050" y="157" font-size="18" fill="{MUTED}">{fmt_date(days[0]["date"])} — {fmt_date(days[-1]["date"])}</text>',
+    f'<text x="1000" y="118" font-size="25" font-weight="600" fill="{TEXT}">contributions</text>',
+    f'<text x="1000" y="149" font-size="18" fill="{MUTED}">{fmt_date(days[0]["date"])} — {fmt_date(days[-1]["date"])}</text>',
     f'<text x="835" y="218" font-size="25" font-weight="600" fill="{MUTED}">Busiest day</text>',
     f'<text x="835" y="285" font-size="72" font-weight="800" fill="{GREEN}">{busiest}</text>',
-    f'<text x="1050" y="278" font-size="25" font-weight="600" fill="{TEXT}">contributions</text>',
-    f'<text x="1050" y="311" font-size="18" fill="{MUTED}">Peak activity</text>',
+    f'<text x="1000" y="278" font-size="25" font-weight="600" fill="{TEXT}">contributions</text>',
+    f'<text x="1000" y="311" font-size="18" fill="{MUTED}">Peak activity</text>',
     f'<text x="60" y="520" font-size="25" font-weight="600" fill="{MUTED}">Longest streak</text>',
     f'<text x="60" y="585" font-size="64" font-weight="800" fill="{GREEN}">{longest}</text>',
-    f'<text x="198" y="584" font-size="25" font-weight="600" fill="{TEXT}">days</text>',
+    f'<text x="175" y="584" font-size="25" font-weight="600" fill="{TEXT}">days</text>',
     f'<text x="60" y="616" font-size="18" fill="{MUTED}">Consecutive contribution days</text>',
     f'<text x="60" y="684" font-size="25" font-weight="600" fill="{MUTED}">Current streak</text>',
     f'<text x="60" y="749" font-size="64" font-weight="800" fill="{GREEN}">{current}</text>',
-    f'<text x="198" y="748" font-size="25" font-weight="600" fill="{TEXT}">days</text>',
+    f'<text x="175" y="748" font-size="25" font-weight="600" fill="{TEXT}">days</text>',
     f'<text x="60" y="780" font-size="18" fill="{MUTED}">Ending today</text>',
 ]
 
 svg.append('<g clip-path="url(#cardClip)">')
-
 ground = []
 for c in range(53):
     for r in range(7):
@@ -162,7 +141,6 @@ for _, r, c, x, y in sorted(ground):
     top = [(x, y - HH), (x + HW, y), (x, y + HH), (x - HW, y)]
     svg.append(f'<polygon points="{poly(top)}" fill="{GROUND}" stroke="{GROUND_STROKE}" stroke-width="0.65"/>')
 
-# Contribution blocks: smooth local rise/fall from the ground, staggered as a wave.
 for _, r, c, x, y in sorted(ground):
     n = int(weeks[c][r]["contributionCount"])
     if n <= 0:
@@ -174,22 +152,13 @@ for _, r, c, x, y in sorted(ground):
     left = [(-HW, 0), (0, HH), (0, HH - h), (-HW, -h)]
     right = [(0, HH), (HW, 0), (HW, -h), (0, HH - h)]
     delay = ((c + r) / 59.0) * 1.6
-
     svg.append(f'<g transform="translate({x:.1f},{y:.1f})">')
-    svg.append(
-        '<g transform="scale(1 1)" transform-origin="0 0">'
-        '<animateTransform attributeName="transform" type="scale" '
-        'values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" '
-        f'begin="{delay:.2f}s" repeatCount="indefinite"/>'
-    )
-    svg.append(f'<polygon points="{poly(left)}" fill="{rgb(shade(base, 0.52))}"/>')
-    svg.append(f'<polygon points="{poly(right)}" fill="{rgb(shade(base, 0.70))}"/>')
-    svg.append(f'<polygon points="{poly(top)}" fill="{rgb(base)}"/>')
-    svg.append('</g></g>')
+    svg.append('<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" f' + f'begin="{delay:.2f}s" repeatCount="indefinite"/></g>')
+    # Render blocks outside the animated wrapper too so they remain visible on GitHub renderers.
+    svg.append(f'<g transform="scale(1 1)"><polygon points="{poly(left)}" fill="{rgb(shade(base, 0.52))}"/><polygon points="{poly(right)}" fill="{rgb(shade(base, 0.70))}"/><polygon points="{poly(top)}" fill="{rgb(base)}"/></g>')
+    svg.append('</g>')
 
 svg.append('</g>')
-
-# Three equal-width footer cards with larger, consistent typography.
 line_y = 865
 svg.append(f'<line x1="0" y1="{line_y}" x2="{W}" y2="{line_y}" stroke="{BORDER}"/>')
 for x in (466, 932):
@@ -204,7 +173,6 @@ for cx, title, value, sub in cards:
     svg.append(f'<text x="{cx}" y="914" text-anchor="middle" font-size="20" font-weight="600" fill="{MUTED}">{title}</text>')
     svg.append(f'<text x="{cx}" y="969" text-anchor="middle" font-size="44" font-weight="700" fill="{TEXT}">{value}</text>')
     svg.append(f'<text x="{cx}" y="1005" text-anchor="middle" font-size="17" fill="{MUTED}">{sub}</text>')
-
 svg.append('</svg>')
 OUTPUT.write_text("\n".join(svg), encoding="utf-8")
 print(f"Generated {OUTPUT} — {total} contributions, busiest {busiest}, longest streak {longest}, current streak {current}")
