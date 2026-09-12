@@ -87,7 +87,6 @@ except Exception as exc:  # noqa: BLE001
     print(f"Live contribution fetch failed: {exc}", file=sys.stderr)
     days = fallback_days()
 
-# Keep one year plus enough days to preserve complete Sunday-Saturday columns.
 days = days[-371:]
 while len(days) < 371:
     days.insert(0, {"date": "", "contributionCount": 0})
@@ -98,16 +97,20 @@ total = sum(int(d["contributionCount"]) for d in days)
 longest, current, busiest = streaks(days)
 
 # ---------------------------------------------------------------------------
-# Reference-style geometry: white card, green isometric contribution plane.
+# Reference palette: white canvas + lime/yellow-green plane + deep forest
+# green blocks. These values are deliberately much closer to the supplied
+# screenshot than the previous generic GitHub-green palette.
 # ---------------------------------------------------------------------------
 W, H = 1400, 1040
 BG = "#ffffff"
-TEXT = "#242424"
+TEXT = "#3a3a3a"
 MUTED = "#777777"
-GREEN = "#2f8f1f"
-LIGHT = "#dff3a6"
+GREEN = "#238b24"
+GROUND = "#dae784"
+GROUND_STROKE = "#c8dc73"
+LOW_GREEN = (133, 176, 78)   # #85b04e
+HIGH_GREEN = (27, 63, 12)    # #1b3f0c
 
-# Classic 2:1 isometric tiles.
 HW, HH = 17.0, 8.5
 ORIGIN_X, ORIGIN_Y = 610.0, 470.0
 MAX_H = 125.0
@@ -122,8 +125,9 @@ def mix(a, b, t):
 
 
 def color_for(t):
-    # Low -> high contribution: pale yellow-green -> saturated green.
-    return mix((215, 239, 145), (47, 143, 31), t)
+    # Low -> high contribution follows the reference's yellow-green to
+    # saturated/deep forest-green progression.
+    return mix(LOW_GREEN, HIGH_GREEN, t)
 
 
 def shade(c, factor):
@@ -152,7 +156,6 @@ svg = [
     f'<rect x="1" y="1" width="{W-2}" height="{H-2}" fill="none" stroke="#dedede"/>',
 ]
 
-# Header stats — intentionally arranged like the supplied reference.
 svg += [
     '<text x="850" y="78" font-size="25" fill="#555">1 year total</text>',
     f'<text x="805" y="138" font-size="64" font-weight="700" fill="{GREEN}">{total:,}</text>',
@@ -172,7 +175,6 @@ svg += [
     '<text x="55" y="792" font-size="19" fill="#888">Ending today</text>',
 ]
 
-# Ground plane.
 ground = []
 for c in range(53):
     for r in range(7):
@@ -182,9 +184,8 @@ for c in range(53):
 ground.sort()
 for _, r, c, x, y in ground:
     top = [(x, y - HH), (x + HW, y), (x, y + HH), (x - HW, y)]
-    svg.append(f'<polygon points="{poly(top)}" fill="#e4f4ad" stroke="#d5e996" stroke-width="0.8"/>')
+    svg.append(f'<polygon points="{poly(top)}" fill="{GROUND}" stroke="{GROUND_STROKE}" stroke-width="0.8"/>')
 
-# Buildings rise in a diagonal wave. Each building has its own SMIL scale.
 for _, r, c, x, y in ground:
     n = int(weeks[c][r]["contributionCount"])
     t = math.log1p(n) / math.log1p(max_count) if n else 0
@@ -200,7 +201,7 @@ for _, r, c, x, y in ground:
     svg.append(f'<g transform="translate({x:.1f},{y:.1f})">')
     svg.append(
         '<animateTransform attributeName="transform" type="scale" '
-        f'values="1 0;1 1;1 1" keyTimes="0;0.20;1" dur="14s" '
+        'values="1 0;1 1;1 1" keyTimes="0;0.20;1" dur="14s" '
         f'begin="{delay:.2f}s" repeatCount="indefinite" fill="freeze"/>'
     )
     svg.append(f'<g transform="translate({-x:.1f},{-y:.1f})">')
@@ -209,13 +210,12 @@ for _, r, c, x, y in ground:
     svg.append(f'<polygon points="{poly(top)}" fill="{top_fill}"/>')
     if t > 0.72:
         svg.append(
-            f'<polygon points="{poly(top)}" fill="none" stroke="#55b83c" stroke-width="2" filter="url(#soft)" opacity="0.25">'
+            f'<polygon points="{poly(top)}" fill="none" stroke="#5b9f32" stroke-width="2" filter="url(#soft)" opacity="0.25">'
             '<animate attributeName="opacity" values="0.15;0.55;0.15" dur="2.8s" repeatCount="indefinite"/>'
             '</polygon>'
         )
     svg.append('</g></g>')
 
-# Bottom summary cards, matching the reference layout.
 line_y = 875
 svg.append(f'<line x1="0" y1="{line_y}" x2="{W}" y2="{line_y}" stroke="#dddddd"/>')
 for x in (466, 932):
