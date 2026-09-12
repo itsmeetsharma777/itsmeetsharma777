@@ -1,4 +1,4 @@
-"""Generate a polished dark 3D GitHub contribution dashboard."""
+"""Generate the approved dark 3D GitHub contribution dashboard with live data and animated cubes."""
 import math
 import os
 import sys
@@ -27,12 +27,21 @@ query($login: String!) {
 def fetch_days():
     if not TOKEN:
         raise RuntimeError("GITHUB_TOKEN is required")
-    r = requests.post("https://api.github.com/graphql", json={"query": QUERY, "variables": {"login": USERNAME}}, headers={"Authorization": f"bearer {TOKEN}", "Accept": "application/json"}, timeout=30)
+    r = requests.post(
+        "https://api.github.com/graphql",
+        json={"query": QUERY, "variables": {"login": USERNAME}},
+        headers={"Authorization": f"bearer {TOKEN}", "Accept": "application/json"},
+        timeout=30,
+    )
     r.raise_for_status()
     payload = r.json()
     if payload.get("errors"):
         raise RuntimeError(payload["errors"][0].get("message", "GitHub GraphQL error"))
-    return [d for w in payload["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"] for d in w["contributionDays"]]
+    return [
+        d
+        for w in payload["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
+        for d in w["contributionDays"]
+    ]
 
 def fallback_days():
     today = date.today()
@@ -76,13 +85,14 @@ longest, current, busiest = streaks(days)
 
 W, H = 1400, 1040
 BG, BORDER = "#0d1117", "#30363d"
-TEXT, MUTED = "#f0f6fc", "#8b949e"
-GREEN = "#2ea043"
-GROUND, GROUND_STROKE = "#18232d", "#101820"
-LOW_GREEN, HIGH_GREEN = (8, 88, 43), (72, 220, 96)
+TEXT, MUTED = "#f0f6fc", "#9aa4b2"
+GREEN = "#39d353"
+GROUND, GROUND_STROKE = "#26384a", "#172536"
+LOW_GREEN, HIGH_GREEN = (18, 105, 58), (64, 245, 92)
 HW, HH = 18.0, 9.0
 ORIGIN_X, ORIGIN_Y = 190.0, 250.0
-MAX_H = 150.0
+MAX_H = 160.0
+
 
 def rgb(v):
     return f"rgb({int(v[0])},{int(v[1])},{int(v[2])})"
@@ -102,6 +112,10 @@ def project(c, r):
 def poly(points):
     return " ".join(f"{x:.1f},{y:.1f}" for x, y in points)
 
+def unit_x(x, value, digit_width=40, gap=18):
+    """Place a unit immediately beside a large numeric value."""
+    return x + max(2, len(str(value))) * digit_width + gap
+
 svg = [
     f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif">',
     "<defs>",
@@ -111,23 +125,31 @@ svg = [
     f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="8" fill="none" stroke="{BORDER}"/>',
 ]
 
+total_x = 835
+busy_x = 835
+total_unit_x = unit_x(total_x, total)
+busy_unit_x = unit_x(busy_x, busiest)
+left_x = 60
+left_unit_x = unit_x(left_x, longest, digit_width=32, gap=18)
+current_unit_x = unit_x(left_x, current, digit_width=32, gap=18)
+
 svg += [
-    f'<text x="835" y="65" font-size="25" font-weight="600" fill="{MUTED}">1 year total</text>',
-    f'<text x="835" y="132" font-size="72" font-weight="800" fill="{GREEN}">{total:,}</text>',
-    f'<text x="1000" y="118" font-size="25" font-weight="600" fill="{TEXT}">contributions</text>',
-    f'<text x="835" y="149" font-size="18" fill="{MUTED}">{fmt_date(days[0]["date"])} — {fmt_date(days[-1]["date"])}</text>',
-    f'<text x="835" y="218" font-size="25" font-weight="600" fill="{MUTED}">Busiest day</text>',
-    f'<text x="835" y="285" font-size="72" font-weight="800" fill="{GREEN}">{busiest}</text>',
-    f'<text x="1000" y="278" font-size="25" font-weight="600" fill="{TEXT}">contributions</text>',
-    f'<text x="835" y="311" font-size="18" fill="{MUTED}">Peak activity</text>',
-    f'<text x="60" y="520" font-size="25" font-weight="600" fill="{MUTED}">Longest streak</text>',
-    f'<text x="60" y="585" font-size="64" font-weight="800" fill="{GREEN}">{longest}</text>',
-    f'<text x="175" y="584" font-size="25" font-weight="600" fill="{TEXT}">days</text>',
-    f'<text x="60" y="616" font-size="18" fill="{MUTED}">Consecutive contribution days</text>',
-    f'<text x="60" y="684" font-size="25" font-weight="600" fill="{MUTED}">Current streak</text>',
-    f'<text x="60" y="749" font-size="64" font-weight="800" fill="{GREEN}">{current}</text>',
-    f'<text x="175" y="748" font-size="25" font-weight="600" fill="{TEXT}">days</text>',
-    f'<text x="60" y="780" font-size="18" fill="{MUTED}">Ending today</text>',
+    f'<text x="{total_x}" y="65" font-size="25" font-weight="600" fill="{MUTED}">1 year total</text>',
+    f'<text x="{total_x}" y="132" font-size="72" font-weight="800" fill="{GREEN}">{total:,}</text>',
+    f'<text x="{total_unit_x}" y="118" font-size="25" font-weight="700" fill="{TEXT}">contributions</text>',
+    f'<text x="{total_x}" y="149" font-size="18" fill="{MUTED}">{fmt_date(days[0]["date"])} — {fmt_date(days[-1]["date"])}</text>',
+    f'<text x="{busy_x}" y="218" font-size="25" font-weight="600" fill="{MUTED}">Busiest day</text>',
+    f'<text x="{busy_x}" y="285" font-size="72" font-weight="800" fill="{GREEN}">{busiest}</text>',
+    f'<text x="{busy_unit_x}" y="278" font-size="25" font-weight="700" fill="{TEXT}">contributions</text>',
+    f'<text x="{busy_x}" y="311" font-size="18" fill="{MUTED}">Peak activity</text>',
+    f'<text x="{left_x}" y="520" font-size="25" font-weight="600" fill="{MUTED}">Longest streak</text>',
+    f'<text x="{left_x}" y="585" font-size="64" font-weight="800" fill="{GREEN}">{longest}</text>',
+    f'<text x="{left_unit_x}" y="584" font-size="25" font-weight="700" fill="{TEXT}">days</text>',
+    f'<text x="{left_x}" y="616" font-size="18" fill="{MUTED}">Consecutive contribution days</text>',
+    f'<text x="{left_x}" y="684" font-size="25" font-weight="600" fill="{MUTED}">Current streak</text>',
+    f'<text x="{left_x}" y="749" font-size="64" font-weight="800" fill="{GREEN}">{current}</text>',
+    f'<text x="{current_unit_x}" y="748" font-size="25" font-weight="700" fill="{TEXT}">days</text>',
+    f'<text x="{left_x}" y="780" font-size="18" fill="{MUTED}">Ending today</text>',
 ]
 
 svg.append('<g clip-path="url(#cardClip)">')
@@ -136,14 +158,21 @@ for c in range(53):
     for r in range(7):
         x, y = project(c, r)
         ground.append((c + r, r, c, x, y))
+
 for _, r, c, x, y in sorted(ground):
     top = [(x, y - HH), (x + HW, y), (x, y + HH), (x - HW, y)]
-    svg.append(f'<polygon points="{poly(top)}" fill="{GROUND}" stroke="{GROUND_STROKE}" stroke-width="0.65"/>')
+    svg.append(
+        f'<polygon points="{poly(top)}" fill="{GROUND}" stroke="{GROUND_STROKE}" stroke-width="0.7"/>'
+    )
 
+# Every non-zero contribution becomes its own animated isometric cube.
+# Height is derived from the live contribution count; animation only changes
+# the cube height, while the ground plane and dashboard remain fixed.
 for _, r, c, x, y in sorted(ground):
     n = int(weeks[c][r]["contributionCount"])
     if n <= 0:
         continue
+
     t = math.log1p(n) / math.log1p(max_count)
     h = 12.0 + t * MAX_H
     base = color_for(t)
@@ -151,8 +180,18 @@ for _, r, c, x, y in sorted(ground):
     left = [(-HW, 0), (0, HH), (0, HH - h), (-HW, -h)]
     right = [(0, HH), (HW, 0), (HW, -h), (0, HH - h)]
     delay = ((c + r) / 59.0) * 1.6
+
     svg.append(f'<g transform="translate({x:.1f},{y:.1f})">')
-    svg.append(f'<g transform="translate(0 0)" transform-origin="0 0"><polygon points="{poly(left)}" fill="{rgb(shade(base, 0.52))}"/><polygon points="{poly(right)}" fill="{rgb(shade(base, 0.70))}"/><polygon points="{poly(top)}" fill="{rgb(base)}"/><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" begin="{delay:.2f}s" repeatCount="indefinite"/></g>')
+    svg.append(
+        f'<g transform="scale(1 0.001)" transform-origin="0 0">'
+        f'<polygon points="{poly(left)}" fill="{rgb(shade(base, 0.48))}"/>'
+        f'<polygon points="{poly(right)}" fill="{rgb(shade(base, 0.68))}"/>'
+        f'<polygon points="{poly(top)}" fill="{rgb(base)}"/>'
+        f'<animateTransform attributeName="transform" type="scale" '
+        f'values="1 0.001;1 1;1 0.001" keyTimes="0;0.5;1" '
+        f'dur="5.6s" begin="{delay:.2f}s" repeatCount="indefinite"/>'
+        f'</g>'
+    )
     svg.append('</g>')
 
 svg.append('</g>')
@@ -173,5 +212,3 @@ for cx, title, value, sub in cards:
 svg.append('</svg>')
 OUTPUT.write_text("\n".join(svg), encoding="utf-8")
 print(f"Generated {OUTPUT} — {total} contributions, busiest {busiest}, longest streak {longest}, current streak {current}")
-
-# Re-commit marker: preserve the approved live-data dashboard and per-cube animation implementation.
