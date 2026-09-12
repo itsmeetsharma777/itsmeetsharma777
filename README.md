@@ -114,12 +114,12 @@ I'm **Meet Sharma**, a Computer Science engineering student who enjoys turning i
 ## 📈 Contribution Activity
 
 <p align="center">
-  <img src="./assets/contribution-3d.svg?v=16" width="100%" alt="Dark green 3D GitHub contribution dashboard matching the approved reference with dynamic rising cubes"/>
+  <img src="./assets/contribution-3d.svg?v=17" width="100%" alt="Dense dark green 3D GitHub contribution city with full-board cubes"/>
 </p>
 
 <div align="center">
 
-<sub>REAL GITHUB DATA · APPROVED ISOMETRIC CONTRIBUTION CITY · STATIC PREMIUM RENDER</sub>
+<sub>REAL GITHUB DATA · PREMIUM ISOMETRIC CONTRIBUTION CITY · STATIC RENDER</sub>
 
 </div>
 
