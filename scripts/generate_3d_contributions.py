@@ -111,16 +111,16 @@ svg = [
     f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="8" fill="none" stroke="{BORDER}"/>',
 ]
 
-# Compact metric rows: the unit/description sits close to its number.
+# Consistent metric layout: LABEL / NUMBER + UNIT / SUPPORTING TEXT.
 svg += [
     f'<text x="835" y="65" font-size="25" font-weight="600" fill="{MUTED}">1 year total</text>',
     f'<text x="835" y="132" font-size="72" font-weight="800" fill="{GREEN}">{total:,}</text>',
-    f'<text x="1000" y="118" font-size="25" font-weight="600" fill="{TEXT}">contributions</text>',
-    f'<text x="1000" y="149" font-size="18" fill="{MUTED}">{fmt_date(days[0]["date"])} — {fmt_date(days[-1]["date"])}</text>',
+    f'<text x="1000" y="132" font-size="25" font-weight="600" fill="{TEXT}">contributions</text>',
+    f'<text x="835" y="165" font-size="18" fill="{MUTED}">{fmt_date(days[0]["date"])} — {fmt_date(days[-1]["date"])}</text>',
     f'<text x="835" y="218" font-size="25" font-weight="600" fill="{MUTED}">Busiest day</text>',
     f'<text x="835" y="285" font-size="72" font-weight="800" fill="{GREEN}">{busiest}</text>',
-    f'<text x="1000" y="278" font-size="25" font-weight="600" fill="{TEXT}">contributions</text>',
-    f'<text x="1000" y="311" font-size="18" fill="{MUTED}">Peak activity</text>',
+    f'<text x="1000" y="285" font-size="25" font-weight="600" fill="{TEXT}">contributions</text>',
+    f'<text x="835" y="318" font-size="18" fill="{MUTED}">Peak activity</text>',
     f'<text x="60" y="520" font-size="25" font-weight="600" fill="{MUTED}">Longest streak</text>',
     f'<text x="60" y="585" font-size="64" font-weight="800" fill="{GREEN}">{longest}</text>',
     f'<text x="175" y="584" font-size="25" font-weight="600" fill="{TEXT}">days</text>',
@@ -141,6 +141,9 @@ for _, r, c, x, y in sorted(ground):
     top = [(x, y - HH), (x + HW, y), (x, y + HH), (x - HW, y)]
     svg.append(f'<polygon points="{poly(top)}" fill="{GROUND}" stroke="{GROUND_STROKE}" stroke-width="0.65"/>')
 
+# Each non-zero contribution is an independent 6-second rise/fall loop.
+# The block is built from its fixed ground diamond upward, so the ground never moves.
+# Smooth cubic timing creates a soft rise, a short full-height hold, then a soft fall.
 for _, r, c, x, y in sorted(ground):
     n = int(weeks[c][r]["contributionCount"])
     if n <= 0:
@@ -148,14 +151,34 @@ for _, r, c, x, y in sorted(ground):
     t = math.log1p(n) / math.log1p(max_count)
     h = 12.0 + t * MAX_H
     base = color_for(t)
+    ground_diamond = [(0, -HH), (HW, 0), (0, HH), (-HW, 0)]
     top = [(0, -HH - h), (HW, -h), (0, HH - h), (-HW, -h)]
     left = [(-HW, 0), (0, HH), (0, HH - h), (-HW, -h)]
     right = [(0, HH), (HW, 0), (HW, -h), (0, HH - h)]
-    delay = ((c + r) / 59.0) * 1.6
+    delay = ((c * 7 + r) / 370.0) * 2.8
+
     svg.append(f'<g transform="translate({x:.1f},{y:.1f})">')
-    svg.append('<g transform="scale(1 1)" transform-origin="0 0"><animateTransform attributeName="transform" type="scale" values="1 0;1 1;1 0" keyTimes="0;0.46;1" dur="6s" f' + f'begin="{delay:.2f}s" repeatCount="indefinite"/></g>')
-    # Render blocks outside the animated wrapper too so they remain visible on GitHub renderers.
-    svg.append(f'<g transform="scale(1 1)"><polygon points="{poly(left)}" fill="{rgb(shade(base, 0.52))}"/><polygon points="{poly(right)}" fill="{rgb(shade(base, 0.70))}"/><polygon points="{poly(top)}" fill="{rgb(base)}"/></g>')
+    # Animate the three visible faces from a collapsed ground diamond to full height and back.
+    # All three animations use the same phase so each block rises/falls as one solid cube.
+    spline = 'calcMode="spline" keySplines="0.42 0 0.58 1;0.25 0.1 0.25 1;0.42 0 0.58 1"'
+    svg.append(
+        f'<polygon points="{poly(left)}" fill="{rgb(shade(base, 0.52))}">'
+        f'<animate attributeName="points" dur="6s" begin="{delay:.2f}s" repeatCount="indefinite" {spline} '
+        f'values="{poly(ground_diamond)};{poly(left)};{poly(left)};{poly(ground_diamond)}" '
+        'keyTimes="0;0.42;0.58;1"/></polygon>'
+    )
+    svg.append(
+        f'<polygon points="{poly(right)}" fill="{rgb(shade(base, 0.70))}">'
+        f'<animate attributeName="points" dur="6s" begin="{delay:.2f}s" repeatCount="indefinite" {spline} '
+        f'values="{poly(ground_diamond)};{poly(right)};{poly(right)};{poly(ground_diamond)}" '
+        'keyTimes="0;0.42;0.58;1"/></polygon>'
+    )
+    svg.append(
+        f'<polygon points="{poly(top)}" fill="{rgb(base)}">'
+        f'<animate attributeName="points" dur="6s" begin="{delay:.2f}s" repeatCount="indefinite" {spline} '
+        f'values="{poly(ground_diamond)};{poly(top)};{poly(top)};{poly(ground_diamond)}" '
+        'keyTimes="0;0.42;0.58;1"/></polygon>'
+    )
     svg.append('</g>')
 
 svg.append('</g>')
