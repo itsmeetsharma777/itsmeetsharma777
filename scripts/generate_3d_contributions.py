@@ -88,15 +88,11 @@ W, H = 1400, 1040
 BG, BORDER = "#0d1117", "#30363d"
 TEXT, MUTED = "#f0f6fc", "#8b949e"
 GREEN = "#2ea043"
-
-# Heatmap palette matched to the supplied dark GitHub reference:
-# inactive cells are deep slate; activity moves through forest green to bright green.
 GROUND, GROUND_STROKE = "#18232d", "#101820"
 LOW_GREEN, HIGH_GREEN = (8, 88, 43), (72, 220, 96)
 
-# Match the approved reference composition: a long diagonal 53 x 7 city
-# lifted into the upper-left/middle, with deliberate open space on the right.
-# The origin is the near upper-left corner of the isometric plane.
+# Locked composition: long diagonal city, upper-left/middle placement,
+# deliberate open space on the right, and balanced space around the streaks.
 HW, HH = 18.0, 9.0
 ORIGIN_X, ORIGIN_Y = 190.0, 250.0
 MAX_H = 150.0
@@ -127,7 +123,7 @@ def poly(points):
 
 
 svg = [
-    f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" font-family="Arial, Helvetica, sans-serif">',
+    f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif">',
     "<defs>",
     f'<clipPath id="cardClip"><rect x="2" y="2" width="{W-4}" height="{H-4}" rx="8"/></clipPath>',
     "</defs>",
@@ -135,30 +131,28 @@ svg = [
     f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="8" fill="none" stroke="{BORDER}"/>',
 ]
 
-# Right-side activity statistics stay fixed while the heatmap occupies the
-# open upper-left/middle area, exactly as in the approved reference.
+# Clean two-column activity metrics with a strong typographic hierarchy.
 svg += [
-    f'<text x="835" y="65" font-size="22" fill="{MUTED}">1 year total</text>',
-    f'<text x="835" y="125" font-size="62" font-weight="700" fill="{GREEN}">{total:,}</text>',
-    f'<text x="1050" y="125" font-size="22" fill="{TEXT}">contributions</text>',
-    f'<text x="1050" y="156" font-size="16" fill="{MUTED}">{fmt_date(days[0]["date"])} — {fmt_date(days[-1]["date"])}</text>',
-    f'<text x="835" y="214" font-size="22" fill="{MUTED}">Busiest day</text>',
-    f'<text x="835" y="274" font-size="62" font-weight="700" fill="{GREEN}">{busiest}</text>',
-    f'<text x="1050" y="274" font-size="22" fill="{TEXT}">contributions</text>',
-    f'<text x="1050" y="305" font-size="16" fill="{MUTED}">Peak activity</text>',
-    f'<text x="60" y="520" font-size="22" fill="{MUTED}">Longest streak</text>',
-    f'<text x="60" y="579" font-size="60" font-weight="700" fill="{GREEN}">{longest}</text>',
-    f'<text x="198" y="579" font-size="22" fill="{TEXT}">days</text>',
-    f'<text x="60" y="609" font-size="16" fill="{MUTED}">Consecutive contribution days</text>',
-    f'<text x="60" y="678" font-size="22" fill="{MUTED}">Current streak</text>',
-    f'<text x="60" y="737" font-size="60" font-weight="700" fill="{GREEN}">{current}</text>',
-    f'<text x="198" y="737" font-size="22" fill="{TEXT}">days</text>',
-    f'<text x="60" y="767" font-size="16" fill="{MUTED}">Ending today</text>',
+    f'<text x="835" y="65" font-size="25" font-weight="600" fill="{MUTED}">1 year total</text>',
+    f'<text x="835" y="132" font-size="72" font-weight="800" fill="{GREEN}">{total:,}</text>',
+    f'<text x="1050" y="125" font-size="25" font-weight="600" fill="{TEXT}">contributions</text>',
+    f'<text x="1050" y="157" font-size="18" fill="{MUTED}">{fmt_date(days[0]["date"])} — {fmt_date(days[-1]["date"])}</text>',
+    f'<text x="835" y="218" font-size="25" font-weight="600" fill="{MUTED}">Busiest day</text>',
+    f'<text x="835" y="285" font-size="72" font-weight="800" fill="{GREEN}">{busiest}</text>',
+    f'<text x="1050" y="278" font-size="25" font-weight="600" fill="{TEXT}">contributions</text>',
+    f'<text x="1050" y="311" font-size="18" fill="{MUTED}">Peak activity</text>',
+    f'<text x="60" y="520" font-size="25" font-weight="600" fill="{MUTED}">Longest streak</text>',
+    f'<text x="60" y="585" font-size="64" font-weight="800" fill="{GREEN}">{longest}</text>',
+    f'<text x="198" y="584" font-size="25" font-weight="600" fill="{TEXT}">days</text>',
+    f'<text x="60" y="616" font-size="18" fill="{MUTED}">Consecutive contribution days</text>',
+    f'<text x="60" y="684" font-size="25" font-weight="600" fill="{MUTED}">Current streak</text>',
+    f'<text x="60" y="749" font-size="64" font-weight="800" fill="{GREEN}">{current}</text>',
+    f'<text x="198" y="748" font-size="25" font-weight="600" fill="{TEXT}">days</text>',
+    f'<text x="60" y="780" font-size="18" fill="{MUTED}">Ending today</text>',
 ]
 
 svg.append('<g clip-path="url(#cardClip)">')
 
-# Fixed dark-slate isometric heatmap ground, matching the supplied reference.
 ground = []
 for c in range(53):
     for r in range(7):
@@ -168,8 +162,7 @@ for _, r, c, x, y in sorted(ground):
     top = [(x, y - HH), (x + HW, y), (x, y + HH), (x - HW, y)]
     svg.append(f'<polygon points="{poly(top)}" fill="{GROUND}" stroke="{GROUND_STROKE}" stroke-width="0.65"/>')
 
-# Buildings grow from their own ground point. The whole city remains fixed;
-# only each column's local Y scale changes, producing a smooth rise/fall wave.
+# Contribution blocks: smooth local rise/fall from the ground, staggered as a wave.
 for _, r, c, x, y in sorted(ground):
     n = int(weeks[c][r]["contributionCount"])
     if n <= 0:
@@ -196,7 +189,7 @@ for _, r, c, x, y in sorted(ground):
 
 svg.append('</g>')
 
-# Three equal-width summary cards.
+# Three equal-width footer cards with larger, consistent typography.
 line_y = 865
 svg.append(f'<line x1="0" y1="{line_y}" x2="{W}" y2="{line_y}" stroke="{BORDER}"/>')
 for x in (466, 932):
@@ -208,9 +201,9 @@ cards = [
     (1166, "Current streak", f"{current} days", "Ending today"),
 ]
 for cx, title, value, sub in cards:
-    svg.append(f'<text x="{cx}" y="914" text-anchor="middle" font-size="18" fill="{MUTED}">{title}</text>')
-    svg.append(f'<text x="{cx}" y="967" text-anchor="middle" font-size="40" fill="{TEXT}">{value}</text>')
-    svg.append(f'<text x="{cx}" y="1001" text-anchor="middle" font-size="15" fill="{MUTED}">{sub}</text>')
+    svg.append(f'<text x="{cx}" y="914" text-anchor="middle" font-size="20" font-weight="600" fill="{MUTED}">{title}</text>')
+    svg.append(f'<text x="{cx}" y="969" text-anchor="middle" font-size="44" font-weight="700" fill="{TEXT}">{value}</text>')
+    svg.append(f'<text x="{cx}" y="1005" text-anchor="middle" font-size="17" fill="{MUTED}">{sub}</text>')
 
 svg.append('</svg>')
 OUTPUT.write_text("\n".join(svg), encoding="utf-8")
