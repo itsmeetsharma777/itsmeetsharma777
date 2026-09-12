@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360">
+<defs>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07091a"/><stop offset="1" stop-color="#050816"/></linearGradient>
+  <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A855F7"/><stop offset="1" stop-color="#C084FC"/></linearGradient>
+  <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3B82F6"/><stop offset="0.43" stop-color="#3B82F6"/><stop offset="0.43" stop-color="#7C3AED"/><stop offset="0.70" stop-color="#7C3AED"/><stop offset="0.70" stop-color="#FDE047"/><stop offset="0.835" stop-color="#FDE047"/><stop offset="0.835" stop-color="#F4511E"/><stop offset="0.938" stop-color="#F4511E"/><stop offset="0.938" stop-color="#EC4899"/><stop offset="0.97" stop-color="#EC4899"/><stop offset="0.97" stop-color="#3B82F6"/></linearGradient>
+</defs>
+<rect x="1" y="1" width="898" height="358" rx="18" fill="url(#panel)" stroke="#18233a" stroke-width="2"/>
+<rect x="28" y="26" width="844" height="2" rx="1" fill="#18233a"/>
+<text x="34" y="72" fill="#B05CFF" font-family="Arial,Helvetica,sans-serif" font-size="31" font-weight="700">My Programming Languages</text>
+<text x="34" y="101" fill="#718096" font-family="Arial,Helvetica,sans-serif" font-size="15">Languages used across my repositories</text>
+<rect x="34" y="126" width="832" height="18" rx="9" fill="#111a2d"/>
+<rect x="34" y="126" width="832" height="18" rx="9" fill="url(#bar)"/>
+<g font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="600">
+  <circle cx="45" cy="190" r="11" fill="#3B82F6"/><text x="68" y="197" fill="#E2E8F0">TypeScript</text><text x="310" y="197" text-anchor="end" fill="#E2E8F0">42.84%</text>
+  <circle cx="45" cy="244" r="11" fill="#FDE047"/><text x="68" y="251" fill="#E2E8F0">JavaScript</text><text x="310" y="251" text-anchor="end" fill="#E2E8F0">13.38%</text>
+  <circle cx="45" cy="298" r="11" fill="#EC4899"/><text x="68" y="305" fill="#E2E8F0">C++</text><text x="310" y="305" text-anchor="end" fill="#E2E8F0">4.54%</text>
+  <circle cx="505" cy="190" r="11" fill="#7C3AED"/><text x="528" y="197" fill="#E2E8F0">CSS</text><text x="840" y="197" text-anchor="end" fill="#E2E8F0">27.04%</text>
+  <circle cx="505" cy="244" r="11" fill="#F4511E"/><text x="528" y="251" fill="#E2E8F0">HTML</text><text x="840" y="251" text-anchor="end" fill="#E2E8F0">10.25%</text>
+  <circle cx="505" cy="298" r="11" fill="#367BB2"/><text x="528" y="305" fill="#E2E8F0">Python</text><text x="840" y="305" text-anchor="end" fill="#E2E8F0">1.94%</text>
+</g>
+<line x1="438" y1="170" x2="438" y2="322" stroke="#263754" stroke-width="2"/>
+<rect x="34" y="326" width="832" height="1" fill="#18233a"/>
+<text x="34" y="348" fill="#64748B" font-family="Arial,Helvetica,sans-serif" font-size="12">BUILDING WITH CODE · ONE LANGUAGE AT A TIME</text>
+</svg>
