@@ -1,9 +1,4 @@
-"""Generate a GitHub contribution city for the dark GitHub profile theme.
-
-The dashboard keeps the green/yellow-green palette of the supplied reference,
-but uses a GitHub-dark canvas, tighter isometric geometry, and aligned stats.
-The SVG is self-contained and uses SMIL animations (no JavaScript required).
-"""
+"""Generate a dark, reference-style 3D GitHub contribution dashboard."""
 import math
 import os
 import sys
@@ -44,7 +39,8 @@ def fetch_days():
     if payload.get("errors"):
         raise RuntimeError(payload["errors"][0].get("message", "GitHub GraphQL error"))
     calendar = payload["data"]["user"]["contributionsCollection"]["contributionCalendar"]
-    return [day for week in calendar["weeks"] for day in week["contributionDays"]]
+    days = [day for week in calendar["weeks"] for day in week["contributionDays"]]
+    return days
 
 
 def fallback_days():
@@ -70,13 +66,15 @@ def streaks(days):
             current += 1
         else:
             break
-    return longest, current, max(counts, default=0)
+    busiest = max(counts, default=0)
+    return longest, current, busiest
 
 
 def fmt_date(iso):
     if not iso:
         return ""
-    return date.fromisoformat(iso).strftime("%B %-d")
+    d = date.fromisoformat(iso)
+    return d.strftime("%B %-d")
 
 
 try:
@@ -85,34 +83,35 @@ except Exception as exc:  # noqa: BLE001
     print(f"Live contribution fetch failed: {exc}", file=sys.stderr)
     days = fallback_days()
 
+# Always render a complete 53-week x 7-day calendar. GitHub may return a
+# partial current week, so pad to the most recent 371 calendar days.
 days = days[-371:]
 while len(days) < 371:
-    days.insert(0, {"date": "", "contributionCount": 0})
+    first = date.fromisoformat(days[0]["date"]) if days and days[0].get("date") else date.today() - timedelta(days=370)
+    days.insert(0, {"date": (first - timedelta(days=1)).isoformat(), "contributionCount": 0})
 
 weeks = [days[i:i + 7] for i in range(0, 371, 7)]
 max_count = max((int(d["contributionCount"]) for d in days), default=1) or 1
 total = sum(int(d["contributionCount"]) for d in days)
 longest, current, busiest = streaks(days)
 
-# ---------------------------------------------------------------------------
-# Dark GitHub theme + the reference's yellow-green / forest-green palette.
-# ---------------------------------------------------------------------------
+# Dark GitHub canvas + the exact green family requested from the reference.
 W, H = 1400, 1040
 BG = "#0d1117"
-CARD = "#0d1117"
 BORDER = "#30363d"
-TEXT = "#c9d1d9"
+TEXT = "#f0f6fc"
 MUTED = "#8b949e"
-GREEN = "#2f9e32"
+GREEN = "#238b24"
 GROUND = "#dae784"
 GROUND_STROKE = "#c8dc73"
-LOW_GREEN = (133, 176, 78)   # #85b04e
-HIGH_GREEN = (27, 63, 12)    # #1b3f0c
+LOW_GREEN = (133, 176, 78)
+HIGH_GREEN = (27, 63, 12)
 
-# Tight geometry keeps every point of the 53 x 7 plane inside the card.
-HW, HH = 13.0, 6.5
-ORIGIN_X, ORIGIN_Y = 620.0, 430.0
-MAX_H = 118.0
+# Compact isometric geometry. The previous 17px tiles made the 53-week plane
+# wider than the card; these dimensions keep the entire city safely inside it.
+HW, HH = 12.5, 6.25
+ORIGIN_X, ORIGIN_Y = 700.0, 438.0
+MAX_H = 112.0
 
 
 def rgb(v):
@@ -140,38 +139,38 @@ def poly(points):
 
 
 svg = [
-    f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" '
-    'font-family="Arial, Helvetica, sans-serif">',
+    f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" font-family="Arial, Helvetica, sans-serif">',
     '<defs>',
-    '<filter id="soft" x="-50%" y="-50%" width="200%" height="200%">'
-    '<feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/>'
-    '<feMergeNode in="SourceGraphic"/></feMerge></filter>',
+    '<filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>',
+    f'<clipPath id="cardClip"><rect x="2" y="2" width="{W-4}" height="{H-4}" rx="8"/></clipPath>',
     '</defs>',
-    f'<rect width="{W}" height="{H}" rx="10" fill="{CARD}"/>',
-    f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="10" fill="none" stroke="{BORDER}"/>',
+    f'<rect width="{W}" height="{H}" rx="8" fill="{BG}"/>',
+    f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="8" fill="none" stroke="{BORDER}"/>',
 ]
 
-# Aligned top metrics: labels, large values, units and dates share columns.
+# Precisely aligned header statistics.
 svg += [
-    '<text x="790" y="70" font-size="24" fill="#8b949e">1 year total</text>',
-    f'<text x="790" y="128" font-size="62" font-weight="700" fill="{GREEN}">{total:,}</text>',
-    '<text x="1005" y="128" font-size="23" fill="#c9d1d9">contributions</text>',
-    f'<text x="1005" y="158" font-size="17" fill="{MUTED}">{fmt_date(days[0]["date"])} — {fmt_date(days[-1]["date"])}</text>',
-    '<text x="790" y="212" font-size="24" fill="#8b949e">Busiest day</text>',
-    f'<text x="790" y="270" font-size="62" font-weight="700" fill="{GREEN}">{busiest}</text>',
-    '<text x="1005" y="270" font-size="23" fill="#c9d1d9">contributions</text>',
-    '<text x="1005" y="300" font-size="17" fill="#8b949e">Peak activity</text>',
-    '<text x="52" y="510" font-size="24" fill="#8b949e">Longest streak</text>',
-    f'<text x="52" y="568" font-size="60" font-weight="700" fill="{GREEN}">{longest}</text>',
-    '<text x="188" y="568" font-size="23" fill="#c9d1d9">days</text>',
-    '<text x="52" y="598" font-size="17" fill="#8b949e">Consecutive contribution days</text>',
-    '<text x="52" y="666" font-size="24" fill="#8b949e">Current streak</text>',
-    f'<text x="52" y="724" font-size="60" font-weight="700" fill="{GREEN}">{current}</text>',
-    '<text x="188" y="724" font-size="23" fill="#c9d1d9">days</text>',
-    '<text x="52" y="754" font-size="17" fill="#8b949e">Ending today</text>',
+    f'<text x="830" y="66" font-size="22" fill="{MUTED}">1 year total</text>',
+    f'<text x="830" y="126" font-size="62" font-weight="700" fill="{GREEN}">{total:,}</text>',
+    f'<text x="1045" y="126" font-size="22" fill="{TEXT}">contributions</text>',
+    f'<text x="1045" y="157" font-size="16" fill="{MUTED}">{fmt_date(days[0]["date"])} — {fmt_date(days[-1]["date"])}</text>',
+    f'<text x="830" y="215" font-size="22" fill="{MUTED}">Busiest day</text>',
+    f'<text x="830" y="275" font-size="62" font-weight="700" fill="{GREEN}">{busiest}</text>',
+    f'<text x="1045" y="275" font-size="22" fill="{TEXT}">contributions</text>',
+    f'<text x="1045" y="306" font-size="16" fill="{MUTED}">Peak activity</text>',
+    f'<text x="54" y="515" font-size="22" fill="{MUTED}">Longest streak</text>',
+    f'<text x="54" y="574" font-size="60" font-weight="700" fill="{GREEN}">{longest}</text>',
+    f'<text x="190" y="574" font-size="22" fill="{TEXT}">days</text>',
+    f'<text x="54" y="604" font-size="16" fill="{MUTED}">Consecutive contribution days</text>',
+    f'<text x="54" y="673" font-size="22" fill="{MUTED}">Current streak</text>',
+    f'<text x="54" y="732" font-size="60" font-weight="700" fill="{GREEN}">{current}</text>',
+    f'<text x="190" y="732" font-size="22" fill="{TEXT}">days</text>',
+    f'<text x="54" y="762" font-size="16" fill="{MUTED}">Ending today</text>',
 ]
 
-# Ground plane: the complete heatmap is deliberately bounded inside the SVG.
+# Ground plane and city are clipped to the dashboard boundary.
+svg.append('<g clip-path="url(#cardClip)">')
+
 ground = []
 for c in range(53):
     for r in range(7):
@@ -181,55 +180,57 @@ for c in range(53):
 ground.sort()
 for _, r, c, x, y in ground:
     top = [(x, y - HH), (x + HW, y), (x, y + HH), (x - HW, y)]
-    svg.append(
-        f'<polygon points="{poly(top)}" fill="{GROUND}" '
-        f'stroke="{GROUND_STROKE}" stroke-width="0.65" opacity="0.98"/>'
-    )
+    svg.append(f'<polygon points="{poly(top)}" fill="{GROUND}" stroke="{GROUND_STROKE}" stroke-width="0.65" opacity="0.98"/>')
 
-# Contribution buildings rise in a diagonal wave, clipped by the card bounds.
+# Build each cell in local coordinates so scale(1,0) collapses it at its
+# base rather than scaling the whole SVG. This fixes the invisible-city bug.
 for _, r, c, x, y in ground:
     n = int(weeks[c][r]["contributionCount"])
     t = math.log1p(n) / math.log1p(max_count) if n else 0
     h = 3.0 if n == 0 else 8.0 + t * MAX_H
-    top = [(x, y - HH - h), (x + HW, y - h), (x, y + HH - h), (x - HW, y - h)]
-    left = [(x - HW, y), (x, y + HH), (x, y + HH - h), (x - HW, y - h)]
-    right = [(x, y + HH), (x + HW, y), (x + HW, y - h), (x, y + HH - h)]
+
+    top = [(0, -HH - h), (HW, -h), (0, HH - h), (-HW, -h)]
+    left = [(-HW, 0), (0, HH), (0, HH - h), (-HW, -h)]
+    right = [(0, HH), (HW, 0), (HW, -h), (0, HH - h)]
+
     cbase = color_for(t)
     delay = 0.15 + ((c + r) / 58.0) * 2.6
+
     svg.append(f'<g transform="translate({x:.1f},{y:.1f})">')
     svg.append(
+        '<g transform="scale(1 1)">'
         '<animateTransform attributeName="transform" type="scale" '
-        'values="1 0;1 1;1 1" keyTimes="0;0.20;1" dur="13s" '
-        f'begin="{delay:.2f}s" repeatCount="indefinite" fill="freeze"/>'
+        'values="1 0;1 1;1 1" keyTimes="0;0.22;1" dur="11s" '
+        f'begin="{delay:.2f}s" repeatCount="indefinite"/>'
     )
-    svg.append(f'<g transform="translate({-x:.1f},{-y:.1f})">')
     svg.append(f'<polygon points="{poly(left)}" fill="{rgb(shade(cbase, 0.55))}"/>')
     svg.append(f'<polygon points="{poly(right)}" fill="{rgb(shade(cbase, 0.72))}"/>')
     svg.append(f'<polygon points="{poly(top)}" fill="{rgb(cbase)}"/>')
     if t > 0.72:
         svg.append(
-            f'<polygon points="{poly(top)}" fill="none" stroke="#5b9f32" '
-            'stroke-width="1.8" opacity="0.20">'
-            '<animate attributeName="opacity" values="0.12;0.50;0.12" '
-            'dur="2.8s" repeatCount="indefinite"/></polygon>'
+            f'<polygon points="{poly(top)}" fill="none" stroke="#5b9f32" stroke-width="1.8" opacity="0.22">'
+            '<animate attributeName="opacity" values="0.10;0.50;0.10" dur="2.8s" repeatCount="indefinite"/>'
+            '</polygon>'
         )
     svg.append('</g></g>')
 
-# Bottom cards are aligned to a fixed three-column grid.
+svg.append('</g>')
+
+# Bottom summary cards: equal widths and perfectly centered text.
 line_y = 865
 svg.append(f'<line x1="0" y1="{line_y}" x2="{W}" y2="{line_y}" stroke="{BORDER}"/>')
-for x in (466.7, 933.3):
-    svg.append(f'<line x1="{x:.1f}" y1="{line_y}" x2="{x:.1f}" y2="{H}" stroke="{BORDER}"/>')
+for x in (466, 932):
+    svg.append(f'<line x1="{x}" y1="{line_y}" x2="{x}" y2="{H}" stroke="{BORDER}"/>')
 
 cards = [
-    (233.3, "Contributions in the last year", f"{total:,} total", f"{fmt_date(days[0]["date"])} — {fmt_date(days[-1]["date"])}"),
-    (700.0, "Longest streak", f"{longest} days", "Consecutive contribution days"),
-    (1166.7, "Current streak", f"{current} days", "Ending today"),
+    (233, "Contributions in the last year", f"{total:,} total", f"{fmt_date(days[0]["date"])} — {fmt_date(days[-1]["date"])}"),
+    (699, "Longest streak", f"{longest} days", "Consecutive contribution days"),
+    (1166, "Current streak", f"{current} days", "Ending today"),
 ]
 for cx, title, value, sub in cards:
-    svg.append(f'<text x="{cx:.1f}" y="916" text-anchor="middle" font-size="19" fill="#8b949e">{title}</text>')
-    svg.append(f'<text x="{cx:.1f}" y="970" text-anchor="middle" font-size="40" fill="#c9d1d9">{value}</text>')
-    svg.append(f'<text x="{cx:.1f}" y="1004" text-anchor="middle" font-size="16" fill="#8b949e">{sub}</text>')
+    svg.append(f'<text x="{cx}" y="914" text-anchor="middle" font-size="18" fill="{MUTED}">{title}</text>')
+    svg.append(f'<text x="{cx}" y="967" text-anchor="middle" font-size="40" fill="{TEXT}">{value}</text>')
+    svg.append(f'<text x="{cx}" y="1001" text-anchor="middle" font-size="15" fill="{MUTED}">{sub}</text>')
 
 svg.append('</svg>')
 OUTPUT.write_text("\n".join(svg), encoding="utf-8")
