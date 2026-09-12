@@ -8,7 +8,7 @@
 &nbsp;&nbsp;
 <a href="https://leetcode.com/u/itsmeetsharma/"><img src="https://cdn.simpleicons.org/leetcode/A855F7" width="38" alt="LeetCode"/></a>
 &nbsp;&nbsp;
-<a href="mailto:meetsharma@gmail.com"><img src="https://skillicons.dev/icons?i=gmail&theme=dark" width="38" alt="Email"/></a>
+<a href="mailto:itsmeetsharma@gmail.com"><img src="https://skillicons.dev/icons?i=gmail&theme=dark" width="38" alt="Email"/></a>
 &nbsp;&nbsp;
 <a href="https://github.com/itsmeetsharma777"><img src="https://skillicons.dev/icons?i=github&theme=dark" width="38" alt="GitHub"/></a>
 
@@ -130,7 +130,7 @@ I'm **Meet Sharma**, a Computer Science engineering student who enjoys turning i
 <div align="center">
 
 <a href="https://www.linkedin.com/in/meetsharma777/"><img src="https://img.shields.io/badge/LinkedIn-Meet%20Sharma-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:meetsharma@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-22D3EE?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="mailto:itsmeetsharma@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-22D3EE?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 <a href="https://leetcode.com/u/itsmeetsharma/"><img src="https://img.shields.io/badge/LeetCode-Profile-A855F7?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/></a>
 
 <br/><br/>
