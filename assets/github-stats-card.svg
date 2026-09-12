@@ -6,47 +6,44 @@
 <rect x="1" y="1" width="898" height="358" rx="18" fill="url(#panel)" stroke="#18233a" stroke-width="2"/>
 <rect x="28" y="26" width="844" height="2" rx="1" fill="#18233a"/>
 <g font-family="Arial,Helvetica,sans-serif">
-  <text x="34" y="72" fill="#B05CFF" font-size="35" font-weight="700">My GitHub Statistics</text>
-  <text x="34" y="102" fill="#8FA1B8" font-size="17">Repository activity &amp; profile overview</text>
-
+  <text x="34" y="72" fill="#B05CFF" font-size="38" font-weight="700">My GitHub Statistics</text>
+  <text x="34" y="102" fill="#8FA1B8" font-size="18">Repository activity &amp; profile overview</text>
   <g transform="translate(36 140)">
-    <circle cx="17" cy="0" r="17" fill="#0b1224" stroke="#22D3EE" stroke-width="2.2"/>
-    <path d="M17-10v11l7 4" fill="none" stroke="#22D3EE" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="48" y="-8" fill="#A8B7CA" font-size="19" font-weight="600">Total Commits</text>
-    <text x="48" y="25" fill="#F1F5F9" font-size="34" font-weight="700">668</text>
+    <circle cx="17" cy="0" r="18" fill="#0b1224" stroke="#22D3EE" stroke-width="2.4"/>
+    <path d="M17-10v11l7 4" fill="none" stroke="#22D3EE" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="48" y="-8" fill="#A8B7CA" font-size="22" font-weight="600">Total Commits</text>
+    <text x="48" y="28" fill="#F1F5F9" font-size="38" font-weight="700">668</text>
   </g>
   <g transform="translate(36 218)">
-    <circle cx="17" cy="0" r="17" fill="#0b1224" stroke="#22D3EE" stroke-width="2.2"/>
-    <path d="M10 1l7-7 7 7M17-6v14" fill="none" stroke="#22D3EE" stroke-width="2.7" stroke-linecap="round"/>
-    <text x="48" y="-8" fill="#A8B7CA" font-size="19" font-weight="600">Total Pull Requests</text>
-    <text x="48" y="25" fill="#F1F5F9" font-size="34" font-weight="700">0</text>
+    <circle cx="17" cy="0" r="18" fill="#0b1224" stroke="#22D3EE" stroke-width="2.4"/>
+    <path d="M10 1l7-7 7 7M17-6v14" fill="none" stroke="#22D3EE" stroke-width="2.8" stroke-linecap="round"/>
+    <text x="48" y="-8" fill="#A8B7CA" font-size="22" font-weight="600">Total Pull Requests</text>
+    <text x="48" y="28" fill="#F1F5F9" font-size="38" font-weight="700">0</text>
   </g>
   <g transform="translate(36 296)">
-    <circle cx="17" cy="0" r="17" fill="#0b1224" stroke="#22D3EE" stroke-width="2.2"/>
-    <path d="M17-11v22M9-6l8-5 8 5M9 6l8 5 8-5" fill="none" stroke="#22D3EE" stroke-width="2.4" stroke-linecap="round"/>
-    <text x="48" y="-8" fill="#A8B7CA" font-size="19" font-weight="600">Total Issues</text>
-    <text x="48" y="25" fill="#F1F5F9" font-size="34" font-weight="700">1</text>
+    <circle cx="17" cy="0" r="18" fill="#0b1224" stroke="#22D3EE" stroke-width="2.4"/>
+    <path d="M17-11v22M9-6l8-5 8 5M9 6l8 5 8-5" fill="none" stroke="#22D3EE" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="48" y="-8" fill="#A8B7CA" font-size="22" font-weight="600">Total Issues</text>
+    <text x="48" y="28" fill="#F1F5F9" font-size="38" font-weight="700">1</text>
   </g>
-
   <g transform="translate(470 140)">
-    <circle cx="17" cy="0" r="17" fill="#0b1224" stroke="#A855F7" stroke-width="2.2"/>
-    <path d="M17-10l3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z" fill="none" stroke="#A855F7" stroke-width="2.3" stroke-linejoin="round"/>
-    <text x="48" y="-8" fill="#A8B7CA" font-size="19" font-weight="600">Total Stars</text>
-    <text x="48" y="25" fill="#F1F5F9" font-size="34" font-weight="700">0</text>
+    <circle cx="17" cy="0" r="18" fill="#0b1224" stroke="#A855F7" stroke-width="2.4"/>
+    <path d="M17-10l3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z" fill="none" stroke="#A855F7" stroke-width="2.5" stroke-linejoin="round"/>
+    <text x="48" y="-8" fill="#A8B7CA" font-size="22" font-weight="600">Total Stars</text>
+    <text x="48" y="28" fill="#F1F5F9" font-size="38" font-weight="700">0</text>
   </g>
   <g transform="translate(470 218)">
-    <circle cx="17" cy="0" r="17" fill="#0b1224" stroke="#A855F7" stroke-width="2.2"/>
-    <path d="M9-5h16v14H9zM12-9h10M13 13v5M21 13v5" fill="none" stroke="#A855F7" stroke-width="2.3" stroke-linecap="round"/>
-    <text x="48" y="-8" fill="#A8B7CA" font-size="19" font-weight="600">Contributed To</text>
-    <text x="48" y="25" fill="#F1F5F9" font-size="34" font-weight="700">1 repository</text>
+    <circle cx="17" cy="0" r="18" fill="#0b1224" stroke="#A855F7" stroke-width="2.4"/>
+    <path d="M9-5h16v14H9zM12-9h10M13 13v5M21 13v5" fill="none" stroke="#A855F7" stroke-width="2.4" stroke-linecap="round"/>
+    <text x="48" y="-8" fill="#A8B7CA" font-size="22" font-weight="600">Contributed To</text>
+    <text x="48" y="28" fill="#F1F5F9" font-size="38" font-weight="700">1 repository</text>
   </g>
-
   <g transform="translate(470 300)">
-    <text x="0" y="0" fill="#A8B7CA" font-size="15" font-weight="700">ACTIVITY SCORE</text>
-    <text x="0" y="33" fill="url(#purple)" font-size="32" font-weight="700">A+</text>
-    <rect x="76" y="8" width="277" height="9" rx="4.5" fill="#17132d"/>
-    <rect x="76" y="8" width="255" height="9" rx="4.5" fill="url(#purple)"/>
-    <text x="76" y="38" fill="#718096" font-size="13">Consistent coding activity</text>
+    <text x="0" y="0" fill="#A8B7CA" font-size="16" font-weight="700">ACTIVITY SCORE</text>
+    <text x="0" y="34" fill="url(#purple)" font-size="36" font-weight="700">A+</text>
+    <rect x="82" y="8" width="271" height="10" rx="5" fill="#17132d"/>
+    <rect x="82" y="8" width="250" height="10" rx="5" fill="url(#purple)"/>
+    <text x="82" y="39" fill="#718096" font-size="14">Consistent coding activity</text>
   </g>
 </g>
 </svg>
