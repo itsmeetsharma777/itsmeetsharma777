@@ -85,8 +85,8 @@ I'm **Meet Sharma**, a Computer Science engineering student who enjoys turning i
 ## GitHub Analytics
 
 <p align="center">
-  <img src="./assets/github-stats-card.svg?v=3" width="49%" alt="GitHub statistics"/>
-  <img src="./assets/github-languages-card.svg?v=2" width="49%" alt="Most used programming languages"/>
+  <img src="./assets/github-stats-card.svg?v=4" width="49%" alt="GitHub statistics"/>
+  <img src="./assets/github-languages-card.svg?v=3" width="49%" alt="Most used programming languages"/>
 </p>
 
 <p align="center">
