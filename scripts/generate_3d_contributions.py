@@ -87,9 +87,12 @@ longest, current, busiest = streaks(days)
 W, H = 1400, 1040
 BG, BORDER = "#0d1117", "#30363d"
 TEXT, MUTED = "#f0f6fc", "#8b949e"
-GREEN = "#238b24"
-GROUND, GROUND_STROKE = "#dae784", "#c8dc73"
-LOW_GREEN, HIGH_GREEN = (133, 176, 78), (27, 63, 12)
+GREEN = "#2ea043"
+
+# Heatmap palette matched to the supplied dark GitHub reference:
+# inactive cells are deep slate; activity moves through forest green to bright green.
+GROUND, GROUND_STROKE = "#18232d", "#101820"
+LOW_GREEN, HIGH_GREEN = (8, 88, 43), (72, 220, 96)
 
 # Match the approved reference composition: a long diagonal 53 x 7 city
 # lifted into the upper-left/middle, with deliberate open space on the right.
@@ -155,7 +158,7 @@ svg += [
 
 svg.append('<g clip-path="url(#cardClip)">')
 
-# Fixed pale-green isometric ground plane.
+# Fixed dark-slate isometric heatmap ground, matching the supplied reference.
 ground = []
 for c in range(53):
     for r in range(7):
