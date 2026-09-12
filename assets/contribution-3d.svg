@@ -10,7 +10,7 @@
 <text x="835" y="165" font-size="18" fill="#8b949e">September 7 — September 12</text>
 <text x="835" y="218" font-size="25" font-weight="600" fill="#8b949e">Busiest day</text>
 <text x="835" y="285" font-size="72" font-weight="800" fill="#2ea043">56</text>
-<text x="900" y="285" font-size="25" font-weight="600" fill="#f0f6fc">contributions</text>
+<text x="835" y="285" font-size="25" font-weight="600" fill="#f0f6fc">contributions</text>
 <text x="835" y="318" font-size="18" fill="#8b949e">Peak activity</text>
 <text x="60" y="520" font-size="25" font-weight="600" fill="#8b949e">Longest streak</text>
 <text x="60" y="585" font-size="64" font-weight="800" fill="#2ea043">52</text>
