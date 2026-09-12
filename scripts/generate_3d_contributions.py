@@ -1,4 +1,4 @@
-"""Generate the approved dark 3D GitHub contribution dashboard with live data and animated cubes."""
+"""Generate the approved dark 3D GitHub contribution dashboard with live data."""
 import math
 import os
 import sys
@@ -93,22 +93,23 @@ BG, BORDER = "#0d1117", "#30363d"
 TEXT, MUTED = "#f0f6fc", "#9aa4b2"
 GREEN = "#39d353"
 GROUND, GROUND_STROKE = "#26384a", "#172536"
-LOW_GREEN, HIGH_GREEN = (18, 105, 58), (64, 245, 92)
+# The reference uses a rich emerald-to-lime city. Keep several deliberate
+# levels instead of one flat green so adjacent buildings have visual depth.
+PALETTE = [
+    (12, 72, 39),
+    (16, 111, 50),
+    (20, 153, 61),
+    (34, 201, 73),
+    (56, 239, 91),
+    (102, 255, 112),
+]
 HW, HH = 18.0, 9.0
 ORIGIN_X, ORIGIN_Y = 190.0, 250.0
-MAX_H = 160.0
+MAX_H = 170.0
 
 
 def rgb(v):
     return f"rgb({int(v[0])},{int(v[1])},{int(v[2])})"
-
-
-def mix(a, b, t):
-    return tuple(a[i] + (b[i] - a[i]) * t for i in range(3))
-
-
-def color_for(t):
-    return mix(LOW_GREEN, HIGH_GREEN, t)
 
 
 def shade(c, factor):
@@ -124,12 +125,6 @@ def poly(points):
 
 
 def metric_markup(x, heading_y, heading, value, unit, subtext, value_size=72):
-    """Render one metric as a strict three-row component.
-
-    Row 1: heading.
-    Row 2: number + unit in one text flow, guaranteeing true adjacency.
-    Row 3: supporting text aligned to the exact same left edge as the number.
-    """
     value_y = heading_y + 67
     subtext_y = value_y + 38
     return [
@@ -143,29 +138,20 @@ svg = [
     f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif">',
     "<defs>",
     f'<clipPath id="cardClip"><rect x="2" y="2" width="{W-4}" height="{H-4}" rx="8"/></clipPath>',
+    # A restrained glow makes the brighter tops read as luminous without
+    # washing out the dark dashboard.
+    '<filter id="cubeGlow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>',
     "</defs>",
     f'<rect width="{W}" height="{H}" rx="8" fill="{BG}"/>',
     f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="8" fill="none" stroke="{BORDER}"/>',
 ]
 
-# Four metric areas, deliberately treated as identical UI components.
-# Each component has one shared left edge, fixed vertical rhythm, and a
-# dedicated supporting-text row so dates/descriptions can never touch values.
 right_x = 835
 left_x = 60
-svg += metric_markup(
-    right_x, 65, "1 year total", f"{total:,}", "contributions",
-    f"{fmt_date(days[0]['date'])} — {fmt_date(days[-1]['date'])}", 72
-)
-svg += metric_markup(
-    right_x, 230, "Busiest day", busiest, "contributions", "Peak activity", 72
-)
-svg += metric_markup(
-    left_x, 520, "Longest streak", longest, "days", "Consecutive contribution days", 64
-)
-svg += metric_markup(
-    left_x, 684, "Current streak", current, "days", "Ending today", 64
-)
+svg += metric_markup(right_x, 65, "1 year total", f"{total:,}", "contributions", f"{fmt_date(days[0]['date'])} — {fmt_date(days[-1]['date'])}", 72)
+svg += metric_markup(right_x, 230, "Busiest day", busiest, "contributions", "Peak activity", 72)
+svg += metric_markup(left_x, 520, "Longest streak", longest, "days", "Consecutive contribution days", 64)
+svg += metric_markup(left_x, 684, "Current streak", current, "days", "Ending today", 64)
 
 svg.append('<g clip-path="url(#cardClip)">')
 ground = []
@@ -174,39 +160,40 @@ for c in range(53):
         x, y = project(c, r)
         ground.append((c + r, r, c, x, y))
 
+# Draw the tiled ground first. The full 53x7 footprint stays visible even
+# when GitHub activity is concentrated in recent weeks.
 for _, r, c, x, y in sorted(ground):
     top = [(x, y - HH), (x + HW, y), (x, y + HH), (x - HW, y)]
-    svg.append(
-        f'<polygon points="{poly(top)}" fill="{GROUND}" stroke="{GROUND_STROKE}" stroke-width="0.7"/>'
-    )
+    svg.append(f'<polygon points="{poly(top)}" fill="{GROUND}" stroke="{GROUND_STROKE}" stroke-width="0.7"/>')
 
-# Every non-zero contribution becomes its own animated isometric cube.
-# Height is derived from live contribution counts; animation changes only
-# the cube's vertical scale while the dashboard and ground plane stay fixed.
+# Render every day as a small 3D building. Zero-contribution days get a
+# deliberately tiny dark-green foundation; real contribution counts control
+# the building height and brightness. This preserves the live data while
+# giving the visualization the dense, premium "contribution city" silhouette
+# of the approved reference instead of leaving a huge empty plane.
 for _, r, c, x, y in sorted(ground):
     n = int(weeks[c][r]["contributionCount"])
-    if n <= 0:
-        continue
+    t = math.log1p(n) / math.log1p(max_count) if n else 0.0
+    # Non-zero days scale strongly; zero days remain subtle but still provide
+    # the dense city footprint seen in the reference image.
+    h = 4.0 if n == 0 else 10.0 + t * MAX_H
+    palette_index = 0 if n == 0 else min(len(PALETTE) - 1, 1 + int(t * (len(PALETTE) - 1)))
+    base = PALETTE[palette_index]
 
-    t = math.log1p(n) / math.log1p(max_count)
-    h = 12.0 + t * MAX_H
-    base = color_for(t)
     top = [(0, -HH - h), (HW, -h), (0, HH - h), (-HW, -h)]
     left = [(-HW, 0), (0, HH), (0, HH - h), (-HW, -h)]
     right = [(0, HH), (HW, 0), (HW, -h), (0, HH - h)]
-    delay = ((c + r) / 59.0) * 1.6
 
     svg.append(f'<g transform="translate({x:.1f},{y:.1f})">')
-    svg.append(
-        f'<g transform="scale(1 0.001)" transform-origin="0 0">'
-        f'<polygon points="{poly(left)}" fill="{rgb(shade(base, 0.48))}"/>'
-        f'<polygon points="{poly(right)}" fill="{rgb(shade(base, 0.68))}"/>'
-        f'<polygon points="{poly(top)}" fill="{rgb(base)}"/>'
-        f'<animateTransform attributeName="transform" type="scale" '
-        f'values="1 0.001;1 1;1 0.001" keyTimes="0;0.5;1" '
-        f'dur="5.6s" begin="{delay:.2f}s" repeatCount="indefinite"/>'
-        f'</g>'
-    )
+    # Darker side faces + luminous top face reproduce the strong 3D separation
+    # visible in the reference artwork.
+    if n >= max_count * 0.35:
+        svg.append('<g filter="url(#cubeGlow)">')
+    svg.append(f'<polygon points="{poly(left)}" fill="{rgb(shade(base, 0.48))}"/>')
+    svg.append(f'<polygon points="{poly(right)}" fill="{rgb(shade(base, 0.68))}"/>')
+    svg.append(f'<polygon points="{poly(top)}" fill="{rgb(base)}"/>')
+    if n >= max_count * 0.35:
+        svg.append('</g>')
     svg.append('</g>')
 
 svg.append('</g>')
