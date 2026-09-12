@@ -1,111 +1,126 @@
 <div align="center">
 
-<img src="./assets/hero-premium.gif" width="100%" alt="Meet Sharma — CSE Student and Full-Stack Developer"/>
+<img src="./assets/neon-hero.svg" width="100%" alt="Meet Sharma — Computer Science Engineer, Full-Stack Developer and DSA enthusiast"/>
 
 <br/>
 
-<a href="https://www.linkedin.com/in/meetsharma777/"><img src="https://skillicons.dev/icons?i=linkedin" width="42" alt="LinkedIn"/></a>&nbsp;&nbsp;
-<a href="https://www.instagram.com/meetsharma777/"><img src="https://skillicons.dev/icons?i=instagram" width="42" alt="Instagram"/></a>&nbsp;&nbsp;
-<a href="mailto:itsmeetsharma@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" width="42" alt="Gmail"/></a>&nbsp;&nbsp;
-<a href="https://leetcode.com/u/itsmeetsharma/"><img src="https://cdn.simpleicons.org/leetcode/A855F7" width="42" alt="LeetCode"/></a>
+<a href="https://www.linkedin.com/in/meetsharma777/"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" width="40" alt="LinkedIn"/></a>&nbsp;&nbsp;
+<a href="https://www.instagram.com/meetsharma777/"><img src="https://skillicons.dev/icons?i=instagram&theme=dark" width="40" alt="Instagram"/></a>&nbsp;&nbsp;
+<a href="mailto:itsmeetsharma@gmail.com"><img src="https://skillicons.dev/icons?i=gmail&theme=dark" width="40" alt="Email"/></a>&nbsp;&nbsp;
+<a href="https://leetcode.com/u/itsmeetsharma/"><img src="https://cdn.simpleicons.org/leetcode/A855F7" width="40" alt="LeetCode"/></a>
 
 <br/><br/>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=Poppins&weight=600&size=24&duration=2600&pause=900&color=F472B6&center=true&vCenter=true&width=650&lines=Building+strong+foundations+in+Computer+Science;Full-Stack+Developer+%E2%80%A2+Java+%7C+MERN;DSA+%26+Problem+Solving+Enthusiast;Code+with+purpose.+Build+with+impact." alt="Typing SVG" />
-</a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=850&color=22D3EE&center=true&vCenter=true&width=720&lines=Computer+Science+Engineering+Student;Full-Stack+Developer+%E2%80%A2+Java+%7C+MERN;DSA+%26+Problem+Solving+Enthusiast;Building+%E2%80%A2+Learning+%E2%80%A2+Shipping" alt="Animated introduction"/></a>
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=90&color=0:7C3AED,50:DB42D6,100:F9922F&section=header"/>
+<img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider"/>
 
-## ✦ Featured Projects
+## 👋 About Me
 
-<p align="center">
-  <a href="https://github.com/itsmeetsharma777/Portfolio">
-    <img src="./assets/project-portfolio.svg" width="100%" alt="Personal Portfolio project"/>
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/itsmeetsharma777/EduSync">
-    <img src="./assets/project-edusync.svg" width="100%" alt="EduSync project"/>
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/itsmeetsharma777/BillNest">
-    <img src="./assets/project-billnest.svg" width="100%" alt="BillNest project"/>
-  </a>
-</p>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=70&color=0:F9922F,50:DB42D6,100:7C3AED"/>
-
-## ⚡ Technology Knowledge
-
-### Languages
-
-<div align="center">
-
-| <img src="https://skillicons.dev/icons?i=java" width="54"><br/>Java | <img src="https://skillicons.dev/icons?i=cpp" width="54"><br/>C++ | <img src="https://skillicons.dev/icons?i=python" width="54"><br/>Python | <img src="https://skillicons.dev/icons?i=javascript" width="54"><br/>JavaScript | <img src="https://skillicons.dev/icons?i=typescript" width="54"><br/>TypeScript |
-|---|---|---|---|---|
-
-</div>
-
-### Frontend
-
-<div align="center">
-
-| <img src="https://skillicons.dev/icons?i=html" width="54"><br/>HTML | <img src="https://skillicons.dev/icons?i=css" width="54"><br/>CSS | <img src="https://skillicons.dev/icons?i=react" width="54"><br/>React.js | <img src="https://skillicons.dev/icons?i=tailwind" width="54"><br/>Tailwind CSS |
-|---|---|---|---|
-
-</div>
-
-### Backend
-
-<div align="center">
-
-| <img src="https://skillicons.dev/icons?i=nodejs" width="54"><br/>Node.js | <img src="https://skillicons.dev/icons?i=express" width="54"><br/>Express.js |
-|---|---|
-
-</div>
-
-### Database
-
-<div align="center">
-
-| <img src="https://skillicons.dev/icons?i=mongodb" width="54"><br/>MongoDB | <img src="https://skillicons.dev/icons?i=mysql" width="54"><br/>MySQL |
-|---|---|
-
-</div>
-
-### Tools & Platforms
-
-<div align="center">
-
-| <img src="https://skillicons.dev/icons?i=git" width="54"><br/>Git | <img src="https://skillicons.dev/icons?i=github" width="54"><br/>GitHub | <img src="https://skillicons.dev/icons?i=vscode" width="54"><br/>VS Code | <img src="https://skillicons.dev/icons?i=postman" width="54"><br/>Postman | <img src="https://skillicons.dev/icons?i=vercel" width="54"><br/>Vercel | <img src="https://skillicons.dev/icons?i=netlify" width="54"><br/>Netlify | <img src="https://skillicons.dev/icons?i=canva" width="54"><br/>Canva |
-|---|---|---|---|---|---|---|
-
-</div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=70&color=0:7C3AED,50:F43F5E,100:2DDB9A"/>
-
-## ◈ GitHub Analytics
-
-<table width="100%" cellspacing="0" cellpadding="0">
+<table width="100%">
 <tr>
-<td width="50%" align="center" valign="middle">
+<td width="58%" valign="top">
+
+I'm **Meet Sharma**, a Computer Science engineering student focused on building strong fundamentals and turning ideas into useful software.
+
+- 💻 Building full-stack applications with **Java, JavaScript, TypeScript & MERN**
+- 🧠 Strengthening **DSA, problem solving and core CS concepts**
+- 🚀 Interested in clean architecture, practical products and continuous learning
+- ⚡ My approach: **understand deeply → build simply → improve continuously**
+
+</td>
+<td width="42%" align="center" valign="middle">
+
+```text
+┌────────────────────────────┐
+│       CURRENT FOCUS        │
+├────────────────────────────┤
+│  ◈ Data Structures         │
+│  ◈ Algorithms              │
+│  ◈ Full-Stack Development  │
+│  ◈ Software Engineering    │
+│  ◈ Building Projects       │
+└────────────────────────────┘
+```
+
+</td>
+</tr>
+</table>
+
+<img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider"/>
+
+## 🚀 Featured Projects
+
+<p align="center">
+  <a href="https://github.com/itsmeetsharma777/Portfolio"><img src="./assets/project-portfolio.svg" width="100%" alt="Personal Portfolio project"/></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/itsmeetsharma777/EduSync"><img src="./assets/project-edusync.svg" width="100%" alt="EduSync project"/></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/itsmeetsharma777/BillNest"><img src="./assets/project-billnest.svg" width="100%" alt="BillNest project"/></a>
+</p>
+
+<img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider"/>
+
+## ⚡ Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,cpp,python,javascript,typescript&theme=dark" alt="Programming languages"/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=html,css,react,tailwind&theme=dark" alt="Frontend technologies"/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql&theme=dark" alt="Backend and database technologies"/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,vercel,netlify,canva&theme=dark" alt="Developer tools and platforms"/>
+</p>
+
+<div align="center">
+
+`Java` `C++` `Python` `JavaScript` `TypeScript` `React` `Tailwind CSS` `Node.js` `Express.js` `MongoDB` `MySQL`
+
+</div>
+
+<img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider"/>
+
+## 📊 GitHub Analytics
+
+<table width="100%">
+<tr>
+<td width="50%" align="center">
 <img src="./profile/stats.svg" width="100%" alt="GitHub statistics"/>
 </td>
-<td width="50%" align="center" valign="middle">
-<img src="./profile/top-langs.svg" width="100%" alt="Most used languages"/>
+<td width="50%" align="center">
+<img src="./profile/top-langs.svg" width="100%" alt="Most used programming languages"/>
 </td>
 </tr>
 </table>
 
 <br/>
 
-## ◇ LeetCode
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=itsmeetsharma777&theme=tokyonight&hide_border=true&background=050816&ring=A855F7&fire=F472B6&currStreakLabel=22D3EE" width="80%" alt="GitHub contribution streak"/>
+</p>
+
+<img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider"/>
+
+## 🟣 Contribution Activity
+
+<p align="center">
+  <img src="./assets/github-contribution-grid-snake.svg" width="100%" alt="Animated GitHub contribution heatmap snake"/>
+</p>
+
+<p align="center">
+  <img src="./assets/contribution-3d.svg" width="100%" alt="Animated isometric 3D GitHub contribution city"/>
+</p>
+
+<img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider"/>
+
+## 🧩 LeetCode
 
 <p align="center">
   <a href="https://leetcode.com/u/itsmeetsharma/">
@@ -113,12 +128,20 @@
   </a>
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=70&color=0:2DDB9A,50:DB42D6,100:7C3AED"/>
+<div align="center">
 
-## 🟣 3D Contribution City
+<a href="https://leetcode.com/u/itsmeetsharma/">🧠 View my LeetCode profile →</a>
+
+</div>
+
+<img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider"/>
+
+## 🌐 Connect
 
 <p align="center">
-  <img src="./assets/contribution-3d.svg" width="100%" alt="Fully animated isometric 3D GitHub contribution city that rises on load, gently rotates, and glows on high-activity days"/>
+  <a href="https://www.linkedin.com/in/meetsharma777/"><img src="https://img.shields.io/badge/LinkedIn-Meet%20Sharma-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:itsmeetsharma@gmail.com"><img src="https://img.shields.io/badge/Email-itsmeetsharma%40gmail.com-22D3EE?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://leetcode.com/u/itsmeetsharma/"><img src="https://img.shields.io/badge/LeetCode-Profile-A855F7?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/></a>
 </p>
 
 <br/>
@@ -126,8 +149,8 @@
 <div align="center">
 
 <img src="https://komarev.com/ghpvc/?username=itsmeetsharma777&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS" alt="Profile views"/>
-&nbsp;&nbsp;
-<img src="https://img.shields.io/github/followers/itsmeetsharma777?style=for-the-badge&color=9333a8&label=FOLLOWERS" alt="Followers"/>
+&nbsp;
+<img src="https://img.shields.io/github/followers/itsmeetsharma777?style=for-the-badge&color=a855f7&label=FOLLOWERS" alt="Followers"/>
 
 <br/><br/>
 
@@ -135,4 +158,6 @@
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=90&color=0:F9922F,50:DB42D6,100:7C3AED&section=footer"/>
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:22D3EE,50:A855F7,100:F472B6&section=footer" width="100%" alt="Neon footer"/>
