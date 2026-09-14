@@ -1,33 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="250" viewBox="0 0 1400 250">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620" role="img">
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#0d0918"/>
-    <stop offset="0.55" stop-color="#100b20"/>
-    <stop offset="1" stop-color="#160b1e"/>
-  </linearGradient>
-  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#A855F7"/>
-    <stop offset="1" stop-color="#EC4899"/>
-  </linearGradient>
-  <filter id="glow"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d0918"/><stop offset="0.55" stop-color="#120b21"/><stop offset="1" stop-color="#1b0b21"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#A855F7"/><stop offset="1" stop-color="#EC4899"/></linearGradient>
+  <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b1230"/><stop offset="1" stop-color="#120d20"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="10" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   <style>
-    .title{font:700 28px 'DejaVu Sans',Arial,sans-serif;fill:#f7f2ff}
-    .sub{font:700 13px 'DejaVu Sans',Arial,sans-serif;fill:#c98cff;letter-spacing:2px}
-    .desc{font:400 16px 'DejaVu Sans',Arial,sans-serif;fill:#c9c2d5}
-    .pill{font:500 13px 'DejaVu Sans Mono',monospace;fill:#ded6eb}
-    .num{font:700 14px 'DejaVu Sans Mono',monospace;fill:#b9a9c9}
-    .arrow{font:700 26px 'DejaVu Sans',Arial,sans-serif;fill:#f0b2ff}
+    .eyebrow{font:700 16px 'DejaVu Sans Mono',monospace;fill:#c98cff;letter-spacing:2px}
+    .title{font:700 44px 'DejaVu Sans',Arial,sans-serif;fill:#faf7ff}
+    .desc{font:400 21px 'DejaVu Sans',Arial,sans-serif;fill:#c9c2d5}
+    .label{font:700 15px 'DejaVu Sans Mono',monospace;fill:#9d8ab3;letter-spacing:2px}
+    .pill{font:700 18px 'DejaVu Sans Mono',monospace;fill:#eee6f8}
+    .open{font:700 17px 'DejaVu Sans Mono',monospace;fill:#f0b2ff;letter-spacing:1px}
   </style>
 </defs>
-<rect x="5" y="5" width="1390" height="240" rx="28" fill="url(#bg)" stroke="#38254e"/>
-<rect x="5" y="5" width="8" height="240" rx="4" fill="url(#line)" filter="url(#glow)"/>
-<circle cx="74" cy="70" r="38" fill="#21102e" stroke="#A855F7" stroke-width="2"/>
-<text x="74" y="80" text-anchor="middle" font-size="28" fill="#f2d8ff">✦</text>
-<text x="135" y="56" class="num">01 / FEATURED PROJECT</text>
-<text x="135" y="92" class="title">Personal Portfolio</text>
-<text x="135" y="119" class="sub">REACT • TYPESCRIPT • TAILWIND</text>
-<text x="135" y="151" class="desc">A developer-focused portfolio for projects, skills, certifications and experience.</text>
-<rect x="350" y="190" width="114" height="32" rx="16" fill="#151225" stroke="#4a2d6d"/><text x="407.0" y="211" text-anchor="middle" class="pill">React</text><rect x="474" y="190" width="194" height="32" rx="16" fill="#151225" stroke="#4a2d6d"/><text x="571.0" y="211" text-anchor="middle" class="pill">TypeScript</text><rect x="678" y="190" width="226" height="32" rx="16" fill="#151225" stroke="#4a2d6d"/><text x="791.0" y="211" text-anchor="middle" class="pill">Tailwind CSS</text><rect x="914" y="190" width="98" height="32" rx="16" fill="#151225" stroke="#4a2d6d"/><text x="963.0" y="211" text-anchor="middle" class="pill">Vite</text>
-<text x="1340" y="105" text-anchor="middle" class="arrow">↗</text>
-<text x="1340" y="128" text-anchor="middle" class="num">OPEN</text>
+<rect x="6" y="6" width="988" height="608" rx="32" fill="url(#bg)" stroke="#3b2851" stroke-width="2"/>
+<rect x="6" y="6" width="10" height="608" rx="5" fill="url(#accent)" filter="url(#glow)"/>
+<circle cx="78" cy="78" r="38" fill="#21102e" stroke="#A855F7" stroke-width="2"/>
+<text x="78" y="91" text-anchor="middle" font-size="29" fill="#f2d8ff">✦</text>
+<text x="140" y="66" class="eyebrow">01 / FEATURED PROJECT</text>
+<text x="140" y="120" class="title">Personal Portfolio</text>
+<text x="140" y="160" class="desc">Personal brand · projects · developer showcase</text>
+<line x1="70" y1="205" x2="930" y2="205" stroke="#30233f"/>
+<text x="70" y="248" class="label">TECH STACK</text>
+<rect x="70" y="275" width="165" height="52" rx="26" fill="url(#chip)" stroke="#55377a"/><text x="152.5" y="308" text-anchor="middle" class="pill">React</text>
+<rect x="250" y="275" width="210" height="52" rx="26" fill="url(#chip)" stroke="#55377a"/><text x="355" y="308" text-anchor="middle" class="pill">TypeScript</text>
+<rect x="475" y="275" width="205" height="52" rx="26" fill="url(#chip)" stroke="#55377a"/><text x="577.5" y="308" text-anchor="middle" class="pill">Tailwind CSS</text>
+<rect x="695" y="275" width="135" height="52" rx="26" fill="url(#chip)" stroke="#55377a"/><text x="762.5" y="308" text-anchor="middle" class="pill">Vite</text>
+<text x="70" y="382" class="desc">A developer-focused portfolio for skills, certifications, experience and projects.</text>
+<rect x="70" y="448" width="860" height="100" rx="24" fill="#0c0a15" stroke="#2f2440"/>
+<text x="100" y="486" class="label">LIVE PROJECT</text>
+<text x="100" y="522" class="open">itsmeetportfolio.vercel.app</text>
+<text x="880" y="512" text-anchor="middle" font-size="34" fill="#f0b2ff">↗</text>
 </svg>
