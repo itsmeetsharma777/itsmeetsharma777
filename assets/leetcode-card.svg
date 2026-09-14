@@ -1,52 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="220" viewBox="0 0 1200 220">
-  <defs>
-    <linearGradient id="lcAccent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#A855F7"/>
-      <stop offset="1" stop-color="#EC4899"/>
-    </linearGradient>
-    <style>
-      .title { font: 700 28px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; fill: #F4ECFF; }
-      .rank { font: 700 26px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; fill: #C084FC; }
-      .label { font: 700 16px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; fill: #F4ECFF; }
-      .value { font: 600 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; fill: #B9A9CF; }
-      .small { font: 500 13px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; fill: #B9A9CF; }
-      .track { fill: #2A2036; }
-    </style>
-  </defs>
-  <rect x="1" y="1" width="1198" height="218" rx="14" fill="#0D0718" stroke="#7C3AED" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="300" viewBox="0 0 1200 300" role="img" aria-label="LeetCode statistics for itsmeetsharma">
+<defs>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#A855F7"/><stop offset="1" stop-color="#EC4899"/></linearGradient>
+  <linearGradient id="card" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#140a21"/><stop offset="1" stop-color="#0d0718"/></linearGradient>
+  <style>
+    .name{font:700 30px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#F7F2FF}
+    .rankLabel{font:600 13px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#A99AB8;letter-spacing:1.5px}
+    .rank{font:700 28px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#C084FC}
+    .meta{font:500 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#AFA1BF}
+    .label{font:700 17px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#F4ECFF}
+    .value{font:700 17px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#C7B7D6}
+    .count{font:700 26px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#F4ECFF}
+    .small{font:500 13px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#9D8EAD}
+  </style>
+</defs>
 
-  <!-- LeetCode mark -->
-  <g transform="translate(34 43)">
-    <path d="M0 28 L25 2 L44 21 L25 40 L10 25" fill="none" stroke="#F2F2F2" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M31 17 L47 8" stroke="#FFA116" stroke-width="8" stroke-linecap="round"/>
-    <path d="M29 31 L50 31" stroke="#A7A7A7" stroke-width="8" stroke-linecap="round"/>
-  </g>
-  <text x="105" y="63" class="title">itsmeetsharma</text>
-  <text x="1160" y="62" text-anchor="end" class="rank">#1,625,354</text>
-  <text x="105" y="87" class="small">LeetCode · Problem Solving · DSA</text>
+<rect x="2" y="2" width="1196" height="296" rx="20" fill="url(#card)" stroke="#7C3AED" stroke-width="2"/>
+<rect x="2" y="2" width="1196" height="5" rx="2.5" fill="url(#accent)"/>
 
-  <g transform="translate(48 112)">
-    
-    <text x="0" y="0" class="label">Easy</text>
-    <text x="330" y="0" text-anchor="end" class="value">81 / 965</text>
-    <rect x="0" y="12" width="330" height="7" rx="3.5" class="track"/>
-    <rect x="0" y="12" width="27.7" height="7" rx="3.5" fill="#45B84A"/>
-    
-    
-    <text x="390" y="0" class="label">Medium</text>
-    <text x="720" y="0" text-anchor="end" class="value">23 / 2115</text>
-    <rect x="390" y="12" width="330" height="7" rx="3.5" class="track"/>
-    <rect x="390" y="12" width="4.0" height="7" rx="3.5" fill="#F5B94C"/>
-    
-    
-    <text x="780" y="0" class="label">Hard</text>
-    <text x="1110" y="0" text-anchor="end" class="value">2 / 975</text>
-    <rect x="780" y="12" width="330" height="7" rx="3.5" class="track"/>
-    <rect x="780" y="12" width="4.0" height="7" rx="3.5" fill="#EF6A67"/>
-    
-  </g>
+<!-- Header -->
+<g transform="translate(42 42)">
+  <path d="M0 29 L27 2 L47 22 L27 42 L11 26" fill="none" stroke="#F2F2F2" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M34 18 L51 8" stroke="#FFA116" stroke-width="8" stroke-linecap="round"/>
+  <path d="M31 33 L53 33" stroke="#A7A7A7" stroke-width="8" stroke-linecap="round"/>
+</g>
+<text x="112" y="62" class="name">itsmeetsharma</text>
+<text x="112" y="88" class="meta">LeetCode · Problem Solving · DSA</text>
+<text x="1148" y="40" text-anchor="end" class="rankLabel">GLOBAL RANK</text>
+<text x="1148" y="70" text-anchor="end" class="rank">#1,625,354</text>
 
-  <text x="48" y="202" class="small">106 problems solved</text>
-  <text x="1152" y="202" text-anchor="end" class="small">C++ 104 · JavaScript 1 · Pandas 1</text>
-  <rect x="48" y="96" width="1104" height="2" rx="1" fill="url(#lcAccent)" opacity="0.55"/>
+<line x1="42" y1="112" x2="1158" y2="112" stroke="#3A2948" stroke-width="1"/>
+
+<!-- Difficulty cards -->
+<g>
+  <rect x="42" y="130" width="350" height="88" rx="14" fill="#100a19" stroke="#2F2440"/>
+  <text x="64" y="157" class="label">Easy</text>
+  <text x="368" y="157" text-anchor="end" class="value">81 / 965</text>
+  <rect x="64" y="174" width="306" height="8" rx="4" fill="#2A2036"/>
+  <rect x="64" y="174" width="25.8" height="8" rx="4" fill="#45B84A"/>
+  <text x="64" y="207" class="small">8.4% solved</text>
+
+  <rect x="425" y="130" width="350" height="88" rx="14" fill="#100a19" stroke="#2F2440"/>
+  <text x="447" y="157" class="label">Medium</text>
+  <text x="751" y="157" text-anchor="end" class="value">23 / 2115</text>
+  <rect x="447" y="174" width="306" height="8" rx="4" fill="#2A2036"/>
+  <rect x="447" y="174" width="3.3" height="8" rx="4" fill="#F5B94C"/>
+  <text x="447" y="207" class="small">1.1% solved</text>
+
+  <rect x="808" y="130" width="350" height="88" rx="14" fill="#100a19" stroke="#2F2440"/>
+  <text x="830" y="157" class="label">Hard</text>
+  <text x="1134" y="157" text-anchor="end" class="value">2 / 975</text>
+  <rect x="830" y="174" width="306" height="8" rx="4" fill="#2A2036"/>
+  <rect x="830" y="174" width="3.3" height="8" rx="4" fill="#EF6A67"/>
+  <text x="830" y="207" class="small">0.2% solved</text>
+</g>
+
+<!-- Footer stats -->
+<rect x="42" y="238" width="1116" height="40" rx="12" fill="#100a19" stroke="#2F2440"/>
+<text x="64" y="264" class="small">PROBLEMS SOLVED</text>
+<text x="202" y="266" class="count">106</text>
+<line x1="250" y1="247" x2="250" y2="269" stroke="#3A2948"/>
+<text x="274" y="264" class="small">LANGUAGES</text>
+<text x="368" y="264" class="value">C++ 104</text>
+<text x="500" y="264" class="value">JavaScript 1</text>
+<text x="650" y="264" class="value">Pandas 1</text>
+<text x="1136" y="264" text-anchor="end" class="small">KEEP SOLVING · KEEP IMPROVING</text>
 </svg>
