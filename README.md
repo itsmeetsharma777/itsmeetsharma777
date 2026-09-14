@@ -44,19 +44,19 @@ I'm **Meet Sharma**, a Computer Science engineering student who enjoys turning i
 <table width="100%">
 <tr>
 <td width="33%" align="center" valign="top">
-<a href="https://github.com/itsmeetsharma777/Portfolio"><img src="./assets/project-portfolio.svg?v=2" width="100%" alt="Portfolio project"/></a>
+<a href="https://itsmeetportfolio.vercel.app/"><img src="./assets/project-portfolio.svg?v=3" width="100%" alt="Personal Portfolio live project"/></a>
 <br/><br/>
 <b>Personal Portfolio</b><br/>
 <sub>Personal brand · projects · developer showcase</sub>
 </td>
 <td width="33%" align="center" valign="top">
-<a href="https://github.com/itsmeetsharma777/EduSync"><img src="./assets/project-edusync.svg?v=2" width="100%" alt="EduSync project"/></a>
+<a href="https://edusync.vercel.app/"><img src="./assets/project-edusync.svg?v=3" width="100%" alt="EduSync live project"/></a>
 <br/><br/>
 <b>EduSync</b><br/>
 <sub>Education platform · full-stack development</sub>
 </td>
 <td width="33%" align="center" valign="top">
-<a href="https://github.com/itsmeetsharma777/BillNest"><img src="./assets/project-billnest.svg?v=2" width="100%" alt="BillNest project"/></a>
+<a href="https://billnest.vercel.app/"><img src="./assets/project-billnest.svg?v=3" width="100%" alt="BillNest live project"/></a>
 <br/><br/>
 <b>BillNest</b><br/>
 <sub>Billing workflow · product engineering</sub>
