@@ -1,33 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="250" viewBox="0 0 1400 250">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620" role="img">
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#0d0918"/>
-    <stop offset="0.55" stop-color="#100b20"/>
-    <stop offset="1" stop-color="#160b1e"/>
-  </linearGradient>
-  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#A855F7"/>
-    <stop offset="1" stop-color="#FB7185"/>
-  </linearGradient>
-  <filter id="glow"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d0918"/><stop offset="0.55" stop-color="#120b21"/><stop offset="1" stop-color="#1b0b21"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#A855F7"/><stop offset="1" stop-color="#FB7185"/></linearGradient>
+  <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b1230"/><stop offset="1" stop-color="#120d20"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="10" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   <style>
-    .title{font:700 28px 'DejaVu Sans',Arial,sans-serif;fill:#f7f2ff}
-    .sub{font:700 13px 'DejaVu Sans',Arial,sans-serif;fill:#c98cff;letter-spacing:2px}
-    .desc{font:400 16px 'DejaVu Sans',Arial,sans-serif;fill:#c9c2d5}
-    .pill{font:500 13px 'DejaVu Sans Mono',monospace;fill:#ded6eb}
-    .num{font:700 14px 'DejaVu Sans Mono',monospace;fill:#b9a9c9}
-    .arrow{font:700 26px 'DejaVu Sans',Arial,sans-serif;fill:#f0b2ff}
+    .eyebrow{font:700 16px 'DejaVu Sans Mono',monospace;fill:#c98cff;letter-spacing:2px}
+    .title{font:700 44px 'DejaVu Sans',Arial,sans-serif;fill:#faf7ff}
+    .desc{font:400 21px 'DejaVu Sans',Arial,sans-serif;fill:#c9c2d5}
+    .label{font:700 15px 'DejaVu Sans Mono',monospace;fill:#9d8ab3;letter-spacing:2px}
+    .pill{font:700 18px 'DejaVu Sans Mono',monospace;fill:#eee6f8}
+    .open{font:700 17px 'DejaVu Sans Mono',monospace;fill:#f0b2ff;letter-spacing:1px}
   </style>
 </defs>
-<rect x="5" y="5" width="1390" height="240" rx="28" fill="url(#bg)" stroke="#38254e"/>
-<rect x="5" y="5" width="8" height="240" rx="4" fill="url(#line)" filter="url(#glow)"/>
-<circle cx="74" cy="70" r="38" fill="#21102e" stroke="#A855F7" stroke-width="2"/>
-<text x="74" y="80" text-anchor="middle" font-size="28" fill="#f2d8ff">◆</text>
-<text x="135" y="56" class="num">03 / FEATURED PROJECT</text>
-<text x="135" y="92" class="title">BillNest</text>
-<text x="135" y="119" class="sub">GST BILLING • WARRANTY • PDF</text>
-<text x="135" y="151" class="desc">A responsive billing and warranty platform for shops, customers and secure PDF invoices.</text>
-<rect x="350" y="190" width="114" height="32" rx="16" fill="#151225" stroke="#4a2d6d"/><text x="407.0" y="211" text-anchor="middle" class="pill">React</text><rect x="474" y="190" width="98" height="32" rx="16" fill="#151225" stroke="#4a2d6d"/><text x="523.0" y="211" text-anchor="middle" class="pill">Vite</text><rect x="582" y="190" width="194" height="32" rx="16" fill="#151225" stroke="#4a2d6d"/><text x="679.0" y="211" text-anchor="middle" class="pill">Express.js</text><rect x="786" y="190" width="146" height="32" rx="16" fill="#151225" stroke="#4a2d6d"/><text x="859.0" y="211" text-anchor="middle" class="pill">MongoDB</text><rect x="942" y="190" width="82" height="32" rx="16" fill="#151225" stroke="#4a2d6d"/><text x="983.0" y="211" text-anchor="middle" class="pill">JWT</text><rect x="1034" y="190" width="82" height="32" rx="16" fill="#151225" stroke="#4a2d6d"/><text x="1075.0" y="211" text-anchor="middle" class="pill">Zod</text><rect x="1126" y="190" width="114" height="32" rx="16" fill="#151225" stroke="#4a2d6d"/><text x="1183.0" y="211" text-anchor="middle" class="pill">jsPDF</text>
-<text x="1340" y="105" text-anchor="middle" class="arrow">↗</text>
-<text x="1340" y="128" text-anchor="middle" class="num">OPEN</text>
+<rect x="6" y="6" width="988" height="608" rx="32" fill="url(#bg)" stroke="#3b2851" stroke-width="2"/>
+<rect x="6" y="6" width="10" height="608" rx="5" fill="url(#accent)" filter="url(#glow)"/>
+<circle cx="78" cy="78" r="38" fill="#21102e" stroke="#A855F7" stroke-width="2"/>
+<text x="78" y="91" text-anchor="middle" font-size="29" fill="#f2d8ff">◆</text>
+<text x="140" y="66" class="eyebrow">03 / FEATURED PROJECT</text>
+<text x="140" y="120" class="title">BillNest</text>
+<text x="140" y="160" class="desc">GST billing · warranty management · secure PDF invoices</text>
+<line x1="70" y1="205" x2="930" y2="205" stroke="#30233f"/>
+<text x="70" y="248" class="label">TECH STACK</text>
+<rect x="70" y="275" width="165" height="52" rx="26" fill="url(#chip)" stroke="#55377a"/><text x="152.5" y="308" text-anchor="middle" class="pill">React</text>
+<rect x="250" y="275" width="135" height="52" rx="26" fill="url(#chip)" stroke="#55377a"/><text x="317.5" y="308" text-anchor="middle" class="pill">Vite</text>
+<rect x="400" y="275" width="205" height="52" rx="26" fill="url(#chip)" stroke="#55377a"/><text x="502.5" y="308" text-anchor="middle" class="pill">Express.js</text>
+<rect x="620" y="275" width="165" height="52" rx="26" fill="url(#chip)" stroke="#55377a"/><text x="702.5" y="308" text-anchor="middle" class="pill">MongoDB</text>
+<rect x="800" y="275" width="135" height="52" rx="26" fill="url(#chip)" stroke="#55377a"/><text x="867.5" y="308" text-anchor="middle" class="pill">JWT</text>
+<rect x="70" y="345" width="135" height="52" rx="26" fill="url(#chip)" stroke="#55377a"/><text x="137.5" y="378" text-anchor="middle" class="pill">Zod</text>
+<rect x="220" y="345" width="155" height="52" rx="26" fill="url(#chip)" stroke="#55377a"/><text x="297.5" y="378" text-anchor="middle" class="pill">jsPDF</text>
+<text x="70" y="432" class="desc">Responsive billing workflow for shops, customers, invoices and warranty records.</text>
+<rect x="70" y="478" width="860" height="70" rx="24" fill="#0c0a15" stroke="#2f2440"/>
+<text x="100" y="522" class="label">LIVE PROJECT</text>
+<text x="350" y="522" class="open">billnest.vercel.app</text>
+<text x="880" y="523" text-anchor="middle" font-size="34" fill="#f0b2ff">↗</text>
 </svg>
