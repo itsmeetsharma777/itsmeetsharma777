@@ -6,7 +6,7 @@
 
 <a href="https://www.linkedin.com/in/meetsharma777/"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" width="38" alt="LinkedIn"/></a>
 &nbsp;&nbsp;
-<a href="https://leetcode.com/u/itsmeetsharma/"><img src="./assets/leetcode-icon.svg?v=3" width="38" alt="LeetCode"/></a>
+<a href="https://leetcode.com/u/itsmeetsharma/"><img src="https://cdn.simpleicons.org/leetcode/A855F7" width="38" alt="LeetCode"/></a>
 &nbsp;&nbsp;
 <a href="mailto:itsmeetsharma@gmail.com"><img src="https://skillicons.dev/icons?i=gmail&theme=dark" width="38" alt="Email"/></a>
 &nbsp;&nbsp;
