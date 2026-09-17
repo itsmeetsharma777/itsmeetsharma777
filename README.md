@@ -56,7 +56,7 @@ I'm **Meet Sharma**, a Computer Science engineering student who enjoys turning i
 <sub>Education platform · full-stack development</sub>
 </td>
 <td width="33%" align="center" valign="top">
-<a href="https://bill-nest-gamma.vercel.app/"><img src="./assets/project-billnest.svg?v=3" width="100%" alt="BillNest live project"/></a>
+<a href="https://bill-nest-six.vercel.app/"><img src="./assets/project-billnest.svg?v=3" width="100%" alt="BillNest live project"/></a>
 <br/><br/>
 <b>BillNest</b><br/>
 <sub>Billing workflow · product engineering</sub>
