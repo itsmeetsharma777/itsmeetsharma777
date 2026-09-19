@@ -22,19 +22,19 @@
     <path d="M29 31 L50 31" stroke="#A7A7A7" stroke-width="8" stroke-linecap="round"/>
   </g>
   <text x="105" y="63" class="title">itsmeetsharma</text>
-  <text x="1160" y="62" text-anchor="end" class="rank">#1,529,333</text>
+  <text x="1160" y="62" text-anchor="end" class="rank">#1,518,715</text>
   <text x="105" y="87" class="small">LeetCode · Problem Solving · DSA</text>
 
   <g transform="translate(48 112)">
     
     <text x="0" y="0" class="label">Easy</text>
-    <text x="330" y="0" text-anchor="end" class="value">86 / 965</text>
+    <text x="330" y="0" text-anchor="end" class="value">87 / 965</text>
     <rect x="0" y="12" width="330" height="7" rx="3.5" class="track"/>
-    <rect x="0" y="12" width="29.4" height="7" rx="3.5" fill="#45B84A"/>
+    <rect x="0" y="12" width="29.8" height="7" rx="3.5" fill="#45B84A"/>
     
     
     <text x="390" y="0" class="label">Medium</text>
-    <text x="720" y="0" text-anchor="end" class="value">24 / 2115</text>
+    <text x="720" y="0" text-anchor="end" class="value">25 / 2115</text>
     <rect x="390" y="12" width="330" height="7" rx="3.5" class="track"/>
     <rect x="390" y="12" width="4.0" height="7" rx="3.5" fill="#F5B94C"/>
     
@@ -46,7 +46,7 @@
     
   </g>
 
-  <text x="48" y="202" class="small">112 problems solved</text>
-  <text x="1152" y="202" text-anchor="end" class="small">C++ 110 · JavaScript 1 · Pandas 1</text>
+  <text x="48" y="202" class="small">114 problems solved</text>
+  <text x="1152" y="202" text-anchor="end" class="small">C++ 112 · JavaScript 1 · Pandas 1</text>
   <rect x="48" y="96" width="1104" height="2" rx="1" fill="url(#lcAccent)" opacity="0.55"/>
 </svg>
