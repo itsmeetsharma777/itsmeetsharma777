@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="430" viewBox="0 0 1400 430">
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07091a"/><stop offset="1" stop-color="#050816"/></linearGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#000000"/><stop offset="1" stop-color="#000000"/></linearGradient>
   <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#38BDF8"/><stop offset="1" stop-color="#60A5FA"/></linearGradient>
   <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A855F7"/><stop offset="1" stop-color="#C084FC"/></linearGradient>
   <linearGradient id="pink" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F472B6"/><stop offset="1" stop-color="#EC4899"/></linearGradient>
@@ -29,7 +29,7 @@
 
   <rect x="524" y="156" width="110" height="110" rx="24" fill="#180d25" stroke="#F472B6" stroke-width="2"/>
   <path d="M579 239 C550 239 546 212 560 199 C563 214 577 216 585 205 C592 196 590 184 586 174 C608 187 617 209 609 225 C604 235 595 239 579 239Z" fill="#F472B6"/>
-  <path d="M579 228 C567 228 564 217 570 210 C573 217 580 217 584 213 C589 208 587 201 586 196 C596 203 599 212 596 219 C592 225 587 228 579 228Z" fill="#07091a"/>
+  <path d="M579 228 C567 228 564 217 570 210 C573 217 580 217 584 213 C589 208 587 201 586 196 C596 203 599 212 596 219 C592 225 587 228 579 228Z" fill="#000000"/>
   <text x="662" y="184" fill="#60A5FA" font-size="18" font-weight="700">Current Streak</text>
   <text x="662" y="237" fill="url(#purple)" font-size="52" font-weight="800">52</text>
   <text x="662" y="263" fill="#22D3EE" font-size="16" font-weight="600">Jul 23 - Sep 12</text>
