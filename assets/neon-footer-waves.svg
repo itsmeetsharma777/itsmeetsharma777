@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="220" viewBox="0 0 1600 220" role="img" aria-label="Animated neon gradient waves">
+<defs>
+  <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#F472B6"/>
+    <stop offset="35%" stop-color="#A855F7"/>
+    <stop offset="70%" stop-color="#6366F1"/>
+    <stop offset="100%" stop-color="#22D3EE"/>
+    <animate attributeName="x1" values="0%;25%;0%" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="100%;75%;100%" dur="10s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="wave2" x1="100%" y1="0%" x2="0%" y2="0%">
+    <stop offset="0%" stop-color="#22D3EE"/>
+    <stop offset="40%" stop-color="#3B82F6"/>
+    <stop offset="70%" stop-color="#8B5CF6"/>
+    <stop offset="100%" stop-color="#EC4899"/>
+    <animate attributeName="x1" values="100%;70%;100%" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="0%;30%;0%" dur="12s" repeatCount="indefinite"/>
+  </linearGradient>
+  <filter id="glow" x="-20%" y="-40%" width="140%" height="180%">
+    <feGaussianBlur stdDeviation="8" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect width="1600" height="220" fill="#090D14"/>
+<g opacity=".35" filter="url(#glow)">
+  <path d="M-100 130 C180 40 350 190 620 105 S1100 45 1700 125 L1700 220 L-100 220 Z" fill="url(#wave1)">
+    <animateTransform attributeName="transform" type="translate" values="0 0; -45 4; 0 0; 45 -4; 0 0" dur="14s" repeatCount="indefinite"/>
+  </path>
+</g>
+<path d="M-100 145 C170 55 360 205 640 115 S1120 55 1700 135 L1700 220 L-100 220 Z" fill="url(#wave1)" opacity=".72">
+  <animateTransform attributeName="transform" type="translate" values="0 0; 35 -5; 0 0; -35 5; 0 0" dur="11s" repeatCount="indefinite"/>
+</path>
+<path d="M-100 165 C180 85 360 210 650 135 S1120 75 1700 150 L1700 220 L-100 220 Z" fill="url(#wave2)" opacity=".68">
+  <animateTransform attributeName="transform" type="translate" values="0 0; -30 5; 0 0; 30 -5; 0 0" dur="13s" repeatCount="indefinite"/>
+</path>
+<path d="M-100 188 C190 115 370 225 670 155 S1150 105 1700 170 L1700 220 L-100 220 Z" fill="url(#wave1)" opacity=".55">
+  <animateTransform attributeName="transform" type="translate" values="0 0; 25 -3; 0 0; -25 3; 0 0" dur="9s" repeatCount="indefinite"/>
+</path>
+<path d="M80 155 C300 105 470 195 700 140 S1120 105 1515 145" fill="none" stroke="#C084FC" stroke-width="1.5" opacity=".55">
+  <animate attributeName="opacity" values=".25;.8;.25" dur="5s" repeatCount="indefinite"/>
+</path>
+<path d="M110 175 C330 125 510 210 740 155 S1150 125 1490 165" fill="none" stroke="#22D3EE" stroke-width="1.2" opacity=".4">
+  <animate attributeName="opacity" values=".2;.7;.2" dur="6s" repeatCount="indefinite"/>
+</path>
+</svg>
