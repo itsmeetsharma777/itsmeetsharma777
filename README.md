@@ -145,4 +145,4 @@ I'm **Meet Sharma**, a Computer Science engineering student who enjoys turning i
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:22D3EE,50:A855F7,100:F472B6&section=footer" width="100%" alt="Neon footer"/>
+<img src="./assets/neon-footer-waves.svg?v=1" width="100%" alt="Animated neon gradient waves"/>
