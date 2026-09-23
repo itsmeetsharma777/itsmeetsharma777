@@ -1,7 +1,6 @@
-"""Refresh the live statistics inside the purple LeetCode SVG card."""
+"""Generate the full-size purple LeetCode SVG card with live statistics."""
 
 import html
-import re
 import os
 from pathlib import Path
 
@@ -34,33 +33,24 @@ def fetch_stats():
         timeout=30,
     )
     response.raise_for_status()
-
-    payload = response.json()
-    data = payload.get("data", {})
+    data = response.json().get("data", {})
     user = data.get("matchedUser")
     if not user:
         raise RuntimeError("LeetCode user was not found")
 
-    totals = {
-        item["difficulty"]: int(item["count"])
-        for item in data.get("allQuestionsCount", [])
-    }
+    totals = {x["difficulty"]: int(x["count"]) for x in data.get("allQuestionsCount", [])}
     solved = {
-        item["difficulty"]: int(item["count"])
-        for item in user.get("submitStats", {}).get("acSubmissionNum", [])
+        x["difficulty"]: int(x["count"])
+        for x in user.get("submitStats", {}).get("acSubmissionNum", [])
     }
-
     languages = sorted(
         [
-            (
-                item.get("languageName", ""),
-                int(item.get("problemsSolved", 0)),
-            )
-            for item in user.get("languageProblemCount", [])
+            (x.get("languageName", ""), int(x.get("problemsSolved", 0)))
+            for x in user.get("languageProblemCount", [])
         ],
-        key=lambda item: item[1],
+        key=lambda x: x[1],
         reverse=True,
-    )
+    )[:3]
 
     return {
         "ranking": int(user.get("profile", {}).get("ranking") or 0),
@@ -71,96 +61,59 @@ def fetch_stats():
         "total_easy": totals.get("Easy", 0),
         "total_medium": totals.get("Medium", 0),
         "total_hard": totals.get("Hard", 0),
-        "languages": languages[:3],
+        "languages": languages,
     }
 
 
-def replace_once(text, pattern, replacement):
-    updated, count = re.subn(pattern, replacement, text, count=1)
-    if count != 1:
-        raise RuntimeError(f"Could not find card field: {pattern}")
-    return updated
+def esc(value):
+    return html.escape(str(value))
 
 
-def refresh_card(card, stats):
-    # Header
-    card = replace_once(
-        card,
-        r'(<text x="1155" y="65" text-anchor="end" class="rank">)#.*?(</text>)',
-        rf'\1#{stats["ranking"]:,}\2',
-    )
+def card(stats):
+    lang = stats["languages"] + [("", 0)] * 3
+    pct_easy = stats["easy"] / stats["total_easy"] * 100 if stats["total_easy"] else 0
+    pct_medium = stats["medium"] / stats["total_medium"] * 100 if stats["total_medium"] else 0
+    pct_hard = stats["hard"] / stats["total_hard"] * 100 if stats["total_hard"] else 0
 
-    # Difficulty totals and solved percentages.
-    values = [
-        ("Easy", stats["easy"], stats["total_easy"], 62, 372),
-        ("Medium", stats["medium"], stats["total_medium"], 445, 755),
-        ("Hard", stats["hard"], stats["total_hard"], 828, 1138),
-    ]
+    easy_w = max(4, 310 * pct_easy / 100) if stats["easy"] else 0
+    medium_w = max(4, 310 * pct_medium / 100) if stats["medium"] else 0
+    hard_w = max(4, 310 * pct_hard / 100) if stats["hard"] else 0
 
-    for label, solved, total, x, right_x in values:
-        pct = (solved / total * 100) if total else 0
-        card = replace_once(
-            card,
-            rf'(<text x="{right_x}" y="153" text-anchor="end" class="value">).*?(</text>)',
-            rf'\1{solved} / {total}\2',
-        )
-        card = replace_once(
-            card,
-            rf'(<text x="{x}" y="179" class="pct">).*?(</text>)',
-            rf'\1{pct:.2f}% solved\2',
-        )
-
-    # Overall solved count.
-    card = replace_once(
-        card,
-        r'(<text x="62" y="306" class="stat">)\d+(</text>)',
-        rf'\1{stats["all"]}\2',
-    )
-
-    # Language breakdown.
-    lang_values = stats["languages"] + [("", 0)] * 3
-    positions = [
-        ("C++", 350, 392),
-        ("JavaScript", 470, 568),
-        ("Pandas", 625, 690),
-    ]
-
-    for index, (default_name, name_x, value_x) in enumerate(positions):
-        name, count = lang_values[index]
-        if not name:
-            name, count = default_name, 0
-
-        card = replace_once(
-            card,
-            rf'(<text x="{name_x}" y="306" class="muted">).*?(</text>)',
-            rf'\1{html.escape(name)}\2',
-        )
-        card = replace_once(
-            card,
-            rf'(<text x="{value_x}" y="306" class="chip">).*?(</text>)',
-            rf'\1{count}\2',
-        )
-
-    return card
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0D0718"/><stop offset="0.55" stop-color="#10091D"/><stop offset="1" stop-color="#170B20"/></linearGradient>
+<linearGradient id="easy" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22C55E"/><stop offset="1" stop-color="#4ADE80"/></linearGradient>
+<style>
+.title{{font:700 30px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#F8F2FF}}
+.rank{{font:700 30px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#C084FC}}
+.sub{{font:500 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#AFA2C3}}
+.label{{font:700 20px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#F5EDFF}}
+.value{{font:700 18px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#C9B8D9}}
+.pct{{font:600 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#9F91AF}}
+.stat{{font:700 22px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#F3E9FF}}
+.muted{{font:500 14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#9F91AF}}
+.chip{{font:600 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#D8CBE4}}
+</style></defs>
+<rect x="2" y="2" width="1196" height="356" rx="20" fill="url(#bg)" stroke="#7C3AED" stroke-width="2.5"/>
+<g transform="translate(42 43) scale(2.35)"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226 3.262 10.352a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z" fill="#A855F7"/></g>
+<text x="115" y="64" class="title">{esc(USERNAME)}</text><text x="1155" y="65" text-anchor="end" class="rank">#{stats["ranking"]:,}</text><text x="115" y="91" class="sub">LeetCode  ·  Problem Solving  ·  DSA</text><text x="1155" y="91" text-anchor="end" class="sub">GLOBAL RANK</text>
+<rect x="38" y="122" width="358" height="126" rx="16" fill="#120D1E" stroke="#30233E"/><rect x="421" y="122" width="358" height="126" rx="16" fill="#120D1E" stroke="#30233E"/><rect x="804" y="122" width="358" height="126" rx="16" fill="#120D1E" stroke="#30233E"/>
+<text x="62" y="153" class="label">Easy</text><text x="372" y="153" text-anchor="end" class="value">{stats["easy"]} / {stats["total_easy"]}</text><text x="62" y="179" class="pct">{pct_easy:.2f}% solved</text><rect x="62" y="194" width="310" height="10" rx="5" fill="#2A2036"/><rect x="62" y="194" width="{easy_w:.1f}" height="10" rx="5" fill="url(#easy)"/>
+<text x="445" y="153" class="label">Medium</text><text x="755" y="153" text-anchor="end" class="value">{stats["medium"]} / {stats["total_medium"]}</text><text x="445" y="179" class="pct">{pct_medium:.2f}% solved</text><rect x="445" y="194" width="310" height="10" rx="5" fill="#2A2036"/><rect x="445" y="194" width="{medium_w:.1f}" height="10" rx="5" fill="#F5B94C"/>
+<text x="828" y="153" class="label">Hard</text><text x="1138" y="153" text-anchor="end" class="value">{stats["hard"]} / {stats["total_hard"]}</text><text x="828" y="179" class="pct">{pct_hard:.2f}% solved</text><rect x="828" y="194" width="310" height="10" rx="5" fill="#2A2036"/><rect x="828" y="194" width="{hard_w:.1f}" height="10" rx="5" fill="#EF6A67"/>
+<line x1="38" y1="274" x2="1162" y2="274" stroke="#30233E"/>
+<text x="62" y="306" class="stat">{stats["all"]}</text><text x="105" y="306" class="muted">problems solved</text>
+<text x="350" y="306" class="muted">{esc(lang[0][0])}</text><text x="392" y="306" class="chip">{lang[0][1]}</text>
+<text x="470" y="306" class="muted">{esc(lang[1][0])}</text><text x="568" y="306" class="chip">{lang[1][1]}</text>
+<text x="625" y="306" class="muted">{esc(lang[2][0])}</text><text x="690" y="306" class="chip">{lang[2][1]}</text>
+<text x="1138" y="306" text-anchor="end" class="muted">Updated from LeetCode profile</text><text x="62" y="333" class="muted">Keep solving. Keep improving. 🚀</text>
+</svg>'''
 
 
 def main():
-    if not OUT.exists():
-        raise RuntimeError(f"Card not found: {OUT}")
-
-    card = OUT.read_text(encoding="utf-8")
     stats = fetch_stats()
-    updated = refresh_card(card, stats)
-
-    if updated != card:
-        OUT.write_text(updated, encoding="utf-8")
-        print(
-            f"Updated LeetCode card: {stats['all']} solved, "
-            f"Easy {stats['easy']}, Medium {stats['medium']}, Hard {stats['hard']}, "
-            f"rank #{stats['ranking']:,}"
-        )
-    else:
-        print("LeetCode card is already up to date.")
+    OUT.write_text(card(stats), encoding="utf-8")
+    print(f"Updated LeetCode card: {stats['all']} solved, rank #{stats['ranking']:,}")
 
 
 if __name__ == "__main__":
