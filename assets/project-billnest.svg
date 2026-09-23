@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620" role="img">
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d0918"/><stop offset="0.55" stop-color="#120b21"/><stop offset="1" stop-color="#1b0b21"/></linearGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#000000"/><stop offset="0.55" stop-color="#030303"/><stop offset="1" stop-color="#050505"/></linearGradient>
   <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#A855F7"/><stop offset="1" stop-color="#FB7185"/></linearGradient>
-  <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b1230"/><stop offset="1" stop-color="#120d20"/></linearGradient>
+  <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b1230"/><stop offset="1" stop-color="#030303"/></linearGradient>
   <filter id="glow"><feGaussianBlur stdDeviation="10" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   <style>
     .eyebrow{font:700 16px 'DejaVu Sans Mono',monospace;fill:#c98cff;letter-spacing:2px}
@@ -15,7 +15,7 @@
 </defs>
 <rect x="6" y="6" width="988" height="608" rx="32" fill="url(#bg)" stroke="#3b2851" stroke-width="2"/>
 <rect x="6" y="6" width="10" height="608" rx="5" fill="url(#accent)" filter="url(#glow)"/>
-<circle cx="78" cy="78" r="38" fill="#21102e" stroke="#A855F7" stroke-width="2"/>
+<circle cx="78" cy="78" r="38" fill="#050505" stroke="#A855F7" stroke-width="2"/>
 <text x="78" y="91" text-anchor="middle" font-size="29" fill="#f2d8ff">◆</text>
 <text x="140" y="66" class="eyebrow">03 / FEATURED PROJECT</text>
 <text x="140" y="120" class="title">BillNest</text>
@@ -30,7 +30,7 @@
 <rect x="70" y="345" width="135" height="52" rx="26" fill="url(#chip)" stroke="#55377a"/><text x="137.5" y="378" text-anchor="middle" class="pill">Zod</text>
 <rect x="220" y="345" width="155" height="52" rx="26" fill="url(#chip)" stroke="#55377a"/><text x="297.5" y="378" text-anchor="middle" class="pill">jsPDF</text>
 <text x="70" y="432" class="desc">Responsive billing workflow for shops, customers, invoices and warranty records.</text>
-<rect x="70" y="478" width="860" height="70" rx="24" fill="#0c0a15" stroke="#2f2440"/>
+<rect x="70" y="478" width="860" height="70" rx="24" fill="#000000" stroke="#2f2440"/>
 <text x="100" y="522" class="label">LIVE PROJECT</text>
 <text x="350" y="522" class="open">billnest.vercel.app</text>
 <text x="880" y="523" text-anchor="middle" font-size="34" fill="#f0b2ff">↗</text>
