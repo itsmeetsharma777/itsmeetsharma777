@@ -1,52 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="220" viewBox="0 0 1200 220">
-  <defs>
-    <linearGradient id="lcAccent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#A855F7"/>
-      <stop offset="1" stop-color="#EC4899"/>
-    </linearGradient>
-    <style>
-      .title { font: 700 28px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; fill: #F4ECFF; }
-      .rank { font: 700 26px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; fill: #C084FC; }
-      .label { font: 700 16px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; fill: #F4ECFF; }
-      .value { font: 600 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; fill: #B9A9CF; }
-      .small { font: 500 13px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; fill: #B9A9CF; }
-      .track { fill: #2A2036; }
-    </style>
-  </defs>
-  <rect x="1" y="1" width="1198" height="218" rx="14" fill="#0D0718" stroke="#7C3AED" stroke-width="2"/>
-
-  <!-- LeetCode mark -->
-  <g transform="translate(34 43)">
-    <path d="M0 28 L25 2 L44 21 L25 40 L10 25" fill="none" stroke="#F2F2F2" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M31 17 L47 8" stroke="#FFA116" stroke-width="8" stroke-linecap="round"/>
-    <path d="M29 31 L50 31" stroke="#A7A7A7" stroke-width="8" stroke-linecap="round"/>
-  </g>
-  <text x="105" y="63" class="title">itsmeetsharma</text>
-  <text x="1160" y="62" text-anchor="end" class="rank">#1,444,135</text>
-  <text x="105" y="87" class="small">LeetCode · Problem Solving · DSA</text>
-
-  <g transform="translate(48 112)">
-    
-    <text x="0" y="0" class="label">Easy</text>
-    <text x="330" y="0" text-anchor="end" class="value">91 / 966</text>
-    <rect x="0" y="12" width="330" height="7" rx="3.5" class="track"/>
-    <rect x="0" y="12" width="31.1" height="7" rx="3.5" fill="#45B84A"/>
-    
-    
-    <text x="390" y="0" class="label">Medium</text>
-    <text x="720" y="0" text-anchor="end" class="value">27 / 2117</text>
-    <rect x="390" y="12" width="330" height="7" rx="3.5" class="track"/>
-    <rect x="390" y="12" width="4.2" height="7" rx="3.5" fill="#F5B94C"/>
-    
-    
-    <text x="780" y="0" class="label">Hard</text>
-    <text x="1110" y="0" text-anchor="end" class="value">2 / 977</text>
-    <rect x="780" y="12" width="330" height="7" rx="3.5" class="track"/>
-    <rect x="780" y="12" width="4.0" height="7" rx="3.5" fill="#EF6A67"/>
-    
-  </g>
-
-  <text x="48" y="202" class="small">120 problems solved</text>
-  <text x="1152" y="202" text-anchor="end" class="small">C++ 118 · JavaScript 1 · Pandas 1</text>
-  <rect x="48" y="96" width="1104" height="2" rx="1" fill="url(#lcAccent)" opacity="0.55"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0D0718"/><stop offset="0.55" stop-color="#10091D"/><stop offset="1" stop-color="#170B20"/></linearGradient>
+<linearGradient id="easy" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22C55E"/><stop offset="1" stop-color="#4ADE80"/></linearGradient>
+<style>
+.title{font:700 30px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#F8F2FF}
+.rank{font:700 30px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#C084FC}
+.sub{font:500 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#AFA2C3}
+.label{font:700 20px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#F5EDFF}
+.value{font:700 18px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#C9B8D9}
+.pct{font:600 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#9F91AF}
+.stat{font:700 22px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#F3E9FF}
+.muted{font:500 14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#9F91AF}
+.chip{font:600 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#D8CBE4}
+</style></defs>
+<rect x="2" y="2" width="1196" height="356" rx="20" fill="url(#bg)" stroke="#7C3AED" stroke-width="2.5"/>
+<g transform="translate(42 43) scale(2.35)"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226 3.262 10.352a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z" fill="#A855F7"/></g>
+<text x="115" y="64" class="title">itsmeetsharma</text><text x="1155" y="65" text-anchor="end" class="rank">#1,434,987</text><text x="115" y="91" class="sub">LeetCode  ·  Problem Solving  ·  DSA</text><text x="1155" y="91" text-anchor="end" class="sub">GLOBAL RANK</text>
+<rect x="38" y="122" width="358" height="126" rx="16" fill="#120D1E" stroke="#30233E"/><rect x="421" y="122" width="358" height="126" rx="16" fill="#120D1E" stroke="#30233E"/><rect x="804" y="122" width="358" height="126" rx="16" fill="#120D1E" stroke="#30233E"/>
+<text x="62" y="153" class="label">Easy</text><text x="372" y="153" text-anchor="end" class="value">94 / 966</text><text x="62" y="179" class="pct">9.73% solved</text><rect x="62" y="194" width="310" height="10" rx="5" fill="#2A2036"/><rect x="62" y="194" width="30.2" height="10" rx="5" fill="url(#easy)"/>
+<text x="445" y="153" class="label">Medium</text><text x="755" y="153" text-anchor="end" class="value">29 / 2117</text><text x="445" y="179" class="pct">1.37% solved</text><rect x="445" y="194" width="310" height="10" rx="5" fill="#2A2036"/><rect x="445" y="194" width="4.2" height="10" rx="5" fill="#F5B94C"/>
+<text x="828" y="153" class="label">Hard</text><text x="1138" y="153" text-anchor="end" class="value">2 / 977</text><text x="828" y="179" class="pct">0.20% solved</text><rect x="828" y="194" width="310" height="10" rx="5" fill="#2A2036"/><rect x="828" y="194" width="4.0" height="10" rx="5" fill="#EF6A67"/>
+<line x1="38" y1="274" x2="1162" y2="274" stroke="#30233E"/>
+<text x="62" y="306" class="stat">125</text><text x="105" y="306" class="muted">problems solved</text>
+<text x="350" y="306" class="muted">C++</text><text x="392" y="306" class="chip">123</text>
+<text x="470" y="306" class="muted">JavaScript</text><text x="568" y="306" class="chip">1</text>
+<text x="625" y="306" class="muted">Pandas</text><text x="690" y="306" class="chip">1</text>
+<text x="1138" y="306" text-anchor="end" class="muted">Updated from LeetCode profile</text><text x="62" y="333" class="muted">Keep solving. Keep improving. 🚀</text>
 </svg>
