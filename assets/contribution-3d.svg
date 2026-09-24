@@ -7,7 +7,7 @@
 <rect width="1400" height="1040" rx="8" fill="#0b1117"/>
 <rect x="1" y="1" width="1398" height="1038" rx="8" fill="none" stroke="#26313d"/>
 <text x="835" y="65" font-size="25" font-weight="600" fill="#9aa8b8">1 year total</text>
-<text x="835" y="132" font-size="72" font-weight="800" fill="#39e75f">500<tspan dx="18" font-size="25" font-weight="700" fill="#f0f6fc">contributions</tspan></text>
+<text x="835" y="132" font-size="72" font-weight="800" fill="#39e75f">501<tspan dx="18" font-size="25" font-weight="700" fill="#f0f6fc">contributions</tspan></text>
 <text x="835" y="170" font-size="18" fill="#9aa8b8">September 19 — September 24</text>
 <text x="835" y="230" font-size="25" font-weight="600" fill="#9aa8b8">Busiest day</text>
 <text x="835" y="297" font-size="72" font-weight="800" fill="#39e75f">83<tspan dx="18" font-size="25" font-weight="700" fill="#f0f6fc">contributions</tspan></text>
@@ -1659,13 +1659,13 @@
 <ellipse cx="892.5" cy="718.2" rx="10" ry="4" fill="#020806" opacity=".38" filter="url(#shadow)"/>
 <g transform="translate(892.5,715.2)"><polygon points="-13.0,0.0 0.0,6.5 0.0,-82.2 -13.0,-88.7" fill="rgb(4,68,22)" stroke="#182531" stroke-opacity="0.65" stroke-width="1.7" stroke-linejoin="round"/><polygon points="0.0,6.5 13.0,0.0 13.0,-88.7 0.0,-82.2" fill="rgb(7,115,38)" stroke="#182531" stroke-opacity="0.65" stroke-width="1.7" stroke-linejoin="round"/><polygon points="0.0,-95.2 13.0,-88.7 0.0,-82.2 -13.0,-88.7" fill="rgb(12,190,63)" stroke="#182531" stroke-opacity="0.65" stroke-width="1.25" stroke-linejoin="round"/></g>
 <ellipse cx="909.0" cy="726.5" rx="10" ry="4" fill="#020806" opacity=".38" filter="url(#shadow)"/>
-<g transform="translate(909.0,723.5)"><g filter="url(#glow)"><polygon points="-13.0,0.0 0.0,6.5 0.0,-123.2 -13.0,-129.7" fill="rgb(15,85,29)" stroke="#182531" stroke-opacity="0.65" stroke-width="1.7" stroke-linejoin="round"/><polygon points="0.0,6.5 13.0,0.0 13.0,-129.7 0.0,-123.2" fill="rgb(25,145,50)" stroke="#182531" stroke-opacity="0.65" stroke-width="1.7" stroke-linejoin="round"/><polygon points="0.0,-136.2 13.0,-129.7 0.0,-123.2 -13.0,-129.7" fill="rgb(42,238,83)" stroke="#182531" stroke-opacity="0.65" stroke-width="1.25" stroke-linejoin="round"/></g></g>
+<g transform="translate(909.0,723.5)"><g filter="url(#glow)"><polygon points="-13.0,0.0 0.0,6.5 0.0,-124.9 -13.0,-131.4" fill="rgb(15,85,29)" stroke="#182531" stroke-opacity="0.65" stroke-width="1.7" stroke-linejoin="round"/><polygon points="0.0,6.5 13.0,0.0 13.0,-131.4 0.0,-124.9" fill="rgb(25,145,50)" stroke="#182531" stroke-opacity="0.65" stroke-width="1.7" stroke-linejoin="round"/><polygon points="0.0,-137.9 13.0,-131.4 0.0,-124.9 -13.0,-131.4" fill="rgb(42,238,83)" stroke="#182531" stroke-opacity="0.65" stroke-width="1.25" stroke-linejoin="round"/></g></g>
 </g>
 <line x1="0" y1="865" x2="1400" y2="865" stroke="#26313d"/>
 <line x1="466" y1="865" x2="466" y2="1040" stroke="#26313d"/>
 <line x1="932" y1="865" x2="932" y2="1040" stroke="#26313d"/>
 <text x="233" y="914" text-anchor="middle" font-size="20" font-weight="600" fill="#9aa8b8">Contributions in the last year</text>
-<text x="233" y="969" text-anchor="middle" font-size="44" font-weight="800" fill="#39e75f">500<tspan dx="18" font-size="24" font-weight="700" fill="#f0f6fc">total</tspan></text>
+<text x="233" y="969" text-anchor="middle" font-size="44" font-weight="800" fill="#39e75f">501<tspan dx="18" font-size="24" font-weight="700" fill="#f0f6fc">total</tspan></text>
 <text x="233" y="1005" text-anchor="middle" font-size="17" fill="#9aa8b8">September 19 — September 24</text>
 <text x="699" y="914" text-anchor="middle" font-size="20" font-weight="600" fill="#9aa8b8">Longest streak</text>
 <text x="699" y="969" text-anchor="middle" font-size="44" font-weight="800" fill="#39e75f">43<tspan dx="18" font-size="24" font-weight="700" fill="#f0f6fc">days</tspan></text>
