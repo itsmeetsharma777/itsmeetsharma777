@@ -34,13 +34,23 @@ def days():
 
 def fmt(s): return datetime.strptime(s,"%Y-%m-%d").strftime("%B %d").replace(" 0","")
 def streak(ds):
-    a=[int(x["contributionCount"]) for x in ds]; longest=run=0
+    a=[int(x["contributionCount"]) for x in ds]
+    longest=run=0
     for n in a:
-        run=run+1 if n else 0; longest=max(longest,run)
+        run=run+1 if n else 0
+        longest=max(longest,run)
+
+    # Match GitHub's practical "current streak" behavior:
+    # an unfinished current day with zero contributions does not erase
+    # the streak earned through yesterday. A zero on an earlier day does.
     cur=0
-    for n in a[::-1]:
-        if n: cur+=1
-        else: break
+    end=len(a)-1
+    if end >= 0 and a[end] == 0:
+        end -= 1
+    while end >= 0 and a[end] > 0:
+        cur += 1
+        end -= 1
+
     return longest,cur,max(a,default=0)
 def poly(p): return " ".join(f"{x:.1f},{y:.1f}" for x,y in p)
 def shade(c,f): return tuple(max(0,min(255,int(v*f))) for v in c)
