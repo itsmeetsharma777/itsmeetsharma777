@@ -16,7 +16,7 @@
 <text x="60" y="587" font-size="64" font-weight="800" fill="#39e75f">43<tspan dx="18" font-size="25" font-weight="700" fill="#f0f6fc">days</tspan></text>
 <text x="60" y="625" font-size="18" fill="#9aa8b8">Consecutive contribution days</text>
 <text x="60" y="684" font-size="25" font-weight="600" fill="#9aa8b8">Current streak</text>
-<text x="60" y="751" font-size="64" font-weight="800" fill="#39e75f">0<tspan dx="18" font-size="25" font-weight="700" fill="#f0f6fc">days</tspan></text>
+<text x="60" y="751" font-size="64" font-weight="800" fill="#39e75f">25<tspan dx="18" font-size="25" font-weight="700" fill="#f0f6fc">days</tspan></text>
 <text x="60" y="789" font-size="18" fill="#9aa8b8">Ending today</text>
 <g clip-path="url(#clip)">
 <polygon points="133.5,245.0 150.0,253.2 150.0,260.2 133.5,252.0" fill="#1c2a36" stroke="#101a22" stroke-width="0.8"/>
@@ -1682,6 +1682,6 @@
 <text x="699" y="969" text-anchor="middle" font-size="44" font-weight="800" fill="#39e75f">43<tspan dx="18" font-size="24" font-weight="700" fill="#f0f6fc">days</tspan></text>
 <text x="699" y="1005" text-anchor="middle" font-size="17" fill="#9aa8b8">Consecutive contribution days</text>
 <text x="1166" y="914" text-anchor="middle" font-size="20" font-weight="600" fill="#9aa8b8">Current streak</text>
-<text x="1166" y="969" text-anchor="middle" font-size="44" font-weight="800" fill="#39e75f">0<tspan dx="18" font-size="24" font-weight="700" fill="#f0f6fc">days</tspan></text>
+<text x="1166" y="969" text-anchor="middle" font-size="44" font-weight="800" fill="#39e75f">25<tspan dx="18" font-size="24" font-weight="700" fill="#f0f6fc">days</tspan></text>
 <text x="1166" y="1005" text-anchor="middle" font-size="17" fill="#9aa8b8">Ending today</text>
 </svg>
