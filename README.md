@@ -117,10 +117,6 @@ I'm **Meet Sharma**, a Computer Science engineering student who enjoys turning i
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=itsmeetsharma777&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS" alt="Profile views"/>
-
-<br/><br/>
-
 <sub>✦ BUILD · LEARN · SOLVE · SHIP ✦</sub>
 
 </div>
